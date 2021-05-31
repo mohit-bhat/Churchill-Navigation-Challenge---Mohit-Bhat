@@ -1,7 +1,7 @@
 #  Churchill Navigation Challenge - Mohit Bhat
 
 This is my work done on the churchill navigation challenge.
-The "Rhino" folder contains my best working approach. access the dll through rhino/x64/release/
+The "Rhino" folder contains my best working approach. Access the dll through rhino/x64/release/
 
 
 Dll1:
