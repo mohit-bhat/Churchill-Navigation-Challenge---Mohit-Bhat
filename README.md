@@ -72,4 +72,3 @@ Rhino:
 solution attempt, trimmed down and commented version of Dll12, Dll valid, solution valid
 
 Submission.
->>>>>>> parent of 7c01b7a (Update README.md)
