@@ -1,0 +1,2427 @@
+Microsoft (R) COFF/PE Dumper Version 14.28.29915.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Dll6.dll
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+             14C machine (x86)
+               7 number of sections
+        60AAB0E9 time date stamp Sun May 23 13:45:45 2021
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+            2102 characteristics
+                   Executable
+                   32 bit word machine
+                   DLL
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+           12.00 linker version
+            3E00 size of code
+            3A00 size of initialized data
+               0 size of uninitialized data
+           110E6 entry point (100110E6) @ILT+225(__DllMainCRTStartup@12)
+            1000 base of code
+            1000 base of data
+        10000000 image base (10000000 to 1001AFFF)
+            1000 section alignment
+             200 file alignment
+            6.00 operating system version
+            0.00 image version
+            6.00 subsystem version
+               0 Win32 version
+           1B000 size of image
+             400 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+             140 DLL characteristics
+                   Dynamic base
+                   NX compatible
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+           16CC0 [     179] RVA [size] of Export Directory
+           1812C [      3C] RVA [size] of Import Directory
+           19000 [     43C] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+           1A000 [     324] RVA [size] of Base Relocation Directory
+           15620 [      38] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+           161B8 [      40] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+           18000 [     12C] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+.textbss name
+   10000 virtual size
+    1000 virtual address (10001000 to 10010FFF)
+       0 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+E00000A0 flags
+         Code
+         Uninitialized Data
+         Execute Read Write
+
+SECTION HEADER #2
+   .text name
+    3C7F virtual size
+   11000 virtual address (10011000 to 10014C7E)
+    3E00 size of raw data
+     400 file pointer to raw data (00000400 to 000041FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+RAW DATA #2
+  10011000: CC CC CC CC CC E9 66 17 00 00 E9 2F 18 00 00 E9  лллллИf...И/...И
+  10011010: 1C 28 00 00 E9 C7 27 00 00 E9 6E 2C 00 00 E9 6D  .(..Иг'..Иn,..Иm
+  10011020: 1E 00 00 E9 88 2C 00 00 E9 63 04 00 00 E9 AE 04  ...И.,..Иc...И╝.
+  10011030: 00 00 E9 29 17 00 00 E9 54 17 00 00 E9 E7 27 00  ..И)...ИT...ИГ'.
+  10011040: 00 E9 5E 2C 00 00 E9 25 03 00 00 E9 9C 2C 00 00  .И^,..И%...И.,..
+  10011050: E9 EB 1C 00 00 E9 A4 27 00 00 E9 B1 27 00 00 E9  ИК...И╓'..И╠'..И
+  10011060: 7C 2C 00 00 E9 97 1C 00 00 E9 3C 2C 00 00 E9 8D  |,..И....И<,..И.
+  10011070: 17 00 00 E9 78 1E 00 00 E9 D3 03 00 00 E9 70 27  ...Иx...Ис...Иp'
+  10011080: 00 00 E9 17 2C 00 00 E9 A4 05 00 00 E9 47 04 00  ..И.,..И╓...ИG..
+  10011090: 00 E9 FA 27 00 00 E9 27 2C 00 00 E9 1E 1E 00 00  .ИЗ'..И',..И....
+  100110A0: E9 D5 2B 00 00 E9 46 29 00 00 E9 31 1A 00 00 E9  Иу+..ИF)..И1...И
+  100110B0: 6C 15 00 00 E9 47 2A 00 00 E9 52 06 00 00 E9 8D  l...ИG*..ИR...И.
+  100110C0: 17 00 00 E9 08 06 00 00 E9 F3 10 00 00 E9 C0 2B  ...И....ИС...Ию+
+  100110D0: 00 00 E9 97 2B 00 00 E9 04 03 00 00 E9 7F 19 00  ..И.+..И....И...
+  100110E0: 00 E9 4C 17 00 00 E9 85 0A 00 00 E9 EA 2B 00 00  .ИL...И....ИЙ+..
+  100110F0: E9 DB 16 00 00 E9 C6 1A 00 00 E9 D1 06 00 00 E9  Иш...Иф...Ия...И
+  10011100: D0 2B 00 00 E9 97 16 00 00 E9 66 2B 00 00 E9 A3  п+..И....Иf+..Иё
+  10011110: 2B 00 00 E9 E0 26 00 00 E9 9F 2B 00 00 E9 FE 03  +..ИЮ&..И.+..ИЧ.
+  10011120: 00 00 E9 1D 17 00 00 E9 74 05 00 00 E9 4F 2B 00  ..И....Иt...ИO+.
+  10011130: 00 E9 2A 1D 00 00 E9 8D 2B 00 00 E9 46 2B 00 00  .И*...И.+..ИF+..
+  10011140: E9 9B 28 00 00 E9 36 23 00 00 E9 D3 26 00 00 E9  И.(..И6#..Ис&..И
+  10011150: D8 16 00 00 E9 77 1D 00 00 E9 82 17 00 00 E9 6B  ь...Иw...И....Иk
+  10011160: 2B 00 00 E9 D0 16 00 00 E9 65 03 00 00 E9 D8 16  +..Ип...Иe...Иь.
+  10011170: 00 00 E9 9F 26 00 00 E9 76 2B 00 00 E9 CF 0F 00  ..И.&..Иv+..Ио..
+  10011180: 00 E9 72 2B 00 00 E9 79 26 00 00 E9 E0 0D 00 00  .Иr+..Иy&..ИЮ...
+  10011190: E9 4B 06 00 00 E9 70 26 00 00 E9 47 2B 00 00 E9  ИK...Иp&..ИG+..И
+  100111A0: 20 1D 00 00 E9 EF 2A 00 00 E9 A2 15 00 00 E9 69   ...ИО*..И╒...Иi
+  100111B0: 26 00 00 CC CC CC CC CC CC CC CC CC CC CC CC CC  &..ллллллллллллл
+  100111C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100111D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100111E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100111F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011210: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011220: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011230: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011240: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011250: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011260: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011270: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011280: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011290: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100112F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011370: 55 8B EC 81 EC D8 00 00 00 53 56 57 8D BD 28 FF  U.Л.Ль...SVW.╫(Ъ
+  10011380: FF FF B9 36 00 00 00 B8 CC CC CC CC F3 AB 6A 04  ЪЪ╧6...╦ллллС╚j.
+  10011390: E8 D3 FD FF FF 83 C4 04 89 85 2C FF FF FF 8B 85  ХсЩЪЪ.д...,ЪЪЪ..
+  100113A0: 2C FF FF FF 89 45 F8 8B 45 F8 5F 5E 5B 81 C4 D8  ,ЪЪЪ.EЬ.EЬ_^[.дь
+  100113B0: 00 00 00 3B EC E8 6D FD FF FF 8B E5 5D C2 08 00  ...;ЛХmЩЪЪ.Е]б..
+  100113C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100113D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100113E0: 55 8B EC 81 EC CC 00 00 00 53 56 57 8D BD 34 FF  U.Л.Лл...SVW.╫4Ъ
+  100113F0: FF FF B9 33 00 00 00 B8 CC CC CC CC F3 AB 8B 45  ЪЪ╧3...╦ллллС╚.E
+  10011400: 08 89 85 38 FF FF FF 8B 8D 38 FF FF FF 51 E8 79  ...8ЪЪЪ..8ЪЪЪQХy
+  10011410: FC FF FF 83 C4 04 8B 45 08 5F 5E 5B 81 C4 CC 00  ЭЪЪ.д..E._^[.дл.
+  10011420: 00 00 3B EC E8 FE FC FF FF 8B E5 5D C2 04 00 CC  ..;ЛХЧЭЪЪ.Е]б..л
+  10011430: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011440: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011450: 55 8B EC 81 EC C0 00 00 00 53 56 57 8D BD 40 FF  U.Л.Лю...SVW.╫@Ъ
+  10011460: FF FF B9 30 00 00 00 B8 CC CC CC CC F3 AB 8B 45  ЪЪ╧0...╦ллллС╚.E
+  10011470: 1C 5F 5E 5B 8B E5 5D C2 1C 00 CC CC CC CC CC CC  ._^[.Е]б..лллллл
+  10011480: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011490: 55 8B EC 81 EC C4 00 00 00 53 56 57 8D BD 3C FF  U.Л.Лд...SVW.╫<Ъ
+  100114A0: FF FF B9 31 00 00 00 B8 CC CC CC CC F3 AB 8B 45  ЪЪ╧1...╦ллллС╚.E
+  100114B0: 0C 89 85 3C FF FF FF B8 01 00 00 00 5F 5E 5B 8B  ...<ЪЪЪ╦...._^[.
+  100114C0: E5 5D C2 0C 00 CC CC CC CC CC CC CC CC CC CC CC  Е]б..ллллллллллл
+  100114D0: CC CC FF 25 EC 80 01 10 FF 25 E4 80 01 10 CC CC  ллЪ%Л...Ъ%Д...лл
+  100114E0: 55 8B EC 53 56 8B F1 8B DA 85 F6 74 1F 85 DB 74  U.ЛSV.Я.з.Жt..шt
+  100114F0: 1B 8B 55 08 85 D2 74 14 57 B0 CC 8B FE 8B CB F3  ..U..рt.W╟л.Ч.кС
+  10011500: AA 8B 02 89 46 04 89 5E 0C 89 32 5F 5E 5B 5D C2  ╙...F..^..2_^[]б
+  10011510: 04 00 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ..лллллллллллллл
+  10011520: 55 8B EC 51 53 8B DA 89 4D FC 56 57 85 DB 74 4D  U.ЛQS.з.MЭVW.шtM
+  10011530: 33 F6 39 33 7E 47 33 FF EB 06 8D 9B 00 00 00 00  3Ж93~G3ЪК.......
+  10011540: 8B 4B 04 8B 45 FC 8B 14 39 81 7C 02 FC CC CC CC  .K..EЭ..9.|.Эллл
+  10011550: CC 75 12 8B 44 39 04 03 C2 8B 55 FC 81 3C 10 CC  лu..D9..б.UЭ.<.л
+  10011560: CC CC CC 74 10 FF 74 39 08 8B 45 04 50 E8 56 FB  лллt.Ъt9..E.PХVШ
+  10011570: FF FF 83 C4 08 46 83 C7 0C 3B 33 7C C3 8B 75 08  ЪЪ.д.F.г.;3|ц.u.
+  10011580: 33 FF 8B C6 85 F6 74 60 8B 40 04 47 85 C0 75 F8  3Ъ.ф.Жt`.@.G.юuЬ
+  10011590: 85 F6 74 54 81 3E CC CC CC CC 75 1B 81 7E 14 CC  .ЖtT.>ллллu..~.л
+  100115A0: CC CC CC 75 12 81 7E 18 CC CC CC CC 75 09 81 7E  лллu..~.ллллu..~
+  100115B0: 1C CC CC CC CC 74 0E 8B 45 04 57 56 50 E8 C9 FB  .ллллt..E.WVPХиШ
+  100115C0: FF FF 83 C4 0C 8B 46 0C 81 7C 30 FC CC CC CC CC  ЪЪ.д..F..|0Элллл
+  100115D0: 74 0E 8B 45 04 57 56 50 E8 AE FB FF FF 83 C4 0C  t..E.WVPХ╝ШЪЪ.д.
+  100115E0: 8B 76 04 4F 85 F6 75 AC 5F 5E 5B 8B E5 5D C2 04  .v.O.Жu╛_^[.Е]б.
+  100115F0: 00 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  .ллллллллллллллл
+  10011600: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011610: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011620: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011630: 55 8B EC 51 53 8B DA 89 4D FC 56 33 F6 39 33 7E  U.ЛQS.з.MЭV3Ж93~
+  10011640: 41 57 33 FF 8B 4B 04 8B 45 FC 8B 14 39 81 7C 02  AW3Ъ.K..EЭ..9.|.
+  10011650: FC CC CC CC CC 75 12 8B 44 39 04 03 C2 8B 55 FC  Эллллu..D9..б.UЭ
+  10011660: 81 3C 10 CC CC CC CC 74 10 FF 74 39 08 8B 45 04  .<.ллллt.Ъt9..E.
+  10011670: 50 E8 52 FA FF FF 83 C4 08 46 83 C7 0C 3B 33 7C  PХRЗЪЪ.д.F.г.;3|
+  10011680: C3 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC CC CC CC  ц_^[.Е]цлллллллл
+  10011690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100116A0: 75 01 C3 55 8B EC 83 EC 00 50 52 53 56 57 8B 45  u.цU.Л.Л.PRSVW.E
+  100116B0: 04 6A 00 50 E8 C3 FA FF FF 83 C4 08 5F 5E 5B 5A  .j.PХцЗЪЪ.д._^[Z
+  100116C0: 58 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC  X.Е]цллллллллллл
+  100116D0: 80 3D 2C 71 01 10 00 75 1F 6A 00 6A 01 6A 00 6A  .=,q...u.j.j.j.j
+  100116E0: 00 6A 00 C6 05 2C 71 01 10 01 E8 60 FA FF FF 50  .j.ф.,q...Х`ЗЪЪP
+  100116F0: E8 FB F9 FF FF 83 C4 18 C3 CC CC CC CC CC CC CC  ХШЫЪЪ.д.цллллллл
+  10011700: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011710: 6A 01 6A 01 6A 00 6A 00 6A 00 E8 30 FA FF FF 83  j.j.j.j.j.Х0ЗЪЪ.
+  10011720: C4 14 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  д.цллллллллллллл
+  10011730: 55 8B EC 51 68 A3 00 00 00 68 5C 56 01 10 6A 02  U.ЛQhё...h\V..j.
+  10011740: 68 80 00 00 00 FF 15 D4 80 01 10 83 C4 10 89 45  h....Ъ.т....д..E
+  10011750: FC 8B 45 FC 50 FF 15 4C 80 01 10 A3 3C 75 01 10  Э.EЭPЪ.L...ё<u..
+  10011760: 8B 0D 3C 75 01 10 89 0D 2C 75 01 10 83 7D FC 00  ..<u....,u...}Э.
+  10011770: 75 07 B8 01 00 00 00 EB 2A 8B 55 FC C7 02 00 00  u.╦....К*.UЭг...
+  10011780: 00 00 E8 AA F9 FF FF 68 1E 10 01 10 E8 D3 F8 FF  ..Х╙ЫЪЪh....ХсЬЪ
+  10011790: FF 83 C4 04 68 54 11 01 10 E8 C6 F8 FF FF 83 C4  Ъ.д.hT...ХфЬЪЪ.д
+  100117A0: 04 33 C0 8B E5 5D C3 CC CC CC CC CC CC CC CC CC  .3ю.Е]цллллллллл
+  100117B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100117C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100117D0: 55 8B EC 64 A1 18 00 00 00 5D C3 CC CC CC CC CC  U.Лd║....]цллллл
+  100117E0: 55 8B EC 83 EC 34 83 7D 0C 00 75 1F 83 3D 30 71  U.Л.Л4.}..u..=0q
+  100117F0: 01 10 00 7E 0F A1 30 71 01 10 83 E8 01 A3 30 71  ...~.║0q...Х.ё0q
+  10011800: 01 10 EB 07 33 C0 E9 A3 02 00 00 83 7D 0C 01 0F  ..К.3юИё....}...
+  10011810: 85 F3 00 00 00 C7 45 F4 00 00 00 00 E8 D9 F8 FF  .С...гEТ....ХыЬЪ
+  10011820: FF 8B 48 04 89 4D DC C7 45 D8 00 00 00 00 8B 55  Ъ.H..MэгEь.....U
+  10011830: DC B9 18 75 01 10 33 C0 F0 0F B1 11 89 45 F4 83  э╧.u..3юП.╠..EТ.
+  10011840: 7D F4 00 74 13 8B 55 F4 3B 55 DC 75 09 C7 45 D8  }Т.t..UТ;Uэu.гEь
+  10011850: 01 00 00 00 EB 02 EB D6 83 3D 28 75 01 10 00 74  ....К.Кж.=(u...t
+  10011860: 0C 6A 1F E8 FB F8 FF FF 83 C4 04 EB 43 C7 05 28  .j.ХШЬЪЪ.д.КCг.(
+  10011870: 75 01 10 01 00 00 00 68 14 55 01 10 68 08 52 01  u......h.U..h.R.
+  10011880: 10 E8 19 F9 FF FF 83 C4 08 85 C0 74 07 33 C0 E9  .Х.ЫЪЪ.д..юt.3юИ
+  10011890: 1A 02 00 00 68 04 51 01 10 68 00 50 01 10 E8 F8  ....h.Q..h.P..ХЬ
+  100118A0: F7 FF FF 83 C4 08 C7 05 28 75 01 10 02 00 00 00  ВЪЪ.д.г.(u......
+  100118B0: 83 7D D8 00 75 09 33 C0 B9 18 75 01 10 87 01 83  .}ь.u.3ю╧.u.....
+  100118C0: 3D 40 75 01 10 00 74 21 68 40 75 01 10 E8 87 F8  =@u...t!h@u..Х.Ь
+  100118D0: FF FF 83 C4 04 85 C0 74 10 8B 55 10 52 6A 02 8B  ЪЪ.д..юt..U.Rj..
+  100118E0: 45 08 50 FF 15 40 75 01 10 6A 01 FF 15 CC 80 01  E.PЪ.@u..j.Ъ.л..
+  100118F0: 10 83 C4 04 8B 0D 30 71 01 10 83 C1 01 89 0D 30  ..д...0q...а...0
+  10011900: 71 01 10 E9 A1 01 00 00 83 7D 0C 00 0F 85 97 01  q..И║....}......
+  10011910: 00 00 C7 45 F0 00 00 00 00 E8 DC F7 FF FF 8B 50  ..гEП....ХэВЪЪ.P
+  10011920: 04 89 55 D4 C7 45 CC 00 00 00 00 8B 4D D4 BA 18  ..UтгEл.....Mт╨.
+  10011930: 75 01 10 33 C0 F0 0F B1 0A 89 45 F0 83 7D F0 00  u..3юП.╠..EП.}П.
+  10011940: 74 13 8B 45 F0 3B 45 D4 75 09 C7 45 CC 01 00 00  t..EП;Eтu.гEл...
+  10011950: 00 EB 02 EB D6 83 3D 28 75 01 10 02 74 0F 6A 1F  .К.Кж.=(u...t.j.
+  10011960: E8 FE F7 FF FF 83 C4 04 E9 3C 01 00 00 8B 0D 3C  ХЧВЪЪ.д.И<.....<
+  10011970: 75 01 10 51 FF 15 48 80 01 10 89 45 F8 83 7D F8  u..QЪ.H....EЬ.}Ь
+  10011980: 00 0F 84 09 01 00 00 8B 15 2C 75 01 10 52 FF 15  .........,u..RЪ.
+  10011990: 48 80 01 10 89 45 FC C7 45 D0 00 00 00 00 8B 45  H....EЭгEп.....E
+  100119A0: F8 89 45 E8 8B 4D FC 89 4D E0 BA 01 00 00 00 85  Ь.EХ.MЭ.MЮ╨.....
+  100119B0: D2 0F 84 AD 00 00 00 C7 45 EC 00 00 00 00 C7 45  р..╜...гEЛ....гE
+  100119C0: E4 00 00 00 00 8B 45 FC 83 E8 04 89 45 FC 8B 4D  Д.....EЭ.Х..EЭ.M
+  100119D0: FC 3B 4D F8 72 19 8B 55 FC 83 3A 00 74 0F 6A 00  Э;MЬr..UЭ.:.t.j.
+  100119E0: FF 15 4C 80 01 10 8B 4D FC 39 01 75 02 EB D6 8B  Ъ.L....MЭ9.u.Кж.
+  100119F0: 55 FC 3B 55 F8 73 02 EB 6B 8B 45 FC 8B 08 51 FF  UЭ;UЬs.Кk.EЭ..QЪ
+  10011A00: 15 48 80 01 10 89 45 D0 6A 00 FF 15 4C 80 01 10  .H....Eпj.Ъ.L...
+  10011A10: 8B 55 FC 89 02 FF 55 D0 A1 3C 75 01 10 50 FF 15  .UЭ..ЪUп║<u..PЪ.
+  10011A20: 48 80 01 10 89 45 EC 8B 0D 2C 75 01 10 51 FF 15  H....EЛ..,u..QЪ.
+  10011A30: 48 80 01 10 89 45 E4 8B 55 E8 3B 55 EC 75 08 8B  H....EД.UХ;UЛu..
+  10011A40: 45 E0 3B 45 E4 74 18 8B 4D EC 89 4D E8 8B 55 E8  EЮ;EДt..MЛ.MХ.UХ
+  10011A50: 89 55 F8 8B 45 E4 89 45 E0 8B 4D E0 89 4D FC E9  .UЬ.EД.EЮ.MЮ.MЭИ
+  10011A60: 46 FF FF FF 83 7D F8 FF 74 0F 6A 02 8B 55 F8 52  FЪЪЪ.}ЬЪt.j..UЬR
+  10011A70: FF 15 D0 80 01 10 83 C4 08 6A 00 FF 15 4C 80 01  Ъ.п....д.j.Ъ.L..
+  10011A80: 10 A3 2C 75 01 10 A1 2C 75 01 10 A3 3C 75 01 10  .ё,u..║,u..ё<u..
+  10011A90: C7 05 28 75 01 10 00 00 00 00 83 7D CC 00 75 09  г.(u.......}л.u.
+  10011AA0: 33 C9 BA 18 75 01 10 87 0A B8 01 00 00 00 8B E5  3и╨.u....╦.....Е
+  10011AB0: 5D C2 0C 00 CC CC CC CC CC CC CC CC CC CC CC CC  ]б..лллллллллллл
+  10011AC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011B70: 55 8B EC 83 7D 0C 01 75 05 E8 D2 F4 FF FF 8B 45  U.Л.}..u.ХрТЪЪ.E
+  10011B80: 10 50 8B 4D 0C 51 8B 55 08 52 E8 11 00 00 00 83  .P.M.Q.U.RХ.....
+  10011B90: C4 0C 5D C2 0C 00 CC CC CC CC CC CC CC CC CC CC  д.]б..лллллллллл
+  10011BA0: 55 8B EC 6A FE 68 F8 6A 01 10 68 73 10 01 10 64  U.ЛjЧhЬj..hs...d
+  10011BB0: A1 00 00 00 00 50 83 C4 F0 53 56 57 A1 1C 70 01  ║....P.дПSVW║.p.
+  10011BC0: 10 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00 00 00  .1EЬ3еP.EПdё....
+  10011BD0: 89 65 E8 C7 45 E4 01 00 00 00 C7 45 FC 00 00 00  .eХгEД....гEЭ...
+  10011BE0: 00 8B 45 0C A3 18 70 01 10 C7 45 FC 01 00 00 00  ..E.ё.p..гEЭ....
+  10011BF0: 83 7D 0C 00 75 15 83 3D 30 71 01 10 00 75 0C C7  .}..u..=0q...u.г
+  10011C00: 45 E4 00 00 00 00 E9 F2 00 00 00 83 7D 0C 01 74  EД....ИР....}..t
+  10011C10: 06 83 7D 0C 02 75 43 83 3D 58 56 01 10 00 74 15  ..}..uC.=XV...t.
+  10011C20: 8B 4D 10 51 8B 55 0C 52 8B 45 08 50 FF 15 58 56  .M.Q.U.R.E.PЪ.XV
+  10011C30: 01 10 89 45 E4 83 7D E4 00 74 14 8B 4D 10 51 8B  ...EД.}Д.t..M.Q.
+  10011C40: 55 0C 52 8B 45 08 50 E8 44 F5 FF FF 89 45 E4 83  U.R.E.PХDУЪЪ.EД.
+  10011C50: 7D E4 00 75 05 E9 A3 00 00 00 8B 4D 10 51 8B 55  }Д.u.Иё....M.Q.U
+  10011C60: 0C 52 8B 45 08 50 E8 BD F3 FF FF 89 45 E4 83 7D  .R.E.PХ╫СЪЪ.EД.}
+  10011C70: 0C 01 75 3D 83 7D E4 00 75 37 8B 4D 10 51 6A 00  ..u=.}Д.u7.M.Qj.
+  10011C80: 8B 55 08 52 E8 9F F3 FF FF 8B 45 10 50 6A 00 8B  .U.RХ.СЪЪ.E.Pj..
+  10011C90: 4D 08 51 E8 F8 F4 FF FF 83 3D 58 56 01 10 00 74  M.QХЬТЪЪ.=XV...t
+  10011CA0: 10 8B 55 10 52 6A 00 8B 45 08 50 FF 15 58 56 01  ..U.Rj..E.PЪ.XV.
+  10011CB0: 10 83 7D 0C 00 74 06 83 7D 0C 03 75 40 8B 4D 10  ..}..t..}..u@.M.
+  10011CC0: 51 8B 55 0C 52 8B 45 08 50 E8 C2 F4 FF FF 85 C0  Q.U.R.E.PХбТЪЪ.ю
+  10011CD0: 75 07 C7 45 E4 00 00 00 00 83 7D E4 00 74 1E 83  u.гEД.....}Д.t..
+  10011CE0: 3D 58 56 01 10 00 74 15 8B 4D 10 51 8B 55 0C 52  =XV...t..M.Q.U.R
+  10011CF0: 8B 45 08 50 FF 15 58 56 01 10 89 45 E4 C7 45 FC  .E.PЪ.XV...EДгEЭ
+  10011D00: 00 00 00 00 EB 2C 8B 4D EC 8B 11 8B 02 89 45 E0  ....К,.MЛ.....EЮ
+  10011D10: 8B 4D EC 51 8B 55 E0 52 E8 C4 F3 FF FF 83 C4 08  .MЛQ.UЮRХдСЪЪ.д.
+  10011D20: C3 8B 65 E8 C7 45 E4 00 00 00 00 C7 45 FC 00 00  ц.eХгEД....гEЭ..
+  10011D30: 00 00 C7 45 FC FE FF FF FF E8 02 00 00 00 EB 0B  ..гEЭЧЪЪЪХ....К.
+  10011D40: C7 05 18 70 01 10 FF FF FF FF C3 8B 45 E4 8B 4D  г..p..ЪЪЪЪц.EД.M
+  10011D50: F0 64 89 0D 00 00 00 00 59 5F 5E 5B 8B E5 5D C3  Пd......Y_^[.Е]ц
+  10011D60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011D70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011D80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011D90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011DA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011DB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011DC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011DD0: 55 8B EC 6A FE 68 28 6B 01 10 68 73 10 01 10 64  U.ЛjЧh(k..hs...d
+  10011DE0: A1 00 00 00 00 50 83 EC 24 53 56 57 A1 1C 70 01  ║....P.Л$SVW║.p.
+  10011DF0: 10 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00 00 00  .1EЬ3еP.EПdё....
+  10011E00: 89 65 E8 C6 45 E7 00 C7 45 CC 01 10 00 00 8B 45  .eХфEГ.гEл.....E
+  10011E10: 08 89 45 D0 8D 45 E7 89 45 D4 C7 45 FC 00 00 00  ..Eп.EГ.EтгEЭ...
+  10011E20: 00 8D 45 CC 50 6A 06 6A 00 68 88 13 6D 40 FF 15  ..EлPj.j.h..m@Ъ.
+  10011E30: 40 80 01 10 EB 16 8B 45 EC 8B 00 33 C9 81 38 88  @...К..EЛ..3и.8.
+  10011E40: 13 6D 40 0F 94 C1 8B C1 C3 8B 65 E8 C7 45 FC FE  .m@..а.ац.eХгEЭЧ
+  10011E50: FF FF FF 0F B6 45 E7 8B 4D F0 64 89 0D 00 00 00  ЪЪЪ.╤EГ.MПd.....
+  10011E60: 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC CC CC  .Y_^[.Е]цллллллл
+  10011E70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011E80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011E90: 55 8B EC 6A FE 68 48 6B 01 10 68 73 10 01 10 64  U.ЛjЧhHk..hs...d
+  10011EA0: A1 00 00 00 00 50 83 EC 24 53 56 57 A1 1C 70 01  ║....P.Л$SVW║.p.
+  10011EB0: 10 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00 00 00  .1EЬ3еP.EПdё....
+  10011EC0: 89 65 E8 C6 45 E7 00 C7 45 CC 02 10 00 00 8B 45  .eХфEГ.гEл.....E
+  10011ED0: 08 89 45 D0 8B 45 0C 89 45 D4 8B 45 10 89 45 D8  ..Eп.E..Eт.E..Eь
+  10011EE0: 8D 45 E7 89 45 DC 8B 45 14 89 45 E0 C7 45 FC 00  .EГ.Eэ.E..EЮгEЭ.
+  10011EF0: 00 00 00 8D 45 CC 50 6A 06 6A 00 68 88 13 6D 40  ....EлPj.j.h..m@
+  10011F00: FF 15 40 80 01 10 EB 16 8B 45 EC 8B 00 33 C9 81  Ъ.@...К..EЛ..3и.
+  10011F10: 38 88 13 6D 40 0F 94 C1 8B C1 C3 8B 65 E8 C7 45  8..m@..а.ац.eХгE
+  10011F20: FC FE FF FF FF 0F B6 45 E7 8B 4D F0 64 89 0D 00  ЭЧЪЪЪ.╤EГ.MПd...
+  10011F30: 00 00 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC  ...Y_^[.Е]цллллл
+  10011F40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011F50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011F60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10011F70: 55 8B EC 81 EC 48 01 00 00 A1 1C 70 01 10 33 C5  U.Л.ЛH...║.p..3е
+  10011F80: 89 45 FC 8B 45 08 57 8B 3D 10 70 01 10 89 85 BC  .EЭ.E.W.=.p....╪
+  10011F90: FE FF FF 8B 45 0C 89 85 B8 FE FF FF 83 FF FF 0F  ЧЪЪ.E...╦ЧЪЪ.ЪЪ.
+  10011FA0: 84 32 01 00 00 53 8B 1D 34 80 01 10 56 68 00 08  .2...S..4...Vh..
+  10011FB0: 00 00 6A 00 68 D8 5B 01 10 FF D3 8B F0 85 F6 75  ..j.hь[..Ъс.П.Жu
+  10011FC0: 22 FF 15 3C 80 01 10 83 F8 57 0F 85 EF 00 00 00  "Ъ.<....ЬW..О...
+  10011FD0: 56 56 68 D8 5B 01 10 FF D3 8B F0 85 F6 0F 84 DC  VVhь[..Ъс.П.Ж..э
+  10011FE0: 00 00 00 68 F4 5B 01 10 56 FF 15 38 80 01 10 8B  ...hТ[..VЪ.8....
+  10011FF0: C8 89 0D 34 71 01 10 85 F6 0F 84 C0 00 00 00 8B  х..4q...Ж..ю....
+  10012000: 9D B8 FE FF FF 85 DB 0F 84 B2 00 00 00 85 C9 0F  .╦ЧЪЪ.ш..╡....и.
+  10012010: 84 AA 00 00 00 8B 43 0C 8D 73 20 68 58 5C 01 10  .╙....C..s hX\..
+  10012020: FF 75 10 83 E8 24 68 64 5C 01 10 50 68 98 5C 01  Ъu..Х$hd\..Ph.\.
+  10012030: 10 56 68 A4 5C 01 10 68 B8 5C 01 10 8D 85 C0 FE  .Vh╓\..h╦\....юЧ
+  10012040: FF FF 68 10 5D 01 10 50 FF D1 8B 43 0C 83 E8 24  ЪЪh.]..PЪя.C..Х$
+  10012050: 50 56 8D 45 B4 50 8D 45 E8 50 E8 A1 02 00 00 83  PV.E╢P.EХPХ║....
+  10012060: C4 38 8D 45 B4 68 28 5D 01 10 50 68 2C 5D 01 10  д8.E╢h(]..Ph,]..
+  10012070: 8D 45 E8 50 8D 85 C0 FE FF FF 68 30 5D 01 10 50  .EХP..юЧЪЪh0]..P
+  10012080: E8 0B 03 00 00 83 C4 04 8D 84 05 C0 FE FF FF 50  Х.....д....юЧЪЪP
+  10012090: FF 15 34 71 01 10 8D 85 C0 FE FF FF 50 6A 04 57  Ъ.4q....юЧЪЪPj.W
+  100120A0: FF B5 BC FE FF FF E8 05 03 00 00 83 C4 28 5E 5B  Ъ╣╪ЧЪЪХ.....д(^[
+  100120B0: 5F 8B 4D FC 33 CD E8 59 EF FF FF 8B E5 5D C3 68  _.MЭ3мХYОЪЪ.Е]цh
+  100120C0: 00 5C 01 10 6A 04 57 FF B5 BC FE FF FF E8 DE 02  .\..j.WЪ╣╪ЧЪЪХч.
+  100120D0: 00 00 83 C4 10 5E 5B 8B 4D FC 33 CD 5F E8 32 EF  ...д.^[.MЭ3м_Х2О
+  100120E0: FF FF 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC  ЪЪ.Е]цлллллллллл
+  100120F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012100: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012110: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012120: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012130: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012140: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012150: 55 8B EC 8B 45 0C 83 F8 04 77 23 8B 0C 85 00 70  U.Л.E..Ь.w#....p
+  10012160: 01 10 8B 14 85 90 56 01 10 83 F9 FF 74 2E 52 50  ......V...ЫЪt.RP
+  10012170: 51 FF 75 08 E8 37 02 00 00 83 C4 10 5D C3 8B 15  QЪu.Х7....д.]ц..
+  10012180: A4 56 01 10 B8 05 00 00 00 52 50 B9 01 00 00 00  ╓V..╦....RP╧....
+  10012190: 51 FF 75 08 E8 17 02 00 00 83 C4 10 5D C3 CC CC  QЪu.Х.....д.]цлл
+  100121A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100121B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100121C0: 55 8B EC 81 EC 0C 04 00 00 A1 1C 70 01 10 33 C5  U.Л.Л....║.p..3е
+  100121D0: 89 45 FC 8B 45 08 89 85 F8 FB FF FF A1 08 70 01  .EЭ.E...ЬШЪЪ║.p.
+  100121E0: 10 89 85 F4 FB FF FF 53 8B 5D 0C 83 F8 FF 0F 84  ...ТШЪЪS.]..ЬЪ..
+  100121F0: BD 00 00 00 80 3B 00 0F 84 98 00 00 00 53 E8 8D  ╫....;.......SХ.
+  10012200: 01 00 00 83 C0 2D 83 C4 04 3D 00 04 00 00 0F 87  ....ю-.д.=......
+  10012210: 81 00 00 00 33 C0 EB 08 8D A4 24 00 00 00 00 90  ....3юК..╓$.....
+  10012220: 8A 88 C0 56 01 10 8D 40 01 88 8C 05 FB FB FF FF  ..юV...@....ШШЪЪ
+  10012230: 84 C9 75 EC 56 57 8B F3 8A 03 43 84 C0 75 F9 8D  .иuЛVW.С..C.юuЫ.
+  10012240: BD FC FB FF FF 2B DE 4F 8A 47 01 47 84 C0 75 F8  ╫ЭШЪЪ+чO.G.G.юuЬ
+  10012250: 8B CB BA DC 56 01 10 C1 E9 02 F3 A5 8B CB 83 E1  .к╨эV..аИ.С╔.к.А
+  10012260: 03 F3 A4 8B F2 8A 02 42 84 C0 75 F9 8D BD FC FB  .С╓.Р..B.юuЫ.╫ЭШ
+  10012270: FF FF 2B D6 4F 8A 47 01 47 84 C0 75 F8 8B CA 8D  ЪЪ+жO.G.G.юuЬ.й.
+  10012280: 85 FC FB FF FF C1 E9 02 F3 A5 8B CA 83 E1 03 F3  .ЭШЪЪаИ.С╔.й.А.С
+  10012290: A4 5F 5E EB 05 B8 A0 5B 01 10 50 6A 02 FF B5 F4  ╓_^К.╦.[..Pj.Ъ╣Т
+  100122A0: FB FF FF FF B5 F8 FB FF FF E8 02 01 00 00 83 C4  ШЪЪЪ╣ЬШЪЪХ.....д
+  100122B0: 10 8B 4D FC 33 CD 5B E8 58 ED FF FF 8B E5 5D C3  ..MЭ3м[ХXМЪЪ.Е]ц
+  100122C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100122D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100122E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100122F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012300: 55 8B EC 51 8B 55 10 8B 4D 0C 53 56 57 8B 7D 08  U.ЛQ.U..M.SVW.}.
+  10012310: 33 F6 2B D7 89 55 10 8B 45 14 89 4D FC 83 F8 10  3Ж+в.U..E..MЭ.Ь.
+  10012320: 72 05 B8 10 00 00 00 3B F0 73 25 8A 1C 3A 0F B6  r.╦....;Пs%..:.╤
+  10012330: C3 50 68 D0 5B 01 10 51 FF 15 34 71 01 10 8B 4D  цPhп[..QЪ.4q...M
+  10012340: FC 83 C4 0C 8B 55 10 46 88 1F 83 C1 03 47 EB C7  Э.д..U.F...а.GКг
+  10012350: 8B 45 08 5F C6 04 06 00 8B 45 0C 8D 04 70 C6 04  .E._ф....E...pф.
+  10012360: 06 00 5E 5B 8B E5 5D C3 CC CC CC CC CC CC CC CC  ..^[.Е]цлллллллл
+  10012370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012380: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012390: 55 8B EC 8B 55 08 8B C2 8A 08 40 84 C9 75 F9 2B  U.Л.U..б..@.иuЫ+
+  100123A0: C2 48 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC  бH]цлллллллллллл
+  100123B0: 55 8B EC 81 EC 3C 0E 00 00 A1 1C 70 01 10 33 C5  U.Л.Л<...║.p..3е
+  100123C0: 89 45 FC 8B 45 10 53 8B 5D 14 56 8B 75 08 57 56  .EЭ.E.S.].V.u.WV
+  100123D0: 89 85 D0 F1 FF FF 89 9D C4 F1 FF FF C7 85 CC F1  ..пЯЪЪ..дЯЪЪг.лЯ
+  100123E0: FF FF 00 00 00 00 E8 47 EC FF FF 8B F8 83 C4 04  ЪЪ....ХGЛЪЪ.Ь.д.
+  100123F0: 85 FF 75 0F 56 E8 AF ED FF FF 83 C4 04 89 85 CC  .Ъu.VХ╞МЪЪ.д...л
+  10012400: F1 FF FF 6A 00 6A 00 6A FF 53 8B 1D 30 80 01 10  ЯЪЪj.j.jЪS..0...
+  10012410: 6A 00 68 E9 FD 00 00 FF D3 3D 00 02 00 00 73 23  j.hИЩ..Ъс=....s#
+  10012420: 50 8D 85 D4 F1 FF FF 50 6A FF FF B5 C4 F1 FF FF  P..тЯЪЪPjЪЪ╣дЯЪЪ
+  10012430: 6A 00 68 E9 FD 00 00 FF D3 8D 9D D4 F1 FF FF 85  j.hИЩ..Ъс..тЯЪЪ.
+  10012440: C0 75 05 BB 78 5A 01 10 68 02 10 00 00 E8 7E F9  юu.╩xZ..h....Х~Ы
+  10012450: FF FF 83 C4 04 85 C0 74 24 8B 85 D0 F1 FF FF 53  ЪЪ.д..юt$..пЯЪЪS
+  10012460: 56 FF 34 85 A8 56 01 10 50 E8 22 FA FF FF 83 C4  VЪ4.╗V..PХ"ЗЪЪ.д
+  10012470: 10 85 C0 0F 85 15 01 00 00 32 C0 EB 02 B0 01 83  ..ю......2юК.╟..
+  10012480: BD CC F1 FF FF 00 75 08 85 FF 0F 84 FD 00 00 00  ╫лЯЪЪ.u..Ъ..Щ...
+  10012490: 84 C0 74 0E FF 15 44 80 01 10 85 C0 0F 85 EB 00  .юt.Ъ.D....ю..К.
+  100124A0: 00 00 68 04 01 00 00 8D 85 EC FB FF FF 50 8D 85  ..h......ЛШЪЪP..
+  100124B0: C8 F1 FF FF 50 68 04 01 00 00 8D 85 F4 FD FF FF  хЯЪЪPh......ТЩЪЪ
+  100124C0: 50 8D 46 FB 50 E8 7B EC FF FF 83 C4 18 85 FF 74  P.FШPХ{ЛЪЪ.д..Ъt
+  100124D0: 2A 53 FF B5 D0 F1 FF FF 8D 85 EC FB FF FF 68 00  *SЪ╣пЯЪЪ..ЛШЪЪh.
+  100124E0: 5B 01 10 50 FF B5 C8 F1 FF FF 8D 85 F4 FD FF FF  [..PЪ╣хЯЪЪ..ТЩЪЪ
+  100124F0: 50 FF 75 0C FF D7 E9 8A 00 00 00 8B 1D 2C 80 01  PЪu.ЪвИ......,..
+  10012500: 10 8D 85 E0 F8 FF FF 6A 00 6A 00 68 0A 03 00 00  ...ЮЬЪЪj.j.h....
+  10012510: 50 6A FF 8D 85 F4 FD FF FF BF 4C 5B 01 10 50 6A  PjЪ..ТЩЪЪ©L[..Pj
+  10012520: 00 68 E9 FD 00 00 FF D3 85 C0 74 06 8D BD E0 F8  .hИЩ..Ъс.юt..╫ЮЬ
+  10012530: FF FF 6A 00 6A 00 68 0A 03 00 00 8D 85 D4 F5 FF  ЪЪj.j.h......тУЪ
+  10012540: FF BE 60 5B 01 10 50 6A FF 8D 85 EC FB FF FF 50  Ъ╬`[..PjЪ..ЛШЪЪP
+  10012550: 6A 00 68 E9 FD 00 00 FF D3 85 C0 74 06 8D B5 D4  j.hИЩ..Ъс.юt..╣т
+  10012560: F5 FF FF FF B5 C4 F1 FF FF FF B5 D0 F1 FF FF 68  УЪЪЪ╣дЯЪЪЪ╣пЯЪЪh
+  10012570: 78 5B 01 10 56 FF B5 C8 F1 FF FF 57 FF 75 0C FF  x[..VЪ╣хЯЪЪWЪu.Ъ
+  10012580: 95 CC F1 FF FF 83 C4 1C 83 F8 01 75 01 CC 8B 4D  .лЯЪЪ.д..Ь.u.л.M
+  10012590: FC 5F 5E 33 CD 5B E8 79 EA FF FF 8B E5 5D C3 CC  Э_^3м[ХyЙЪЪ.Е]цл
+  100125A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100125B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100125C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100125D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100125E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100125F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012600: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012610: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012620: 55 8B EC 81 EC 08 04 00 00 A1 1C 70 01 10 33 C5  U.Л.Л....║.p..3е
+  10012630: 89 45 FC A1 0C 70 01 10 89 85 F8 FB FF FF 53 8B  .EЭ║.p....ЬШЪЪS.
+  10012640: 5D 08 83 F8 FF 0F 84 B4 00 00 00 85 DB 0F 84 92  ]..ЬЪ..╢....ш...
+  10012650: 00 00 00 53 E8 37 FD FF FF 83 C0 3A 83 C4 04 3D  ...SХ7ЩЪЪ.ю:.д.=
+  10012660: 00 04 00 00 77 7F 33 C0 EB 06 8D 9B 00 00 00 00  ....w.3юК.......
+  10012670: 8A 88 F0 56 01 10 8D 40 01 88 8C 05 FB FB FF FF  ..ПV...@....ШШЪЪ
+  10012680: 84 C9 75 EC 56 57 8B F3 8A 03 43 84 C0 75 F9 8D  .иuЛVW.С..C.юuЫ.
+  10012690: BD FC FB FF FF 2B DE 4F 8A 47 01 47 84 C0 75 F8  ╫ЭШЪЪ+чO.G.G.юuЬ
+  100126A0: 8B CB BA 00 57 01 10 C1 E9 02 F3 A5 8B CB 83 E1  .к╨.W..аИ.С╔.к.А
+  100126B0: 03 F3 A4 8B F2 8A 02 42 84 C0 75 F9 8D BD FC FB  .С╓.Р..B.юuЫ.╫ЭШ
+  100126C0: FF FF 2B D6 4F 8A 47 01 47 84 C0 75 F8 8B CA 8D  ЪЪ+жO.G.G.юuЬ.й.
+  100126D0: 85 FC FB FF FF C1 E9 02 F3 A5 8B CA 83 E1 03 F3  .ЭШЪЪаИ.С╔.й.А.С
+  100126E0: A4 5F 5E EB 05 B8 3C 5D 01 10 50 8B 45 04 6A 03  ╓_^К.╦<]..P.E.j.
+  100126F0: FF B5 F8 FB FF FF 50 E8 B4 FC FF FF 83 C4 10 8B  Ъ╣ЬШЪЪPХ╢ЭЪЪ.д..
+  10012700: 4D FC 33 CD 5B E8 0A E9 FF FF 8B E5 5D C3 CC CC  MЭ3м[Х.ИЪЪ.Е]цлл
+  10012710: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012720: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012730: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012740: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012750: A1 38 71 01 10 C3 CC CC CC CC CC CC CC CC CC CC  ║8q..цлллллллллл
+  10012760: A1 3C 71 01 10 C3 CC CC CC CC CC CC CC CC CC CC  ║<q..цлллллллллл
+  10012770: 55 8B EC 8B 45 08 83 F8 04 77 09 8B 04 85 7C 5D  U.Л.E..Ь.w....|]
+  10012780: 01 10 5D C3 33 C0 5D C3 CC CC CC CC CC CC CC CC  ..]ц3ю]цлллллллл
+  10012790: B8 05 00 00 00 C3 CC CC CC CC CC CC CC CC CC CC  ╦....цлллллллллл
+  100127A0: 55 8B EC A1 38 71 01 10 8B 4D 08 89 0D 38 71 01  U.Л║8q...M...8q.
+  100127B0: 10 C7 05 3C 71 01 10 00 00 00 00 5D C3 CC CC CC  .г.<q......]цллл
+  100127C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100127D0: 55 8B EC A1 3C 71 01 10 8B 4D 08 89 0D 3C 71 01  U.Л║<q...M...<q.
+  100127E0: 10 C7 05 38 71 01 10 00 00 00 00 5D C3 CC CC CC  .г.8q......]цллл
+  100127F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012800: 55 8B EC 8B 55 08 83 FA 04 77 13 8B 04 95 00 70  U.Л.U..З.w.....p
+  10012810: 01 10 8B 4D 0C 89 0C 95 00 70 01 10 5D C3 83 C8  ...M.....p..]ц.х
+  10012820: FF 5D C3 CC CC CC CC CC CC CC CC CC FF 25 E0 80  Ъ]цлллллллллЪ%Ю.
+  10012830: 01 10 FF 25 DC 80 01 10 FF 25 D8 80 01 10 FF 25  ..Ъ%э...Ъ%ь...Ъ%
+  10012840: D4 80 01 10 FF 25 D0 80 01 10 FF 25 CC 80 01 10  т...Ъ%п...Ъ%л...
+  10012850: 55 8B EC 83 EC 0C 8B 45 08 8B 4D 08 03 48 3C 89  U.Л.Л..E..M..H<.
+  10012860: 4D F8 C7 45 F4 00 00 00 00 8B 55 F8 0F B7 42 14  MЬгEТ.....UЬ.╥B.
+  10012870: 8B 4D F8 8D 54 01 18 89 55 FC EB 12 8B 45 F4 83  .MЬ.T...UЭК..EТ.
+  10012880: C0 01 89 45 F4 8B 4D FC 83 C1 28 89 4D FC 8B 55  ю..EТ.MЭ.а(.MЭ.U
+  10012890: F8 0F B7 42 06 39 45 F4 73 23 8B 4D FC 8B 55 0C  Ь.╥B.9EТs#.MЭ.U.
+  100128A0: 3B 51 0C 72 16 8B 45 FC 8B 48 0C 8B 55 FC 03 4A  ;Q.r..EЭ.H..UЭ.J
+  100128B0: 08 39 4D 0C 73 05 8B 45 FC EB 04 EB BF 33 C0 8B  .9M.s..EЭК.К©3ю.
+  100128C0: E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  Е]цллллллллллллл
+  100128D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100128E0: 55 8B EC 6A FE 68 68 6B 01 10 68 73 10 01 10 64  U.ЛjЧhhk..hs...d
+  100128F0: A1 00 00 00 00 50 83 C4 D0 53 56 57 A1 1C 70 01  ║....P.дпSVW║.p.
+  10012900: 10 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00 00 00  .1EЬ3еP.EПdё....
+  10012910: 89 65 E8 C7 45 E4 00 00 00 10 C7 45 FC 00 00 00  .eХгEД....гEЭ...
+  10012920: 00 8B 45 E4 50 E8 B2 E7 FF FF 83 C4 04 85 C0 75  ..EДPХ╡ГЪЪ.д..юu
+  10012930: 16 C7 45 D4 00 00 00 00 C7 45 FC FE FF FF FF 8B  .гEт....гEЭЧЪЪЪ.
+  10012940: 45 D4 E9 B2 00 00 00 8B 4D 08 2B 4D E4 89 4D D0  EтИ╡....M.+MД.Mп
+  10012950: 8B 55 D0 52 8B 45 E4 50 E8 61 E7 FF FF 83 C4 08  .UпR.EДPХaГЪЪ.д.
+  10012960: 89 45 E0 83 7D E0 00 75 13 C7 45 CC 00 00 00 00  .EЮ.}Ю.u.гEл....
+  10012970: C7 45 FC FE FF FF FF 8B 45 CC EB 7D 8B 4D E0 8B  гEЭЧЪЪЪ.EлК}.MЮ.
+  10012980: 51 24 81 E2 00 00 00 80 75 09 C7 45 DC 01 00 00  Q$.Б....u.гEэ...
+  10012990: 00 EB 07 C7 45 DC 00 00 00 00 8B 45 DC 89 45 C8  .К.гEэ.....Eэ.Eх
+  100129A0: C7 45 FC FE FF FF FF 8B 45 C8 EB 4D C7 45 FC FE  гEЭЧЪЪЪ.EхКMгEЭЧ
+  100129B0: FF FF FF EB 44 8B 4D EC 8B 11 8B 02 89 45 C4 81  ЪЪЪКD.MЛ.....Eд.
+  100129C0: 7D C4 05 00 00 C0 75 09 C7 45 D8 01 00 00 00 EB  }д...юu.гEь....К
+  100129D0: 07 C7 45 D8 00 00 00 00 8B 45 D8 C3 8B 65 E8 C7  .гEь.....Eьц.eХг
+  100129E0: 45 C0 00 00 00 00 C7 45 FC FE FF FF FF 8B 45 C0  Eю....гEЭЧЪЪЪ.Eю
+  100129F0: EB 07 C7 45 FC FE FF FF FF 8B 4D F0 64 89 0D 00  К.гEЭЧЪЪЪ.MПd...
+  10012A00: 00 00 00 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC  ...Y_^[.Е]цллллл
+  10012A10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012A20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012A30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012A50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012A60: 55 8B EC 83 EC 0C 8B 45 08 89 45 FC 8B 4D FC 0F  U.Л.Л..E..EЭ.MЭ.
+  10012A70: B7 11 81 FA 4D 5A 00 00 74 04 33 C0 EB 3B 8B 45  ╥..ЗMZ..t.3юК;.E
+  10012A80: FC 8B 4D FC 03 48 3C 89 4D F8 8B 55 F8 81 3A 50  Э.MЭ.H<.MЬ.UЬ.:P
+  10012A90: 45 00 00 74 04 33 C0 EB 20 8B 45 F8 83 C0 18 89  E..t.3юК .EЬ.ю..
+  10012AA0: 45 F4 8B 4D F4 0F B7 11 81 FA 0B 01 00 00 74 04  EТ.MТ.╥..З....t.
+  10012AB0: 33 C0 EB 05 B8 01 00 00 00 8B E5 5D C3 CC CC CC  3юК.╦.....Е]цллл
+  10012AC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012AE0: 55 8B EC 51 83 3D 3C 75 01 10 00 74 09 83 3D 2C  U.ЛQ.=<u...t..=,
+  10012AF0: 75 01 10 00 75 36 83 3D 3C 75 01 10 00 75 09 83  u...u6.=<u...u..
+  10012B00: 3D 2C 75 01 10 00 74 24 68 60 5E 01 10 68 48 5F  =,u...t$h`^..hH_
+  10012B10: 01 10 6A 00 6A 45 68 50 5F 01 10 6A 02 FF 15 B8  ..j.jEhP_..j.Ъ.╦
+  10012B20: 80 01 10 83 C4 18 83 F8 01 75 01 CC 83 3D 3C 75  ....д..Ь.u.л.=<u
+  10012B30: 01 10 00 74 04 33 C0 EB 4C 6A 4D 68 BC 5F 01 10  ...t.3юКLjMh╪_..
+  10012B40: 6A 02 6A 04 6A 20 FF 15 B4 80 01 10 83 C4 14 89  j.j.j Ъ.╢....д..
+  10012B50: 45 FC 8B 4D FC 51 FF 15 4C 80 01 10 A3 3C 75 01  EЭ.MЭQЪ.L...ё<u.
+  10012B60: 10 8B 15 3C 75 01 10 89 15 2C 75 01 10 83 7D FC  ...<u....,u...}Э
+  10012B70: 00 75 07 B8 18 00 00 00 EB 0B 8B 45 FC C7 00 00  .u.╦....К..EЭг..
+  10012B80: 00 00 00 33 C0 8B E5 5D C3 CC CC CC CC CC CC CC  ...3ю.Е]цллллллл
+  10012B90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012BA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012BB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012BC0: 55 8B EC 6A FE 68 88 6B 01 10 68 73 10 01 10 64  U.ЛjЧh.k..hs...d
+  10012BD0: A1 00 00 00 00 50 83 C4 EC 53 56 57 A1 1C 70 01  ║....P.дЛSVW║.p.
+  10012BE0: 10 31 45 F8 33 C5 50 8D 45 F0 64 A3 00 00 00 00  .1EЬ3еP.EПdё....
+  10012BF0: C7 45 DC 00 00 00 00 A1 3C 75 01 10 50 FF 15 48  гEэ....║<u..PЪ.H
+  10012C00: 80 01 10 89 45 E4 83 7D E4 FF 75 12 8B 4D 08 51  ....EД.}ДЪu..M.Q
+  10012C10: FF 15 AC 80 01 10 83 C4 04 E9 88 00 00 00 6A 08  Ъ.╛....д.И....j.
+  10012C20: E8 58 E4 FF FF 83 C4 04 C7 45 FC 00 00 00 00 8B  ХXДЪЪ.д.гEЭ.....
+  10012C30: 15 3C 75 01 10 52 FF 15 48 80 01 10 89 45 E4 A1  .<u..RЪ.H....EД║
+  10012C40: 2C 75 01 10 50 FF 15 48 80 01 10 89 45 E0 8D 4D  ,u..PЪ.H....EЮ.M
+  10012C50: E0 51 8D 55 E4 52 8B 45 08 50 FF 15 4C 80 01 10  ЮQ.UДR.E.PЪ.L...
+  10012C60: 50 E8 2F E5 FF FF 83 C4 0C 89 45 DC 8B 4D E4 51  PХ/ЕЪЪ.д..Eэ.MДQ
+  10012C70: FF 15 4C 80 01 10 A3 3C 75 01 10 8B 55 E0 52 FF  Ъ.L...ё<u...UЮRЪ
+  10012C80: 15 4C 80 01 10 A3 2C 75 01 10 C7 45 FC FE FF FF  .L...ё,u..гEЭЧЪЪ
+  10012C90: FF E8 02 00 00 00 EB 0B 6A 08 E8 74 E4 FF FF 83  ЪХ....К.j.ХtДЪЪ.
+  10012CA0: C4 04 C3 8B 45 DC 8B 4D F0 64 89 0D 00 00 00 00  д.ц.Eэ.MПd......
+  10012CB0: 59 5F 5E 5B 8B E5 5D C3 CC CC CC CC CC CC CC CC  Y_^[.Е]цлллллллл
+  10012CC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012CD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012CE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012CF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012D00: 55 8B EC 51 8B 45 08 50 E8 E8 E3 FF FF 83 C4 04  U.ЛQ.E.PХХЦЪЪ.д.
+  10012D10: 85 C0 75 09 C7 45 FC FF FF FF FF EB 07 C7 45 FC  .юu.гEЭЪЪЪЪК.гEЭ
+  10012D20: 00 00 00 00 8B 45 FC 8B E5 5D C3 CC CC CC CC CC  .....EЭ.Е]цллллл
+  10012D30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012D40: 55 8B EC 83 EC 14 C7 45 F4 00 00 00 00 C7 45 F8  U.Л.Л.гEТ....гEЬ
+  10012D50: 00 00 00 00 81 3D 1C 70 01 10 4E E6 40 BB 74 1F  .....=.p..NФ@╩t.
+  10012D60: A1 1C 70 01 10 25 00 00 FF FF 74 13 8B 0D 1C 70  ║.p..%..ЪЪt....p
+  10012D70: 01 10 F7 D1 89 0D 20 70 01 10 E9 9A 00 00 00 8D  ..Вя.. p..И.....
+  10012D80: 55 F4 52 FF 15 1C 80 01 10 8B 45 F4 89 45 FC 8B  UТRЪ......EТ.EЭ.
+  10012D90: 4D FC 33 4D F8 89 4D FC FF 15 20 80 01 10 33 45  MЭ3MЬ.MЭЪ. ...3E
+  10012DA0: FC 89 45 FC FF 15 24 80 01 10 33 45 FC 89 45 FC  Э.EЭЪ.$...3EЭ.EЭ
+  10012DB0: 8D 55 EC 52 FF 15 28 80 01 10 8B 45 FC 33 45 EC  .UЛRЪ.(....EЭ3EЛ
+  10012DC0: 89 45 FC 8B 4D FC 33 4D F0 89 4D FC 8B 55 FC 8D  .EЭ.MЭ3MП.MЭ.UЭ.
+  10012DD0: 45 FC 33 D0 89 55 FC 81 7D FC 4E E6 40 BB 75 09  EЭ3п.UЭ.}ЭNФ@╩u.
+  10012DE0: C7 45 FC 4F E6 40 BB EB 1D 8B 4D FC 81 E1 00 00  гEЭOФ@╩К..MЭ.А..
+  10012DF0: FF FF 75 12 8B 55 FC 81 CA 11 47 00 00 C1 E2 10  ЪЪu..UЭ.й.G..аБ.
+  10012E00: 0B 55 FC 89 55 FC 8B 45 FC A3 1C 70 01 10 8B 4D  .UЭ.UЭ.EЭё.p...M
+  10012E10: FC F7 D1 89 0D 20 70 01 10 8B E5 5D C3 CC CC CC  ЭВя.. p...Е]цллл
+  10012E20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012E30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012E40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012E50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10012E60: 56 BE D0 64 01 10 8B C6 3D DC 66 01 10 73 14 90  V╬пd...ф=эf..s..
+  10012E70: 8B 06 85 C0 74 02 FF D0 83 C6 04 81 FE DC 66 01  ...юt.Ъп.ф..Чэf.
+  10012E80: 10 72 ED 5E C3 CC CC CC CC CC CC CC CC CC CC CC  .rМ^цллллллллллл
+  10012E90: 56 BE E4 67 01 10 8B C6 3D F0 69 01 10 73 14 90  V╬Дg...ф=Пi..s..
+  10012EA0: 8B 06 85 C0 74 02 FF D0 83 C6 04 81 FE F0 69 01  ...юt.Ъп.ф..ЧПi.
+  10012EB0: 10 72 ED 5E C3 CC CC CC CC CC CC CC CC CC FF 25  .rМ^цлллллллллЪ%
+  10012EC0: C8 80 01 10 FF 25 C4 80 01 10 CC CC CC CC CC CC  х...Ъ%д...лллллл
+  10012ED0: 55 8B EC 68 44 71 01 10 E8 7D E1 FF FF 83 C4 04  U.ЛhDq..Х}АЪЪ.д.
+  10012EE0: 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ]цлллллллллллллл
+  10012EF0: 55 8B EC 8B 45 14 50 8B 4D 10 51 8B 55 0C 52 8B  U.Л.E.P.M.Q.U.R.
+  10012F00: 45 08 50 68 14 10 01 10 68 1C 70 01 10 E8 60 E2  E.Ph....h.p..Х`Б
+  10012F10: FF FF 83 C4 18 5D C3 CC CC CC CC CC CC CC CC CC  ЪЪ.д.]цллллллллл
+  10012F20: 55 8B EC 81 EC 14 04 00 00 A1 1C 70 01 10 33 C5  U.Л.Л....║.p..3е
+  10012F30: 89 45 FC 80 3D 54 71 01 10 00 74 10 33 C0 8B 4D  .EЭ.=Tq...t.3ю.M
+  10012F40: FC 33 CD E8 CC E0 FF FF 8B E5 5D C3 C6 05 54 71  Э3мХлЮЪЪ.Е]цф.Tq
+  10012F50: 01 10 01 E8 58 01 00 00 85 C0 0F 85 E8 00 00 00  ...ХX....ю..Х...
+  10012F60: 56 68 30 60 01 10 FF 15 00 80 01 10 8B 35 34 80  Vh0`..Ъ......54.
+  10012F70: 01 10 85 C0 74 6A 68 04 01 00 00 8D 8D EC FB FF  ...юtjh......ЛШЪ
+  10012F80: FF 51 50 FF 15 04 80 01 10 85 C0 74 53 68 04 01  ЪQPЪ......юtSh..
+  10012F90: 00 00 8D 85 F4 FD FF FF 50 8D 85 EC FB FF FF 50  ....ТЩЪЪP..ЛШЪЪP
+  10012FA0: E8 CB 03 00 00 83 C4 0C 85 C0 74 34 68 00 09 00  Хк....д..юt4h...
+  10012FB0: 00 6A 00 8D 85 F4 FD FF FF 50 FF D6 85 C0 0F 85  .j...ТЩЪЪPЪж.ю..
+  10012FC0: 83 00 00 00 FF 15 3C 80 01 10 83 F8 57 75 11 6A  ....Ъ.<....ЬWu.j
+  10012FD0: 08 6A 00 8D 85 F4 FD FF FF 50 FF D6 85 C0 75 67  .j...ТЩЪЪPЪж.юug
+  10012FE0: 68 00 0A 00 00 6A 00 68 78 61 01 10 FF D6 85 C0  h....j.hxa..Ъж.ю
+  10012FF0: 75 55 FF 15 3C 80 01 10 83 F8 57 75 48 68 04 01  uUЪ.<....ЬWuHh..
+  10013000: 00 00 8D 85 EC FB FF FF 50 6A 00 FF 15 04 80 01  ....ЛШЪЪPj.Ъ....
+  10013010: 10 85 C0 74 30 68 04 01 00 00 8D 85 F4 FD FF FF  ..юt0h......ТЩЪЪ
+  10013020: 50 8D 85 EC FB FF FF 50 E8 43 03 00 00 83 C4 0C  P..ЛШЪЪPХC....д.
+  10013030: 85 C0 74 11 6A 08 6A 00 8D 85 F4 FD FF FF 50 FF  .юt.j.j...ТЩЪЪPЪ
+  10013040: D6 85 C0 75 02 33 C0 5E 8B 4D FC 33 CD E8 C2 DF  ж.юu.3ю^.MЭ3мХбъ
+  10013050: FF FF 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC  ЪЪ.Е]цлллллллллл
+  10013060: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013070: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013080: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100130A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100130B0: 55 8B EC 81 EC 24 02 00 00 A1 1C 70 01 10 33 C5  U.Л.Л$...║.p..3е
+  100130C0: 89 45 FC 53 8B 1D 34 80 01 10 57 68 00 08 00 00  .EЭS..4...Wh....
+  100130D0: 6A 00 68 74 60 01 10 FF D3 8B F8 85 FF 75 2C FF  j.ht`..Ъс.Ь.Ъu,Ъ
+  100130E0: 15 3C 80 01 10 83 F8 57 75 0F 57 57 68 74 60 01  .<....ЬWu.WWht`.
+  100130F0: 10 FF D3 8B F8 85 FF 75 12 5F 33 C0 5B 8B 4D FC  .Ъс.Ь.Ъu._3ю[.MЭ
+  10013100: 33 CD E8 0D DF FF FF 8B E5 5D C3 56 8B 35 38 80  3мХ.ъЪЪ.Е]цV.58.
+  10013110: 01 10 68 94 60 01 10 57 FF D6 89 85 DC FD FF FF  ..h.`..WЪж..эЩЪЪ
+  10013120: 85 C0 74 4A 68 A4 60 01 10 57 FF D6 89 85 E8 FD  .юtJh╓`..WЪж..ХЩ
+  10013130: FF FF 85 C0 74 38 68 B8 60 01 10 57 FF D6 89 85  ЪЪ.юt8h╦`..WЪж..
+  10013140: E0 FD FF FF 85 C0 74 26 8D 85 EC FD FF FF 50 6A  ЮЩЪЪ.юt&..ЛЩЪЪPj
+  10013150: 01 6A 00 68 C8 60 01 10 68 02 00 00 80 FF 95 DC  .j.hх`..h....Ъ.э
+  10013160: FD FF FF 85 C0 74 1A 57 FF 15 08 80 01 10 5E 5F  ЩЪЪ.юt.WЪ.....^_
+  10013170: 33 C0 5B 8B 4D FC 33 CD E8 97 DE FF FF 8B E5 5D  3ю[.MЭ3мХ.чЪЪ.Е]
+  10013180: C3 8D 85 F0 FD FF FF C7 85 F0 FD FF FF 08 02 00  ц..ПЩЪЪг.ПЩЪЪ...
+  10013190: 00 50 8D 85 F4 FD FF FF 50 8D 85 E4 FD FF FF 50  .P..ТЩЪЪP..ДЩЪЪP
+  100131A0: 6A 00 68 38 61 01 10 FF B5 EC FD FF FF FF 95 E8  j.h8a..Ъ╣ЛЩЪЪЪ.Х
+  100131B0: FD FF FF FF B5 EC FD FF FF 8B F0 FF 95 E0 FD FF  ЩЪЪЪ╣ЛЩЪЪ.ПЪ.ЮЩЪ
+  100131C0: FF 57 FF 15 08 80 01 10 85 F6 75 A2 83 BD E4 FD  ЪWЪ......Жu╒.╫ДЩ
+  100131D0: FF FF 01 75 99 8B 8D F0 FD FF FF F6 C1 01 75 8E  ЪЪ.u...ПЩЪЪЖа.u.
+  100131E0: D1 E9 83 F9 02 72 87 49 66 39 B4 4D F4 FD FF FF  яИ.Ы.r.If9╢MТЩЪЪ
+  100131F0: 0F 85 78 FF FF FF 66 83 BC 4D F2 FD FF FF 5C 74  ..xЪЪЪf.╪MРЩЪЪ\t
+  10013200: 0E B8 5C 00 00 00 66 89 84 4D F4 FD FF FF 41 83  .╦\...f..MТЩЪЪA.
+  10013210: C8 FF 2B C1 83 F8 12 0F 82 51 FF FF FF 8D 41 11  хЪ+а.Ь...QЪЪЪ.A.
+  10013220: 3D 04 01 00 00 0F 87 43 FF FF FF A1 0C 60 01 10  =......CЪЪЪ║.`..
+  10013230: 89 84 4D F4 FD FF FF A1 10 60 01 10 89 84 4D F8  ..MТЩЪЪ║.`....MЬ
+  10013240: FD FF FF A1 14 60 01 10 89 84 4D FC FD FF FF A1  ЩЪЪ║.`....MЭЩЪЪ║
+  10013250: 18 60 01 10 89 84 4D 00 FE FF FF A1 1C 60 01 10  .`....M.ЧЪЪ║.`..
+  10013260: 89 84 4D 04 FE FF FF A1 20 60 01 10 89 84 4D 08  ..M.ЧЪЪ║ `....M.
+  10013270: FE FF FF A1 24 60 01 10 89 84 4D 0C FE FF FF A1  ЧЪЪ║$`....M.ЧЪЪ║
+  10013280: 28 60 01 10 89 84 4D 10 FE FF FF 66 A1 2C 60 01  (`....M.ЧЪЪf║,`.
+  10013290: 10 68 00 09 00 00 66 89 84 4D 14 FE FF FF 8D 85  .h....f..M.ЧЪЪ..
+  100132A0: F4 FD FF FF 6A 00 50 FF D3 8B F0 85 F6 75 19 FF  ТЩЪЪj.PЪс.П.Жu.Ъ
+  100132B0: 15 3C 80 01 10 83 F8 57 75 0E 6A 08 56 8D 85 F4  .<....ЬWu.j.V..Т
+  100132C0: FD FF FF 50 FF D3 8B F0 8B 4D FC 8B C6 5E 5F 33  ЩЪЪPЪс.П.MЭ.ф^_3
+  100132D0: CD 5B E8 3D DD FF FF 8B E5 5D C3 CC CC CC CC CC  м[Х=щЪЪ.Е]цллллл
+  100132E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100132F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013370: 55 8B EC 81 EC 0C 06 00 00 A1 1C 70 01 10 33 C5  U.Л.Л....║.p..3е
+  10013380: 89 45 FC 8B 45 08 8D 8D F4 FD FF FF 56 8B 75 0C  .EЭ.E...ТЩЪЪV.u.
+  10013390: 68 00 01 00 00 51 68 00 01 00 00 8D 8D F4 FB FF  h....Qh......ТШЪ
+  100133A0: FF 51 68 00 01 00 00 8D 8D F4 F9 FF FF 51 6A 03  ЪQh......ТЫЪЪQj.
+  100133B0: 8D 4D F4 51 50 E8 82 DC FF FF 83 C4 24 85 C0 74  .MТQPХ.эЪЪ.д$.юt
+  100133C0: 11 33 C0 5E 8B 4D FC 33 CD E8 46 DC FF FF 8B E5  .3ю^.MЭ3мХFэЪЪ.Е
+  100133D0: 5D C3 68 60 61 01 10 8D 85 F4 FB FF FF 6A 09 50  ]цh`a....ТШЪЪj.P
+  100133E0: E8 C9 DD FF FF 83 C4 0C 85 C0 75 D5 68 54 61 01  ХищЪЪ.д..юuуhTa.
+  100133F0: 10 8D 85 F4 FD FF FF 6A 04 50 E8 AF DD FF FF 83  ...ТЩЪЪj.PХ╞щЪЪ.
+  10013400: C4 0C 85 C0 75 BB 8D 85 F4 FD FF FF 50 8D 85 F4  д..юu╩..ТЩЪЪP..Т
+  10013410: FB FF FF 50 8D 85 F4 F9 FF FF 50 8D 45 F4 50 FF  ШЪЪP..ТЫЪЪP.EТPЪ
+  10013420: 75 10 56 E8 22 DD FF FF 8B 4D FC 83 C4 18 F7 D8  u.VХ"щЪЪ.MЭ.д.Вь
+  10013430: 1B C0 33 CD 40 5E E8 D9 DB FF FF 8B E5 5D C3 CC  .ю3м@^ХышЪЪ.Е]цл
+  10013440: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013450: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013460: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013470: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013480: 55 8B EC 8B 45 14 83 EC 44 33 C9 C7 00 00 00 00  U.Л.E..ЛD3иг....
+  10013490: 00 8B 45 0C 53 8B 5D 08 6A 1C 66 89 08 4B 8D 45  ..E.S.].j.f..K.E
+  100134A0: BC 50 53 FF 15 0C 80 01 10 85 C0 75 07 33 C0 5B  ╪PSЪ......юu.3ю[
+  100134B0: 8B E5 5D C3 FF 75 1C FF 75 18 FF 75 C0 FF 15 04  .Е]цЪu.Ъu.ЪuюЪ..
+  100134C0: 80 01 10 85 C0 74 E6 8B 4D C0 B8 4D 5A 00 00 66  ....юtФ.Mю╦MZ..f
+  100134D0: 39 01 75 D9 8B 41 3C 85 C0 7E D2 81 3C 08 50 45  9.uы.A<.ю~р.<.PE
+  100134E0: 00 00 56 8D 34 08 74 08 5E 33 C0 5B 8B E5 5D C3  ..V.4.t.^3ю[.Е]ц
+  100134F0: 0F B7 46 14 2B D9 0F B7 56 06 83 C0 24 03 C6 33  .╥F.+ы.╥V..ю$.ф3
+  10013500: F6 57 33 FF 85 D2 74 17 8B 08 3B D9 72 09 8B F3  ЖW3Ъ.рt...;ыr..С
+  10013510: 2B F1 3B 58 FC 72 08 47 83 C0 28 3B FA 72 E9 3B  +Я;XЭr.G.ю(;ЗrИ;
+  10013520: FA 74 5D 47 80 3D 55 71 01 10 00 75 20 83 3D 50  Зt]G.=Uq...u .=P
+  10013530: 71 01 10 00 75 4A E8 E5 F9 FF FF A3 50 71 01 10  q...uJХЕЫЪЪёPq..
+  10013540: 85 C0 74 3C C6 05 55 71 01 10 01 EB 05 A1 50 71  .юt<ф.Uq...К.║Pq
+  10013550: 01 10 68 90 61 01 10 50 FF 15 38 80 01 10 85 C0  ..h.a..PЪ.8....ю
+  10013560: 74 1E 8D 4D F0 51 6A 00 6A 00 8D 4D D8 51 6A 00  t..MПQj.j..MьQj.
+  10013570: 6A 00 6A 00 FF 75 18 FF D0 83 C4 20 85 C0 75 09  j.j.Ъu.Ъп.д .юu.
+  10013580: 5F 5E 33 C0 5B 8B E5 5D C3 8B 4D F0 33 DB 89 5D  _^3ю[.Е]ц.MП3ш.]
+  10013590: E8 8B 01 FF 10 3D 41 91 32 01 0F 85 7D 01 00 00  Х..Ъ.=A.2...}...
+  100135A0: 8B 4D F0 8D 55 E4 52 68 A4 61 01 10 53 8B 01 FF  .MП.UДRh╓a..S..Ъ
+  100135B0: 50 1C 85 C0 0F 84 63 01 00 00 8B 4D E4 8D 55 F4  P..ю..c....MД.UТ
+  100135C0: 53 53 53 8B 01 52 56 57 FF 50 20 85 C0 0F 84 42  SSS..RVWЪP .ю..B
+  100135D0: 01 00 00 8B 4D F4 8D 55 FC 89 5D FC 52 8B 01 8B  ....MТ.UЭ.]ЭR...
+  100135E0: 40 68 FF D0 84 C0 0F 84 21 01 00 00 8B 4D FC 85  @hЪп.ю..!....MЭ.
+  100135F0: C9 0F 84 16 01 00 00 8B 01 FF 50 08 85 C0 0F 84  и........ЪP..ю..
+  10013600: EF 00 00 00 8B 4D FC 8D 55 F8 6A 00 52 8D 55 E0  О....MЭ.UЬj.R.UЮ
+  10013610: 8B 01 52 8D 55 08 52 8B 40 0C 8D 55 EC 52 6A 00  ..R.U.R.@..UЛRj.
+  10013620: FF D0 84 C0 0F 84 D9 00 00 00 0F B7 45 08 3B C7  Ъп.ю..ы....╥E.;г
+  10013630: 75 10 8B 4D EC 3B CE 77 09 8B 45 E0 03 C1 3B F0  u..MЛ;нw..EЮ.а;П
+  10013640: 72 11 8B 4D FC 8B 01 FF 50 08 85 C0 75 B6 E9 A0  r..MЭ..ЪP..юu╤И.
+  10013650: 00 00 00 8B 45 F8 85 C0 0F 84 A5 00 00 00 3D FF  ....EЬ.ю..╔...=Ъ
+  10013660: FF FF 1F 0F 83 9A 00 00 00 C1 E0 03 50 6A 00 FF  ЪЪ.......аЮ.Pj.Ъ
+  10013670: 15 10 80 01 10 50 FF 15 18 80 01 10 8B D8 85 DB  .....PЪ......ь.ш
+  10013680: 0F 84 7D 00 00 00 8B 4D FC 8D 55 F8 53 52 6A 00  ..}....MЭ.UЬSRj.
+  10013690: 8B 01 8D 55 DC 6A 00 6A 00 52 8B 40 0C FF D0 84  ...Uэj.j.R.@.Ъп.
+  100136A0: C0 74 50 2B 75 EC 3B 33 72 49 8B 4D F8 B8 01 00  юtP+uЛ;3rI.MЬ╦..
+  100136B0: 00 00 3B C8 76 0A 3B 34 C3 72 05 40 3B C1 72 F6  ..;хv.;4цr.@;аrЖ
+  100136C0: 8B 44 C3 FC 8D 55 10 8B 4D 14 25 FF FF FF 00 6A  .DцЭ.U..M.%ЪЪЪ.j
+  100136D0: 00 6A 00 6A 00 89 01 8B 4D F4 52 FF 75 0C 8B 01  .j.j....MТRЪu...
+  100136E0: FF 75 DC 8B 40 70 FF D0 84 C0 74 07 C7 45 E8 01  Ъuэ.@pЪп.юt.гEХ.
+  100136F0: 00 00 00 53 6A 00 FF 15 10 80 01 10 50 FF 15 14  ...Sj.Ъ.....PЪ..
+  10013700: 80 01 10 8B 4D FC 8B 01 FF 10 8B 5D E8 8B 4D F4  ....MЭ..Ъ..]Х.MТ
+  10013710: 8B 01 FF 50 40 8B 4D E4 8B 11 FF 52 38 8B 4D F0  ..ЪP@.MД..ЪR8.MП
+  10013720: 8B 11 FF 52 2C 5F 5E 8B C3 5B 8B E5 5D C3 CC CC  ..ЪR,_^.ц[.Е]цлл
+  10013730: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013740: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013750: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013760: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013770: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013780: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013790: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100137A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100137B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100137C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100137D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100137E0: 3B 0D 1C 70 01 10 75 02 F3 C3 E9 A2 D8 FF FF CC  ;..p..u.СцИ╒ьЪЪл
+  100137F0: CC CC FF 25 C0 80 01 10 FF 25 BC 80 01 10 FF 25  ллЪ%ю...Ъ%╪...Ъ%
+  10013800: B8 80 01 10 FF 25 B4 80 01 10 FF 25 B0 80 01 10  ╦...Ъ%╢...Ъ%╟...
+  10013810: FF 25 A8 80 01 10 FF 25 A4 80 01 10 FF 25 A0 80  Ъ%╗...Ъ%╓...Ъ%..
+  10013820: 01 10 FF 25 9C 80 01 10 FF 25 94 80 01 10 CC CC  ..Ъ%....Ъ%....лл
+  10013830: 55 8B EC FF 15 44 80 01 10 A3 74 74 01 10 6A 01  U.ЛЪ.D...ёtt..j.
+  10013840: E8 8D D8 FF FF 83 C4 04 8B 45 08 50 E8 B8 D8 FF  Х.ьЪЪ.д..E.PХ╦ьЪ
+  10013850: FF 83 C4 04 83 3D 74 74 01 10 00 75 0A 6A 01 E8  Ъ.д..=tt...u.j.Х
+  10013860: 6E D8 FF FF 83 C4 04 68 09 04 00 C0 E8 2F D8 FF  nьЪЪ.д.h...юХ/ьЪ
+  10013870: FF 83 C4 04 5D C3 CC CC CC CC CC CC CC CC CC CC  Ъ.д.]цлллллллллл
+  10013880: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013890: 55 8B EC 81 EC 24 03 00 00 6A 17 E8 E1 D8 FF FF  U.Л.Л$...j.ХАьЪЪ
+  100138A0: 85 C0 74 07 B9 02 00 00 00 CD 29 A3 58 72 01 10  .юt.╧....м)ёXr..
+  100138B0: 89 0D 54 72 01 10 89 15 50 72 01 10 89 1D 4C 72  ..Tr....Pr....Lr
+  100138C0: 01 10 89 35 48 72 01 10 89 3D 44 72 01 10 66 8C  ...5Hr...=Dr..f.
+  100138D0: 15 70 72 01 10 66 8C 0D 64 72 01 10 66 8C 1D 40  .pr..f..dr..f..@
+  100138E0: 72 01 10 66 8C 05 3C 72 01 10 66 8C 25 38 72 01  r..f..<r..f.%8r.
+  100138F0: 10 66 8C 2D 34 72 01 10 9C 8F 05 68 72 01 10 8B  .f.-4r.....hr...
+  10013900: 45 00 A3 5C 72 01 10 8B 45 04 A3 60 72 01 10 8D  E.ё\r...E.ё`r...
+  10013910: 45 08 A3 6C 72 01 10 8B 85 DC FC FF FF C7 05 A8  E.ёlr....эЭЪЪг.╗
+  10013920: 71 01 10 01 00 01 00 A1 60 72 01 10 A3 64 71 01  q......║`r..ёdq.
+  10013930: 10 C7 05 58 71 01 10 09 04 00 C0 C7 05 5C 71 01  .г.Xq.....юг.\q.
+  10013940: 10 01 00 00 00 C7 05 68 71 01 10 01 00 00 00 B9  .....г.hq......╧
+  10013950: 04 00 00 00 6B D1 00 C7 82 6C 71 01 10 02 00 00  ....kя.г.lq.....
+  10013960: 00 B8 04 00 00 00 6B C8 00 8B 15 1C 70 01 10 89  .╦....kх....p...
+  10013970: 54 0D F8 B8 04 00 00 00 C1 E0 00 8B 0D 20 70 01  T.Ь╦....аЮ... p.
+  10013980: 10 89 4C 05 F8 68 A8 61 01 10 E8 80 D6 FF FF 8B  ..L.Ьh╗a..Х.жЪЪ.
+  10013990: E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC  Е]цллллллллллллл
+  100139A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100139B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100139C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100139D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100139E0: 55 8B EC 6A 08 E8 BB D6 FF FF 5D C3 CC CC CC CC  U.Лj.Х╩жЪЪ]цлллл
+  100139F0: 55 8B EC 81 EC 1C 03 00 00 6A 17 E8 81 D7 FF FF  U.Л.Л....j.Х.вЪЪ
+  10013A00: 85 C0 74 05 8B 4D 08 CD 29 A3 58 72 01 10 89 0D  .юt..M.м)ёXr....
+  10013A10: 54 72 01 10 89 15 50 72 01 10 89 1D 4C 72 01 10  Tr....Pr....Lr..
+  10013A20: 89 35 48 72 01 10 89 3D 44 72 01 10 66 8C 15 70  .5Hr...=Dr..f..p
+  10013A30: 72 01 10 66 8C 0D 64 72 01 10 66 8C 1D 40 72 01  r..f..dr..f..@r.
+  10013A40: 10 66 8C 05 3C 72 01 10 66 8C 25 38 72 01 10 66  .f..<r..f.%8r..f
+  10013A50: 8C 2D 34 72 01 10 9C 8F 05 68 72 01 10 8B 45 00  .-4r.....hr...E.
+  10013A60: A3 5C 72 01 10 8B 45 04 A3 60 72 01 10 8D 45 08  ё\r...E.ё`r...E.
+  10013A70: A3 6C 72 01 10 8B 85 E4 FC FF FF A1 60 72 01 10  ёlr....ДЭЪЪ║`r..
+  10013A80: A3 64 71 01 10 C7 05 58 71 01 10 09 04 00 C0 C7  ёdq..г.Xq.....юг
+  10013A90: 05 5C 71 01 10 01 00 00 00 C7 05 68 71 01 10 01  .\q......г.hq...
+  10013AA0: 00 00 00 B9 04 00 00 00 6B D1 00 8B 45 08 89 82  ...╧....kя..E...
+  10013AB0: 6C 71 01 10 68 A8 61 01 10 E8 51 D5 FF FF 8B E5  lq..h╗a..ХQуЪЪ.Е
+  10013AC0: 5D C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC  ]цлллллллллллллл
+  10013AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013B00: 55 8B EC 81 EC 20 03 00 00 6A 17 E8 71 D6 FF FF  U.Л.Л ...j.ХqжЪЪ
+  10013B10: 85 C0 74 05 8B 4D 08 CD 29 A3 58 72 01 10 89 0D  .юt..M.м)ёXr....
+  10013B20: 54 72 01 10 89 15 50 72 01 10 89 1D 4C 72 01 10  Tr....Pr....Lr..
+  10013B30: 89 35 48 72 01 10 89 3D 44 72 01 10 66 8C 15 70  .5Hr...=Dr..f..p
+  10013B40: 72 01 10 66 8C 0D 64 72 01 10 66 8C 1D 40 72 01  r..f..dr..f..@r.
+  10013B50: 10 66 8C 05 3C 72 01 10 66 8C 25 38 72 01 10 66  .f..<r..f.%8r..f
+  10013B60: 8C 2D 34 72 01 10 9C 8F 05 68 72 01 10 8B 45 00  .-4r.....hr...E.
+  10013B70: A3 5C 72 01 10 8B 45 04 A3 60 72 01 10 8D 45 08  ё\r...E.ё`r...E.
+  10013B80: A3 6C 72 01 10 8B 85 E0 FC FF FF A1 60 72 01 10  ёlr....ЮЭЪЪ║`r..
+  10013B90: A3 64 71 01 10 C7 05 58 71 01 10 09 04 00 C0 C7  ёdq..г.Xq.....юг
+  10013BA0: 05 5C 71 01 10 01 00 00 00 83 7D 0C 00 76 0D 83  .\q.......}..v..
+  10013BB0: 7D 10 00 75 07 C7 45 0C 00 00 00 00 83 7D 0C 0E  }..u.гE......}..
+  10013BC0: 76 09 8B 4D 0C 83 E9 01 89 4D 0C 8B 55 0C 83 C2  v..M..И..M..U..б
+  10013BD0: 01 89 15 68 71 01 10 B8 04 00 00 00 6B C8 00 8B  ...hq..╦....kх..
+  10013BE0: 55 08 89 91 6C 71 01 10 C7 45 FC 00 00 00 00 EB  U...lq..гEЭ....К
+  10013BF0: 09 8B 45 FC 83 C0 01 89 45 FC 8B 4D FC 3B 4D 0C  ..EЭ.ю..EЭ.MЭ;M.
+  10013C00: 73 15 8B 55 FC 8B 45 FC 8B 4D 10 8B 04 81 89 04  s..UЭ.EЭ.M......
+  10013C10: 95 70 71 01 10 EB DA 68 A8 61 01 10 E8 EE D3 FF  .pq..Кзh╗a..ХНсЪ
+  10013C20: FF 8B E5 5D C3 CC CC CC CC CC CC CC CC CC CC CC  Ъ.Е]цллллллллллл
+  10013C30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013C40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013C50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013C60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC FF 25  ллллллллллллллЪ%
+  10013C70: 90 80 01 10 FF 25 E8 80 01 10 FF 25 98 80 01 10  ....Ъ%Х...Ъ%....
+  10013C80: FF 25 4C 80 01 10 FF 25 48 80 01 10 FF 25 44 80  Ъ%L...Ъ%H...Ъ%D.
+  10013C90: 01 10 FF 25 40 80 01 10 FF 25 3C 80 01 10 FF 25  ..Ъ%@...Ъ%<...Ъ%
+  10013CA0: 38 80 01 10 FF 25 34 80 01 10 FF 25 30 80 01 10  8...Ъ%4...Ъ%0...
+  10013CB0: FF 25 2C 80 01 10 FF 25 28 80 01 10 FF 25 24 80  Ъ%,...Ъ%(...Ъ%$.
+  10013CC0: 01 10 FF 25 20 80 01 10 FF 25 1C 80 01 10 FF 25  ..Ъ% ...Ъ%....Ъ%
+  10013CD0: 18 80 01 10 FF 25 14 80 01 10 FF 25 10 80 01 10  ....Ъ%....Ъ%....
+  10013CE0: FF 25 0C 80 01 10 FF 25 08 80 01 10 FF 25 04 80  Ъ%....Ъ%....Ъ%..
+  10013CF0: 01 10 FF 25 00 80 01 10 FF 25 50 80 01 10 CC CC  ..Ъ%....Ъ%P...лл
+  10013D00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013D90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013DF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013E90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013EA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013EB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013EC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013ED0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013EE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013EF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013F90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10013FF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014000: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014010: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014020: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014030: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014040: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014050: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014060: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014070: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014080: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014090: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100140F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014100: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014110: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014120: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014130: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014140: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014150: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014160: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014170: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014180: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014190: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100141F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014200: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014210: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014220: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014230: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014240: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014250: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014260: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014270: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014280: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014290: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100142F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014300: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014310: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014320: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014330: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014340: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014350: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014360: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014370: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014380: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014390: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100143F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014400: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014410: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014420: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014430: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014440: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014450: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014460: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014470: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014480: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014490: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100144F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014500: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014510: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014520: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014530: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014540: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014550: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014560: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014570: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014580: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014590: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100145F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014600: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014610: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014620: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014630: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014640: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014650: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014660: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014670: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014680: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014690: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100146F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014700: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014710: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014720: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014730: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014740: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014750: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014760: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014770: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014780: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014790: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100147F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014800: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014810: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014820: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014830: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014840: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014850: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014860: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014870: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014880: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014890: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100148F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014900: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014910: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014920: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014930: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014940: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014950: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014960: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014970: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014980: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014990: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149A0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149B0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149C0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149D0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149E0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  100149F0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014A90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014AF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B80: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014B90: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BA0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BB0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BC0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BD0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BE0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014BF0: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C00: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C10: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C20: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C30: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C40: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C50: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C60: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  лллллллллллллллл
+  10014C70: CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC     ллллллллллллллл
+
+SECTION HEADER #3
+  .rdata name
+    1E39 virtual size
+   15000 virtual address (10015000 to 10016E38)
+    2000 size of raw data
+    4200 file pointer to raw data (00004200 to 000061FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #3
+  10015000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100150F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100151F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015210: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015220: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015230: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015240: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015250: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015260: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015270: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100152F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015300: 00 00 00 00 00 00 00 00 00 00 00 00 30 17 01 10  ............0...
+  10015310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100153F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015410: AA 10 01 10 00 00 00 00 00 00 00 00 00 00 00 00  ╙...............
+  10015420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015490: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100154F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015500: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015510: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015520: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015530: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015540: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015550: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015560: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015570: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015590: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100155F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015610: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015620: 00 00 00 00 E9 B0 AA 60 00 00 00 00 02 00 00 00  ....И╟╙`........
+  10015630: 54 00 00 00 50 63 01 00 50 55 00 00 00 00 00 00  T...Pc..PU......
+  10015640: E9 B0 AA 60 00 00 00 00 0C 00 00 00 14 00 00 00  И╟╙`............
+  10015650: A4 63 01 00 A4 55 00 00 00 00 00 00 66 3A 5C 64  ╓c..╓U......f:\d
+  10015660: 64 5C 76 63 74 6F 6F 6C 73 5C 63 72 74 5C 63 72  d\vctools\crt\cr
+  10015670: 74 77 33 32 5C 64 6C 6C 73 74 75 66 66 5C 63 72  tw32\dllstuff\cr
+  10015680: 74 64 6C 6C 2E 63 00 00 00 00 00 00 00 00 00 00  tdll.c..........
+  10015690: 50 57 01 10 60 58 01 10 B8 59 01 10 DC 59 01 10  PW..`X..╦Y..эY..
+  100156A0: 1C 5A 01 10 50 5A 01 10 01 00 00 00 00 00 00 00  .Z..PZ..........
+  100156B0: 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00  ................
+  100156C0: 53 74 61 63 6B 20 61 72 6F 75 6E 64 20 74 68 65  Stack around the
+  100156D0: 20 76 61 72 69 61 62 6C 65 20 27 00 27 20 77 61   variable '.' wa
+  100156E0: 73 20 63 6F 72 72 75 70 74 65 64 2E 00 00 00 00  s corrupted.....
+  100156F0: 54 68 65 20 76 61 72 69 61 62 6C 65 20 27 00 00  The variable '..
+  10015700: 27 20 69 73 20 62 65 69 6E 67 20 75 73 65 64 20  ' is being used 
+  10015710: 77 69 74 68 6F 75 74 20 62 65 69 6E 67 20 69 6E  without being in
+  10015720: 69 74 69 61 6C 69 7A 65 64 2E 00 00 00 00 00 00  itialized.......
+  10015730: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015740: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015750: 54 68 65 20 76 61 6C 75 65 20 6F 66 20 45 53 50  The value of ESP
+  10015760: 20 77 61 73 20 6E 6F 74 20 70 72 6F 70 65 72 6C   was not properl
+  10015770: 79 20 73 61 76 65 64 20 61 63 72 6F 73 73 20 61  y saved across a
+  10015780: 20 66 75 6E 63 74 69 6F 6E 20 63 61 6C 6C 2E 20   function call. 
+  10015790: 20 54 68 69 73 20 69 73 20 75 73 75 61 6C 6C 79   This is usually
+  100157A0: 20 61 20 72 65 73 75 6C 74 20 6F 66 20 63 61 6C   a result of cal
+  100157B0: 6C 69 6E 67 20 61 20 66 75 6E 63 74 69 6F 6E 20  ling a function 
+  100157C0: 64 65 63 6C 61 72 65 64 20 77 69 74 68 20 6F 6E  declared with on
+  100157D0: 65 20 63 61 6C 6C 69 6E 67 20 63 6F 6E 76 65 6E  e calling conven
+  100157E0: 74 69 6F 6E 20 77 69 74 68 20 61 20 66 75 6E 63  tion with a func
+  100157F0: 74 69 6F 6E 20 70 6F 69 6E 74 65 72 20 64 65 63  tion pointer dec
+  10015800: 6C 61 72 65 64 20 77 69 74 68 20 61 20 64 69 66  lared with a dif
+  10015810: 66 65 72 65 6E 74 20 63 61 6C 6C 69 6E 67 20 63  ferent calling c
+  10015820: 6F 6E 76 65 6E 74 69 6F 6E 2E 0A 0D 00 00 00 00  onvention.......
+  10015830: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015840: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015850: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015860: 41 20 63 61 73 74 20 74 6F 20 61 20 73 6D 61 6C  A cast to a smal
+  10015870: 6C 65 72 20 64 61 74 61 20 74 79 70 65 20 68 61  ler data type ha
+  10015880: 73 20 63 61 75 73 65 64 20 61 20 6C 6F 73 73 20  s caused a loss 
+  10015890: 6F 66 20 64 61 74 61 2E 20 20 49 66 20 74 68 69  of data.  If thi
+  100158A0: 73 20 77 61 73 20 69 6E 74 65 6E 74 69 6F 6E 61  s was intentiona
+  100158B0: 6C 2C 20 79 6F 75 20 73 68 6F 75 6C 64 20 6D 61  l, you should ma
+  100158C0: 73 6B 20 74 68 65 20 73 6F 75 72 63 65 20 6F 66  sk the source of
+  100158D0: 20 74 68 65 20 63 61 73 74 20 77 69 74 68 20 74   the cast with t
+  100158E0: 68 65 20 61 70 70 72 6F 70 72 69 61 74 65 20 62  he appropriate b
+  100158F0: 69 74 6D 61 73 6B 2E 20 20 46 6F 72 20 65 78 61  itmask.  For exa
+  10015900: 6D 70 6C 65 3A 20 20 0A 0D 09 63 68 61 72 20 63  mple:  ...char c
+  10015910: 20 3D 20 28 69 20 26 20 30 78 46 46 29 3B 0A 0D   = (i & 0xFF);..
+  10015920: 43 68 61 6E 67 69 6E 67 20 74 68 65 20 63 6F 64  Changing the cod
+  10015930: 65 20 69 6E 20 74 68 69 73 20 77 61 79 20 77 69  e in this way wi
+  10015940: 6C 6C 20 6E 6F 74 20 61 66 66 65 63 74 20 74 68  ll not affect th
+  10015950: 65 20 71 75 61 6C 69 74 79 20 6F 66 20 74 68 65  e quality of the
+  10015960: 20 72 65 73 75 6C 74 69 6E 67 20 6F 70 74 69 6D   resulting optim
+  10015970: 69 7A 65 64 20 63 6F 64 65 2E 0A 0D 00 00 00 00  ized code.......
+  10015980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015990: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100159A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100159B0: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 6D 65  ........Stack me
+  100159C0: 6D 6F 72 79 20 77 61 73 20 63 6F 72 72 75 70 74  mory was corrupt
+  100159D0: 65 64 0A 0D 00 00 00 00 00 00 00 00 41 20 6C 6F  ed..........A lo
+  100159E0: 63 61 6C 20 76 61 72 69 61 62 6C 65 20 77 61 73  cal variable was
+  100159F0: 20 75 73 65 64 20 62 65 66 6F 72 65 20 69 74 20   used before it 
+  10015A00: 77 61 73 20 69 6E 69 74 69 61 6C 69 7A 65 64 0A  was initialized.
+  10015A10: 0D 00 00 00 00 00 00 00 00 00 00 00 53 74 61 63  ............Stac
+  10015A20: 6B 20 6D 65 6D 6F 72 79 20 61 72 6F 75 6E 64 20  k memory around 
+  10015A30: 5F 61 6C 6C 6F 63 61 20 77 61 73 20 63 6F 72 72  _alloca was corr
+  10015A40: 75 70 74 65 64 0A 0D 00 00 00 00 00 00 00 00 00  upted...........
+  10015A50: 55 6E 6B 6E 6F 77 6E 20 52 75 6E 74 69 6D 65 20  Unknown Runtime 
+  10015A60: 43 68 65 63 6B 20 45 72 72 6F 72 0A 0D 00 00 00  Check Error.....
+  10015A70: 00 00 00 00 00 00 00 00 52 00 75 00 6E 00 74 00  ........R.u.n.t.
+  10015A80: 69 00 6D 00 65 00 20 00 43 00 68 00 65 00 63 00  i.m.e. .C.h.e.c.
+  10015A90: 6B 00 20 00 45 00 72 00 72 00 6F 00 72 00 2E 00  k. .E.r.r.o.r...
+  10015AA0: 0A 00 0D 00 20 00 55 00 6E 00 61 00 62 00 6C 00  .... .U.n.a.b.l.
+  10015AB0: 65 00 20 00 74 00 6F 00 20 00 64 00 69 00 73 00  e. .t.o. .d.i.s.
+  10015AC0: 70 00 6C 00 61 00 79 00 20 00 52 00 54 00 43 00  p.l.a.y. .R.T.C.
+  10015AD0: 20 00 4D 00 65 00 73 00 73 00 61 00 67 00 65 00   .M.e.s.s.a.g.e.
+  10015AE0: 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015AF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015B00: 52 00 75 00 6E 00 2D 00 54 00 69 00 6D 00 65 00  R.u.n.-.T.i.m.e.
+  10015B10: 20 00 43 00 68 00 65 00 63 00 6B 00 20 00 46 00   .C.h.e.c.k. .F.
+  10015B20: 61 00 69 00 6C 00 75 00 72 00 65 00 20 00 23 00  a.i.l.u.r.e. .#.
+  10015B30: 25 00 64 00 20 00 2D 00 20 00 25 00 73 00 00 00  %.d. .-. .%.s...
+  10015B40: 00 00 00 00 00 00 00 00 00 00 00 00 55 6E 6B 6E  ............Unkn
+  10015B50: 6F 77 6E 20 46 69 6C 65 6E 61 6D 65 00 00 00 00  own Filename....
+  10015B60: 55 6E 6B 6E 6F 77 6E 20 4D 6F 64 75 6C 65 20 4E  Unknown Module N
+  10015B70: 61 6D 65 00 00 00 00 00 52 75 6E 2D 54 69 6D 65  ame.....Run-Time
+  10015B80: 20 43 68 65 63 6B 20 46 61 69 6C 75 72 65 20 23   Check Failure #
+  10015B90: 25 64 20 2D 20 25 73 00 00 00 00 00 00 00 00 00  %d - %s.........
+  10015BA0: 53 74 61 63 6B 20 63 6F 72 72 75 70 74 65 64 20  Stack corrupted 
+  10015BB0: 6E 65 61 72 20 75 6E 6B 6E 6F 77 6E 20 76 61 72  near unknown var
+  10015BC0: 69 61 62 6C 65 00 00 00 00 00 00 00 00 00 00 00  iable...........
+  10015BD0: 25 2E 32 58 20 00 00 00 75 00 73 00 65 00 72 00  %.2X ...u.s.e.r.
+  10015BE0: 33 00 32 00 2E 00 64 00 6C 00 6C 00 00 00 00 00  3.2...d.l.l.....
+  10015BF0: 00 00 00 00 77 73 70 72 69 6E 74 66 41 00 00 00  ....wsprintfA...
+  10015C00: 53 74 61 63 6B 20 61 72 65 61 20 61 72 6F 75 6E  Stack area aroun
+  10015C10: 64 20 5F 61 6C 6C 6F 63 61 20 6D 65 6D 6F 72 79  d _alloca memory
+  10015C20: 20 72 65 73 65 72 76 65 64 20 62 79 20 74 68 69   reserved by thi
+  10015C30: 73 20 66 75 6E 63 74 69 6F 6E 20 69 73 20 63 6F  s function is co
+  10015C40: 72 72 75 70 74 65 64 0A 00 00 00 00 00 00 00 00  rrupted.........
+  10015C50: 00 00 00 00 00 00 00 00 0A 44 61 74 61 3A 20 3C  .........Data: <
+  10015C60: 00 00 00 00 0A 41 6C 6C 6F 63 61 74 69 6F 6E 20  .....Allocation 
+  10015C70: 6E 75 6D 62 65 72 20 77 69 74 68 69 6E 20 74 68  number within th
+  10015C80: 69 73 20 66 75 6E 63 74 69 6F 6E 3A 20 00 00 00  is function: ...
+  10015C90: 00 00 00 00 00 00 00 00 0A 53 69 7A 65 3A 20 00  .........Size: .
+  10015CA0: 00 00 00 00 0A 41 64 64 72 65 73 73 3A 20 30 78  .....Address: 0x
+  10015CB0: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 61 72  ........Stack ar
+  10015CC0: 65 61 20 61 72 6F 75 6E 64 20 5F 61 6C 6C 6F 63  ea around _alloc
+  10015CD0: 61 20 6D 65 6D 6F 72 79 20 72 65 73 65 72 76 65  a memory reserve
+  10015CE0: 64 20 62 79 20 74 68 69 73 20 66 75 6E 63 74 69  d by this functi
+  10015CF0: 6F 6E 20 69 73 20 63 6F 72 72 75 70 74 65 64 00  on is corrupted.
+  10015D00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015D10: 25 73 25 73 25 70 25 73 25 6C 64 25 73 25 64 25  %s%s%p%s%ld%s%d%
+  10015D20: 73 00 00 00 00 00 00 00 0A 00 00 00 3E 20 00 00  s...........> ..
+  10015D30: 25 73 25 73 25 73 25 73 00 00 00 00 41 20 76 61  %s%s%s%s....A va
+  10015D40: 72 69 61 62 6C 65 20 69 73 20 62 65 69 6E 67 20  riable is being 
+  10015D50: 75 73 65 64 20 77 69 74 68 6F 75 74 20 62 65 69  used without bei
+  10015D60: 6E 67 20 69 6E 69 74 69 61 6C 69 7A 65 64 2E 00  ng initialized..
+  10015D70: 00 00 00 00 00 00 00 00 00 00 00 00 94 5D 01 10  .............]..
+  10015D80: B4 5D 01 10 E8 5D 01 10 04 5E 01 10 38 5E 01 10  ╢]..Х]...^..8^..
+  10015D90: 00 00 00 00 53 74 61 63 6B 20 70 6F 69 6E 74 65  ....Stack pointe
+  10015DA0: 72 20 63 6F 72 72 75 70 74 69 6F 6E 00 00 00 00  r corruption....
+  10015DB0: 00 00 00 00 43 61 73 74 20 74 6F 20 73 6D 61 6C  ....Cast to smal
+  10015DC0: 6C 65 72 20 74 79 70 65 20 63 61 75 73 69 6E 67  ler type causing
+  10015DD0: 20 6C 6F 73 73 20 6F 66 20 64 61 74 61 00 00 00   loss of data...
+  10015DE0: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 6D 65  ........Stack me
+  10015DF0: 6D 6F 72 79 20 63 6F 72 72 75 70 74 69 6F 6E 00  mory corruption.
+  10015E00: 00 00 00 00 4C 6F 63 61 6C 20 76 61 72 69 61 62  ....Local variab
+  10015E10: 6C 65 20 75 73 65 64 20 62 65 66 6F 72 65 20 69  le used before i
+  10015E20: 6E 69 74 69 61 6C 69 7A 61 74 69 6F 6E 00 00 00  nitialization...
+  10015E30: 00 00 00 00 00 00 00 00 53 74 61 63 6B 20 61 72  ........Stack ar
+  10015E40: 6F 75 6E 64 20 5F 61 6C 6C 6F 63 61 20 63 6F 72  ound _alloca cor
+  10015E50: 72 75 70 74 65 64 00 00 00 00 00 00 00 00 00 00  rupted..........
+  10015E60: 28 00 5F 00 5F 00 6F 00 6E 00 65 00 78 00 69 00  (._._.o.n.e.x.i.
+  10015E70: 74 00 62 00 65 00 67 00 69 00 6E 00 20 00 21 00  t.b.e.g.i.n. .!.
+  10015E80: 3D 00 20 00 4E 00 55 00 4C 00 4C 00 20 00 26 00  =. .N.U.L.L. .&.
+  10015E90: 26 00 20 00 5F 00 5F 00 6F 00 6E 00 65 00 78 00  &. ._._.o.n.e.x.
+  10015EA0: 69 00 74 00 65 00 6E 00 64 00 20 00 21 00 3D 00  i.t.e.n.d. .!.=.
+  10015EB0: 20 00 4E 00 55 00 4C 00 4C 00 29 00 20 00 7C 00   .N.U.L.L.). .|.
+  10015EC0: 7C 00 20 00 28 00 5F 00 5F 00 6F 00 6E 00 65 00  |. .(._._.o.n.e.
+  10015ED0: 78 00 69 00 74 00 62 00 65 00 67 00 69 00 6E 00  x.i.t.b.e.g.i.n.
+  10015EE0: 20 00 3D 00 3D 00 20 00 4E 00 55 00 4C 00 4C 00   .=.=. .N.U.L.L.
+  10015EF0: 20 00 26 00 26 00 20 00 5F 00 5F 00 6F 00 6E 00   .&.&. ._._.o.n.
+  10015F00: 65 00 78 00 69 00 74 00 65 00 6E 00 64 00 20 00  e.x.i.t.e.n.d. .
+  10015F10: 3D 00 3D 00 20 00 4E 00 55 00 4C 00 4C 00 29 00  =.=. .N.U.L.L.).
+  10015F20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015F30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10015F40: 00 00 00 00 00 00 00 00 25 00 73 00 00 00 00 00  ........%.s.....
+  10015F50: 66 00 3A 00 5C 00 64 00 64 00 5C 00 76 00 63 00  f.:.\.d.d.\.v.c.
+  10015F60: 74 00 6F 00 6F 00 6C 00 73 00 5C 00 63 00 72 00  t.o.o.l.s.\.c.r.
+  10015F70: 74 00 5C 00 63 00 72 00 74 00 77 00 33 00 32 00  t.\.c.r.t.w.3.2.
+  10015F80: 5C 00 64 00 6C 00 6C 00 73 00 74 00 75 00 66 00  \.d.l.l.s.t.u.f.
+  10015F90: 66 00 5C 00 61 00 74 00 6F 00 6E 00 65 00 78 00  f.\.a.t.o.n.e.x.
+  10015FA0: 69 00 74 00 2E 00 63 00 00 00 00 00 00 00 00 00  i.t...c.........
+  10015FB0: 00 00 00 00 00 00 00 00 00 00 00 00 66 3A 5C 64  ............f:\d
+  10015FC0: 64 5C 76 63 74 6F 6F 6C 73 5C 63 72 74 5C 63 72  d\vctools\crt\cr
+  10015FD0: 74 77 33 32 5C 64 6C 6C 73 74 75 66 66 5C 61 74  tw32\dllstuff\at
+  10015FE0: 6F 6E 65 78 69 74 2E 63 00 00 00 00 00 00 00 00  onexit.c........
+  10015FF0: 00 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00  ................
+  10016000: 03 00 00 00 04 00 00 00 00 01 00 00 62 00 69 00  ............b.i.
+  10016010: 6E 00 5C 00 4D 00 53 00 50 00 44 00 42 00 31 00  n.\.M.S.P.D.B.1.
+  10016020: 32 00 30 00 2E 00 44 00 4C 00 4C 00 00 00 00 00  2.0...D.L.L.....
+  10016030: 4D 00 53 00 56 00 43 00 52 00 31 00 32 00 30 00  M.S.V.C.R.1.2.0.
+  10016040: 44 00 2E 00 64 00 6C 00 6C 00 00 00 00 00 00 00  D...d.l.l.......
+  10016050: 00 00 00 00 00 00 00 00 14 00 00 00 0B 00 00 00  ................
+  10016060: 00 00 00 80 FF FF 0F 00 00 00 F0 7F FF FF 0F 00  ....ЪЪ....П.ЪЪ..
+  10016070: FF 07 00 00 41 00 44 00 56 00 41 00 50 00 49 00  Ъ...A.D.V.A.P.I.
+  10016080: 33 00 32 00 2E 00 44 00 4C 00 4C 00 00 00 00 00  3.2...D.L.L.....
+  10016090: 00 00 00 00 52 65 67 4F 70 65 6E 4B 65 79 45 78  ....RegOpenKeyEx
+  100160A0: 57 00 00 00 52 65 67 51 75 65 72 79 56 61 6C 75  W...RegQueryValu
+  100160B0: 65 45 78 57 00 00 00 00 52 65 67 43 6C 6F 73 65  eExW....RegClose
+  100160C0: 4B 65 79 00 00 00 00 00 53 00 4F 00 46 00 54 00  Key.....S.O.F.T.
+  100160D0: 57 00 41 00 52 00 45 00 5C 00 4D 00 69 00 63 00  W.A.R.E.\.M.i.c.
+  100160E0: 72 00 6F 00 73 00 6F 00 66 00 74 00 5C 00 56 00  r.o.s.o.f.t.\.V.
+  100160F0: 69 00 73 00 75 00 61 00 6C 00 53 00 74 00 75 00  i.s.u.a.l.S.t.u.
+  10016100: 64 00 69 00 6F 00 5C 00 31 00 32 00 2E 00 30 00  d.i.o.\.1.2...0.
+  10016110: 5C 00 53 00 65 00 74 00 75 00 70 00 5C 00 56 00  \.S.e.t.u.p.\.V.
+  10016120: 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  C...............
+  10016130: 00 00 00 00 00 00 00 00 50 00 72 00 6F 00 64 00  ........P.r.o.d.
+  10016140: 75 00 63 00 74 00 44 00 69 00 72 00 00 00 00 00  u.c.t.D.i.r.....
+  10016150: 00 00 00 00 44 00 4C 00 4C 00 00 00 00 00 00 00  ....D.L.L.......
+  10016160: 4D 00 53 00 50 00 44 00 42 00 31 00 32 00 30 00  M.S.P.D.B.1.2.0.
+  10016170: 00 00 00 00 00 00 00 00 4D 00 53 00 50 00 44 00  ........M.S.P.D.
+  10016180: 42 00 31 00 32 00 30 00 00 00 00 00 00 00 00 00  B.1.2.0.........
+  10016190: 50 44 42 4F 70 65 6E 56 61 6C 69 64 61 74 65 35  PDBOpenValidate5
+  100161A0: 00 00 00 00 72 00 00 00 58 71 01 10 A8 71 01 10  ....r...Xq..╗q..
+  100161B0: 00 00 00 00 00 00 00 00 48 00 00 00 00 00 00 00  ........H.......
+  100161C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100161D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100161E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100161F0: 00 00 00 00 1C 70 01 10 00 00 00 00 00 00 00 00  .....p..........
+  10016200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016210: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016220: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016230: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016240: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016250: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016260: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016270: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016290: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100162F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016350: 52 53 44 53 33 50 FD E3 2E 0B 70 40 89 DE F5 74  RSDS3PЩЦ..p@.чУt
+  10016360: DD 6A 83 35 01 00 00 00 43 3A 5C 55 73 65 72 73  щj.5....C:\Users
+  10016370: 5C 6D 61 79 75 72 5C 44 6F 77 6E 6C 6F 61 64 73  \mayur\Downloads
+  10016380: 5C 63 68 61 6C 6C 65 6E 67 65 5C 44 6C 6C 36 5C  \challenge\Dll6\
+  10016390: 44 6C 6C 36 5C 44 65 62 75 67 5C 44 6C 6C 36 2E  Dll6\Debug\Dll6.
+  100163A0: 70 64 62 00 00 00 00 00 15 00 00 00 15 00 00 00  pdb.............
+  100163B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100163C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100163D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100163E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100163F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016490: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100164F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016500: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016510: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016520: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016530: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016540: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016550: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016560: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016570: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016590: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100165A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100165B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100165C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100165D0: C3 10 01 10 C3 10 01 10 00 00 00 00 00 00 00 00  ц...ц...........
+  100165E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100165F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016610: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016620: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016630: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016640: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016650: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016670: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016690: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100166F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016710: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016720: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016730: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016740: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016750: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016760: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016770: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016780: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016790: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100167F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016810: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016820: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016830: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016840: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016850: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016860: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016870: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016890: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100168A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100168B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100168C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100168D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100168E0: 00 00 00 00 B9 10 01 10 B9 10 01 10 00 00 00 00  ....╧...╧.......
+  100168F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016910: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016920: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016930: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016940: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016950: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016960: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016970: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016990: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100169F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016A90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016AF0: 00 00 00 00 00 00 00 00 FE FF FF FF 00 00 00 00  ........ЧЪЪЪ....
+  10016B00: D0 FF FF FF 00 00 00 00 FE FF FF FF 00 00 00 00  пЪЪЪ....ЧЪЪЪ....
+  10016B10: 40 1D 01 10 00 00 00 00 06 1D 01 10 21 1D 01 10  @...........!...
+  10016B20: 00 00 00 00 00 00 00 00 FE FF FF FF 00 00 00 00  ........ЧЪЪЪ....
+  10016B30: BC FF FF FF 00 00 00 00 FE FF FF FF 36 1E 01 10  ╪ЪЪЪ....ЧЪЪЪ6...
+  10016B40: 49 1E 01 10 00 00 00 00 FE FF FF FF 00 00 00 00  I.......ЧЪЪЪ....
+  10016B50: BC FF FF FF 00 00 00 00 FE FF FF FF 08 1F 01 10  ╪ЪЪЪ....ЧЪЪЪ....
+  10016B60: 1B 1F 01 10 00 00 00 00 FE FF FF FF 00 00 00 00  ........ЧЪЪЪ....
+  10016B70: B0 FF FF FF 00 00 00 00 FE FF FF FF B5 29 01 10  ╟ЪЪЪ....ЧЪЪЪ╣)..
+  10016B80: DC 29 01 10 00 00 00 00 FE FF FF FF 00 00 00 00  э)......ЧЪЪЪ....
+  10016B90: CC FF FF FF 00 00 00 00 FE FF FF FF 00 00 00 00  лЪЪЪ....ЧЪЪЪ....
+  10016BA0: 98 2C 01 10 00 00 00 00 00 00 00 00 00 00 00 00  .,..............
+  10016BB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016BC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016BD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016BE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016BF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016C90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016CA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016CB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016CC0: 00 00 00 00 E9 B0 AA 60 00 00 00 00 06 6D 01 00  ....И╟╙`.....m..
+  10016CD0: 01 00 00 00 03 00 00 00 03 00 00 00 E8 6C 01 00  ............Хl..
+  10016CE0: F4 6C 01 00 00 6D 01 00 46 10 01 00 D7 10 01 00  Тl...m..F...в...
+  10016CF0: 78 10 01 00 0F 6D 01 00 16 6D 01 00 1E 6D 01 00  x....m...m...m..
+  10016D00: 00 00 01 00 02 00 44 6C 6C 36 2E 64 6C 6C 00 63  ......Dll6.dll.c
+  10016D10: 72 65 61 74 65 00 64 65 73 74 72 6F 79 00 73 65  reate.destroy.se
+  10016D20: 61 72 63 68 00 00 00 00 00 00 00 00 00 00 00 00  arch............
+  10016D30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D50: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016D90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DA0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DB0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DC0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DD0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DE0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016DF0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016E00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016E10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016E20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10016E30: 00 00 00 00 00 00 00 00 00                       .........
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    60AAB0E9 cv            54 00016350     5550    Format: RSDS, {E3FD5033-0B2E-4070-89DE-F574DD6A8335}, 1, C:\Users\mayur\Downloads\challenge\Dll6\Dll6\Debug\Dll6.pdb
+    60AAB0E9 feat          14 000163A4     55A4    Counts: Pre-VC++ 11.00=0, C/C++=21, /GS=21, /sdl=0, guardN=0
+
+  Section contains the following exports for Dll6.dll
+
+    00000000 characteristics
+    60AAB0E9 time date stamp Sun May 23 13:45:45 2021
+        0.00 version
+           1 ordinal base
+           3 number of functions
+           3 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00011046 create = @ILT+65(_create@8)
+          2    1 000110D7 destroy = @ILT+210(_destroy@4)
+          3    2 00011078 search = @ILT+115(_search@28)
+
+  Section contains the following load config:
+
+            00000048 size
+                   0 time date stamp
+                0.00 Version
+                   0 GlobalFlags Clear
+                   0 GlobalFlags Set
+                   0 Critical Section Default Timeout
+                   0 Decommit Free Block Threshold
+                   0 Decommit Total Free Threshold
+            00000000 Lock Prefix Table
+                   0 Maximum Allocation Size
+                   0 Virtual Memory Threshold
+                   0 Process Affinity Mask
+                   0 Process Heap Flags
+                   0 CSD Version
+                0000 Dependent Load Flag
+            00000000 Edit List
+            1001701C Security Cookie
+            00000000 Safe Exception Handler Table
+                   0 Safe Exception Handler Count
+
+SECTION HEADER #4
+   .data name
+     54C virtual size
+   17000 virtual address (10017000 to 1001754B)
+     200 size of raw data
+    6200 file pointer to raw data (00006200 to 000063FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+RAW DATA #4
+  10017000: 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00  ................
+  10017010: 01 00 00 00 00 00 00 00 FF FF FF FF 4E E6 40 BB  ........ЪЪЪЪNФ@╩
+  10017020: B1 19 BF 44 00 00 00 00 00 00 00 00 00 00 00 00  ╠.©D............
+  10017030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100170F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10017190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100171F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+
+SECTION HEADER #5
+  .idata name
+     72D virtual size
+   18000 virtual address (10018000 to 1001872C)
+     800 size of raw data
+    6400 file pointer to raw data (00006400 to 00006BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #5
+  10018000: 9C 85 01 00 86 85 01 00 78 85 01 00 68 85 01 00  ........x...h...
+  10018010: 56 85 01 00 4A 85 01 00 3E 85 01 00 24 85 01 00  V...J...>...$...
+  10018020: 0E 85 01 00 F8 84 01 00 DE 84 01 00 C8 84 01 00  ....Ь...ч...х...
+  10018030: B2 84 01 00 A0 84 01 00 8E 84 01 00 7E 84 01 00  ╡...........~...
+  10018040: 6C 84 01 00 58 84 01 00 48 84 01 00 38 84 01 00  l...X...H...8...
+  10018050: B0 85 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ╟...............
+  10018060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018090: F0 83 01 00 E0 83 01 00 20 84 01 00 D0 83 01 00  П...Ю... ...п...
+  100180A0: C4 83 01 00 AA 83 01 00 86 83 01 00 7C 83 01 00  д...╙.......|...
+  100180B0: 6E 83 01 00 60 83 01 00 4E 83 01 00 44 83 01 00  n...`...N...D...
+  100180C0: 3C 83 01 00 2E 83 01 00 22 83 01 00 0E 83 01 00  <.......".......
+  100180D0: 02 83 01 00 F4 82 01 00 E6 82 01 00 D4 82 01 00  ....Т...Ф...т...
+  100180E0: C2 82 01 00 A4 82 01 00 06 84 01 00 94 82 01 00  б...╓...........
+  100180F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018120: 00 00 00 00 00 00 00 00 00 00 00 00 F8 81 01 00  ............Ь...
+  10018130: 00 00 00 00 00 00 00 00 B4 82 01 00 90 80 01 00  ........╢.......
+  10018140: 68 81 01 00 00 00 00 00 00 00 00 00 CC 85 01 00  h...........л...
+  10018150: 00 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018160: 00 00 00 00 00 00 00 00 9C 85 01 00 86 85 01 00  ................
+  10018170: 78 85 01 00 68 85 01 00 56 85 01 00 4A 85 01 00  x...h...V...J...
+  10018180: 3E 85 01 00 24 85 01 00 0E 85 01 00 F8 84 01 00  >...$.......Ь...
+  10018190: DE 84 01 00 C8 84 01 00 B2 84 01 00 A0 84 01 00  ч...х...╡.......
+  100181A0: 8E 84 01 00 7E 84 01 00 6C 84 01 00 58 84 01 00  ....~...l...X...
+  100181B0: 48 84 01 00 38 84 01 00 B0 85 01 00 00 00 00 00  H...8...╟.......
+  100181C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100181D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100181E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100181F0: 00 00 00 00 00 00 00 00 F0 83 01 00 E0 83 01 00  ........П...Ю...
+  10018200: 20 84 01 00 D0 83 01 00 C4 83 01 00 AA 83 01 00   ...п...д...╙...
+  10018210: 86 83 01 00 7C 83 01 00 6E 83 01 00 60 83 01 00  ....|...n...`...
+  10018220: 4E 83 01 00 44 83 01 00 3C 83 01 00 2E 83 01 00  N...D...<.......
+  10018230: 22 83 01 00 0E 83 01 00 02 83 01 00 F4 82 01 00  "...........Т...
+  10018240: E6 82 01 00 D4 82 01 00 C2 82 01 00 A4 82 01 00  Ф...т...б...╓...
+  10018250: 06 84 01 00 94 82 01 00 00 00 00 00 00 00 00 00  ................
+  10018260: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018270: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018290: 00 00 00 00 70 00 3F 3F 32 40 59 41 50 41 58 49  ....p.??2@YAPAXI
+  100182A0: 40 5A 00 00 72 00 3F 3F 33 40 59 41 58 50 41 58  @Z..r.??3@YAXPAX
+  100182B0: 40 5A 00 00 4D 53 56 43 52 31 32 30 44 2E 64 6C  @Z..MSVCR120D.dl
+  100182C0: 6C 00 57 01 5F 43 52 54 5F 52 54 43 5F 49 4E 49  l.W._CRT_RTC_INI
+  100182D0: 54 57 00 00 91 01 5F 5F 43 70 70 58 63 70 74 46  TW....__CppXcptF
+  100182E0: 69 6C 74 65 72 00 44 02 5F 61 6D 73 67 5F 65 78  ilter.D._amsg_ex
+  100182F0: 69 74 00 00 DD 03 5F 6D 61 6C 6C 6F 63 5F 64 62  it..щ._malloc_db
+  10018300: 67 00 E4 02 5F 66 72 65 65 5F 64 62 67 00 6E 01  g.Д._free_dbg.n.
+  10018310: 5F 43 72 74 53 65 74 43 68 65 63 6B 43 6F 75 6E  _CrtSetCheckCoun
+  10018320: 74 00 45 03 5F 69 6E 69 74 74 65 72 6D 00 46 03  t.E._initterm.F.
+  10018330: 5F 69 6E 69 74 74 65 72 6D 5F 65 00 CB 03 5F 6C  _initterm_e.к._l
+  10018340: 6F 63 6B 00 3F 05 5F 75 6E 6C 6F 63 6B 00 5D 01  ock.?._unlock.].
+  10018350: 5F 43 72 74 44 62 67 52 65 70 6F 72 74 57 00 00  _CrtDbgReportW..
+  10018360: 5B 02 5F 63 61 6C 6C 6F 63 5F 64 62 67 00 D0 01  [._calloc_dbg.п.
+  10018370: 5F 5F 64 6C 6C 6F 6E 65 78 69 74 00 73 04 5F 6F  __dllonexit.s._o
+  10018380: 6E 65 78 69 74 00 AE 01 5F 5F 63 6C 65 61 6E 5F  nexit.╝.__clean_
+  10018390: 74 79 70 65 5F 69 6E 66 6F 5F 6E 61 6D 65 73 5F  type_info_names_
+  100183A0: 69 6E 74 65 72 6E 61 6C 00 00 AD 02 5F 65 78 63  internal..╜._exc
+  100183B0: 65 70 74 5F 68 61 6E 64 6C 65 72 34 5F 63 6F 6D  ept_handler4_com
+  100183C0: 6D 6F 6E 00 C6 07 77 63 73 63 70 79 5F 73 00 00  mon.ф.wcscpy_s..
+  100183D0: DD 05 5F 77 6D 61 6B 65 70 61 74 68 5F 73 00 00  щ._wmakepath_s..
+  100183E0: FF 05 5F 77 73 70 6C 69 74 70 61 74 68 5F 73 00  Ъ._wsplitpath_s.
+  100183F0: 82 02 5F 63 72 74 5F 64 65 62 75 67 67 65 72 5F  .._crt_debugger_
+  10018400: 68 6F 6F 6B 00 00 CE 01 5F 5F 63 72 74 55 6E 68  hook..н.__crtUnh
+  10018410: 61 6E 64 6C 65 64 45 78 63 65 70 74 69 6F 6E 00  andledException.
+  10018420: CD 01 5F 5F 63 72 74 54 65 72 6D 69 6E 61 74 65  м.__crtTerminate
+  10018430: 50 72 6F 63 65 73 73 00 21 01 45 6E 63 6F 64 65  Process.!.Encode
+  10018440: 50 6F 69 6E 74 65 72 00 FE 00 44 65 63 6F 64 65  Pointer.Ч.Decode
+  10018450: 50 6F 69 6E 74 65 72 00 67 03 49 73 44 65 62 75  Pointer.g.IsDebu
+  10018460: 67 67 65 72 50 72 65 73 65 6E 74 00 40 04 52 61  ggerPresent.@.Ra
+  10018470: 69 73 65 45 78 63 65 70 74 69 6F 6E 00 00 50 02  iseException..P.
+  10018480: 47 65 74 4C 61 73 74 45 72 72 6F 72 00 00 9D 02  GetLastError....
+  10018490: 47 65 74 50 72 6F 63 41 64 64 72 65 73 73 00 00  GetProcAddress..
+  100184A0: A7 03 4C 6F 61 64 4C 69 62 72 61 72 79 45 78 57  ╖.LoadLibraryExW
+  100184B0: 00 00 D1 03 4D 75 6C 74 69 42 79 74 65 54 6F 57  ..я.MultiByteToW
+  100184C0: 69 64 65 43 68 61 72 00 CD 05 57 69 64 65 43 68  ideChar.м.WideCh
+  100184D0: 61 72 54 6F 4D 75 6C 74 69 42 79 74 65 00 2D 04  arToMultiByte.-.
+  100184E0: 51 75 65 72 79 50 65 72 66 6F 72 6D 61 6E 63 65  QueryPerformance
+  100184F0: 43 6F 75 6E 74 65 72 00 0A 02 47 65 74 43 75 72  Counter...GetCur
+  10018500: 72 65 6E 74 50 72 6F 63 65 73 73 49 64 00 0E 02  rentProcessId...
+  10018510: 47 65 74 43 75 72 72 65 6E 74 54 68 72 65 61 64  GetCurrentThread
+  10018520: 49 64 00 00 D6 02 47 65 74 53 79 73 74 65 6D 54  Id..ж.GetSystemT
+  10018530: 69 6D 65 41 73 46 69 6C 65 54 69 6D 65 00 2F 03  imeAsFileTime./.
+  10018540: 48 65 61 70 41 6C 6C 6F 63 00 33 03 48 65 61 70  HeapAlloc.3.Heap
+  10018550: 46 72 65 65 00 00 A2 02 47 65 74 50 72 6F 63 65  Free..╒.GetProce
+  10018560: 73 73 48 65 61 70 00 00 A3 05 56 69 72 74 75 61  ssHeap..ё.Virtua
+  10018570: 6C 51 75 65 72 79 00 00 9E 01 46 72 65 65 4C 69  lQuery....FreeLi
+  10018580: 62 72 61 72 79 00 63 02 47 65 74 4D 6F 64 75 6C  brary.c.GetModul
+  10018590: 65 46 69 6C 65 4E 61 6D 65 57 00 00 67 02 47 65  eFileNameW..g.Ge
+  100185A0: 74 4D 6F 64 75 6C 65 48 61 6E 64 6C 65 57 00 00  tModuleHandleW..
+  100185B0: 6D 03 49 73 50 72 6F 63 65 73 73 6F 72 46 65 61  m.IsProcessorFea
+  100185C0: 74 75 72 65 50 72 65 73 65 6E 74 00 4B 45 52 4E  turePresent.KERN
+  100185D0: 45 4C 33 32 2E 64 6C 6C 00 00 00 00 00 00 00 00  EL32.dll........
+  100185E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100185F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018600: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018610: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018620: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018630: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018640: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018650: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018660: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018670: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018690: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100186F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018700: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018710: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10018720: 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+
+  Section contains the following imports:
+
+    MSVCR120D.dll
+              10018090 Import Address Table
+              100181F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  282 _crt_debugger_hook
+                  5FF _wsplitpath_s
+                  1CD __crtTerminateProcess
+                  5DD _wmakepath_s
+                  7C6 wcscpy_s
+                  2AD _except_handler4_common
+                  1AE __clean_type_info_names_internal
+                  473 _onexit
+                  1D0 __dllonexit
+                  25B _calloc_dbg
+                  15D _CrtDbgReportW
+                  53F _unlock
+                  3CB _lock
+                  346 _initterm_e
+                  345 _initterm
+                  16E _CrtSetCheckCount
+                  2E4 _free_dbg
+                  3DD _malloc_dbg
+                  244 _amsg_exit
+                  191 __CppXcptFilter
+                  157 _CRT_RTC_INITW
+                   72 ??3@YAXPAX@Z
+                  1CE __crtUnhandledException
+                   70 ??2@YAPAXI@Z
+
+    KERNEL32.dll
+              10018000 Import Address Table
+              10018168 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  267 GetModuleHandleW
+                  263 GetModuleFileNameW
+                  19E FreeLibrary
+                  5A3 VirtualQuery
+                  2A2 GetProcessHeap
+                  333 HeapFree
+                  32F HeapAlloc
+                  2D6 GetSystemTimeAsFileTime
+                  20E GetCurrentThreadId
+                  20A GetCurrentProcessId
+                  42D QueryPerformanceCounter
+                  5CD WideCharToMultiByte
+                  3D1 MultiByteToWideChar
+                  3A7 LoadLibraryExW
+                  29D GetProcAddress
+                  250 GetLastError
+                  440 RaiseException
+                  367 IsDebuggerPresent
+                   FE DecodePointer
+                  121 EncodePointer
+                  36D IsProcessorFeaturePresent
+
+SECTION HEADER #6
+   .rsrc name
+     43C virtual size
+   19000 virtual address (10019000 to 1001943B)
+     600 size of raw data
+    6C00 file pointer to raw data (00006C00 to 000071FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #6
+  10019000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  10019010: 18 00 00 00 18 00 00 80 00 00 00 00 00 00 00 00  ................
+  10019020: 00 00 00 00 00 00 01 00 02 00 00 00 30 00 00 80  ............0...
+  10019030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00  ................
+  10019040: 09 04 00 00 48 00 00 00 70 91 01 00 7D 01 00 00  ....H...p...}...
+  10019050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100190F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019170: 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 27 31  <?xml version='1
+  10019180: 2E 30 27 20 65 6E 63 6F 64 69 6E 67 3D 27 55 54  .0' encoding='UT
+  10019190: 46 2D 38 27 20 73 74 61 6E 64 61 6C 6F 6E 65 3D  F-8' standalone=
+  100191A0: 27 79 65 73 27 3F 3E 0D 0A 3C 61 73 73 65 6D 62  'yes'?>..<assemb
+  100191B0: 6C 79 20 78 6D 6C 6E 73 3D 27 75 72 6E 3A 73 63  ly xmlns='urn:sc
+  100191C0: 68 65 6D 61 73 2D 6D 69 63 72 6F 73 6F 66 74 2D  hemas-microsoft-
+  100191D0: 63 6F 6D 3A 61 73 6D 2E 76 31 27 20 6D 61 6E 69  com:asm.v1' mani
+  100191E0: 66 65 73 74 56 65 72 73 69 6F 6E 3D 27 31 2E 30  festVersion='1.0
+  100191F0: 27 3E 0D 0A 20 20 3C 74 72 75 73 74 49 6E 66 6F  '>..  <trustInfo
+  10019200: 20 78 6D 6C 6E 73 3D 22 75 72 6E 3A 73 63 68 65   xmlns="urn:sche
+  10019210: 6D 61 73 2D 6D 69 63 72 6F 73 6F 66 74 2D 63 6F  mas-microsoft-co
+  10019220: 6D 3A 61 73 6D 2E 76 33 22 3E 0D 0A 20 20 20 20  m:asm.v3">..    
+  10019230: 3C 73 65 63 75 72 69 74 79 3E 0D 0A 20 20 20 20  <security>..    
+  10019240: 20 20 3C 72 65 71 75 65 73 74 65 64 50 72 69 76    <requestedPriv
+  10019250: 69 6C 65 67 65 73 3E 0D 0A 20 20 20 20 20 20 20  ileges>..       
+  10019260: 20 3C 72 65 71 75 65 73 74 65 64 45 78 65 63 75   <requestedExecu
+  10019270: 74 69 6F 6E 4C 65 76 65 6C 20 6C 65 76 65 6C 3D  tionLevel level=
+  10019280: 27 61 73 49 6E 76 6F 6B 65 72 27 20 75 69 41 63  'asInvoker' uiAc
+  10019290: 63 65 73 73 3D 27 66 61 6C 73 65 27 20 2F 3E 0D  cess='false' />.
+  100192A0: 0A 20 20 20 20 20 20 3C 2F 72 65 71 75 65 73 74  .      </request
+  100192B0: 65 64 50 72 69 76 69 6C 65 67 65 73 3E 0D 0A 20  edPrivileges>.. 
+  100192C0: 20 20 20 3C 2F 73 65 63 75 72 69 74 79 3E 0D 0A     </security>..
+  100192D0: 20 20 3C 2F 74 72 75 73 74 49 6E 66 6F 3E 0D 0A    </trustInfo>..
+  100192E0: 3C 2F 61 73 73 65 6D 62 6C 79 3E 0D 0A 00 00 00  </assembly>.....
+  100192F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019310: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019320: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  100193F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  10019430: 00 00 00 00 00 00 00 00 00 00 00 00              ............
+
+SECTION HEADER #7
+  .reloc name
+     4BD virtual size
+   1A000 virtual address (1001A000 to 1001A4BC)
+     600 size of raw data
+    7200 file pointer to raw data (00007200 to 000077FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+RAW DATA #7
+  1001A000: 00 10 01 00 A8 00 00 00 D4 34 DA 34 D2 36 E5 36  ....╗...т4з4р6Е6
+  1001A010: 3A 37 47 37 57 37 5C 37 62 37 68 37 88 37 95 37  :7G7W7\7b7h7.7.7
+  1001A020: EE 37 F6 37 FE 37 32 38 5A 38 6F 38 78 38 7D 38  Н7Ж7Ч728Z8o8x8}8
+  1001A030: 95 38 9A 38 A8 38 B9 38 C1 38 C9 38 E5 38 ED 38  .8.8╗8╧8а8и8Е8М8
+  1001A040: F6 38 FF 38 2F 39 57 39 6F 39 76 39 89 39 90 39  Ж8Ъ8/9W9o9v9.9.9
+  1001A050: E2 39 01 3A 0C 3A 19 3A 20 3A 29 3A 30 3A 72 3A  Б9.:.:.: :):0:r:
+  1001A060: 7D 3A 82 3A 87 3A 8C 3A 92 3A A3 3A A6 3B AB 3B  }:.:.:.:.:ё:╕;╚;
+  1001A070: BD 3B E5 3B F8 3B 19 3C 2E 3C 9A 3C AD 3C E1 3C  ╫;Е;Ь;.<.<.<╜<А<
+  1001A080: F6 3C 42 3D D6 3D DB 3D ED 3D 30 3E 96 3E 9B 3E  Ж<B=ж=ш=М=0>.>.>
+  1001A090: AD 3E 02 3F 7A 3F 89 3F A8 3F B5 3F C3 3F D3 3F  ╜>.?z?.?╗?╣?ц?с?
+  1001A0A0: E4 3F EB 3F F3 3F 00 00 00 20 01 00 F4 00 00 00  Д?К?С?... ..Т...
+  1001A0B0: 1C 30 27 30 2D 30 33 30 38 30 43 30 66 30 6C 30  .0'0-03080C0f0l0
+  1001A0C0: 7B 30 92 30 C0 30 5E 31 65 31 80 31 CA 31 DD 31  {0.0ю0^1e1.1й1щ1
+  1001A0D0: 22 32 53 32 96 32 33 33 3A 33 BA 33 0C 34 44 34  "2S2.233:3╨3.4D4
+  1001A0E0: 64 34 96 34 DF 34 FD 34 1A 35 42 35 70 35 2A 36  d4.4ъ4Щ4.5B5p5*6
+  1001A0F0: 34 36 72 36 A3 36 E6 36 51 37 61 37 7E 37 A4 37  46r6ё6Ф6Q7a7~7╓7
+  1001A100: AD 37 B3 37 D4 37 DD 37 E3 37 0E 38 18 38 2E 38  ╜7Ё7т7щ7Ц7.8.8.8
+  1001A110: 34 38 3A 38 40 38 46 38 4C 38 E6 38 EB 38 FD 38  48:8@8F8L8Ф8К8Щ8
+  1001A120: 16 39 E6 3A EF 3A F8 3A 01 3B 09 3B 0E 3B 17 3B  .9Ф:О:Ь:.;.;.;.;
+  1001A130: 1F 3B 2E 3B 3C 3B 48 3B 58 3B 5D 3B 63 3B 69 3B  .;.;<;H;X;];c;i;
+  1001A140: C6 3B CB 3B DD 3B F8 3B FF 3B 12 3C 31 3C 38 3C  ф;к;щ;Ь;Ъ;.<1<8<
+  1001A150: 40 3C 47 3C 5C 3C 72 3C 77 3C 81 3C 86 3C 56 3D  @<G<\<r<w<.<.<V=
+  1001A160: 61 3D 6E 3D 76 3D 85 3D 9A 3D A6 3D B6 3D 0A 3E  a=n=v=.=.=╕=╤=.>
+  1001A170: 15 3E 62 3E 69 3E 7D 3E 92 3E 99 3E AD 3E C0 3E  .>b>i>}>.>.>╜>ю>
+  1001A180: C6 3E D4 3E 04 3F 09 3F 2A 3F 35 3F 4E 3F 62 3F  ф>т>.?.?*?5?N?b?
+  1001A190: 68 3F 6E 3F 85 3F C6 3F E8 3F F4 3F 00 30 01 00  h?n?.?ф?Х?Т?.0..
+  1001A1A0: 38 01 00 00 0D 30 BA 30 C6 30 D3 30 E1 30 ED 30  8....0╨0ф0с0А0М0
+  1001A1B0: 0E 31 13 31 25 31 37 31 54 31 6A 31 A3 31 C4 31  .1.1%171T1j1ё1д1
+  1001A1C0: 2C 32 38 32 44 32 50 32 5C 32 68 32 74 32 80 32  ,282D2P2\2h2t2.2
+  1001A1D0: 8D 32 B1 32 7A 33 D3 33 ED 33 A5 34 BF 34 26 35  .2╠2z3с3М3╔4©4&5
+  1001A1E0: 2F 35 3C 35 46 35 4E 35 53 35 5A 35 A8 35 71 36  /5<5F5N5S5Z5╗5q6
+  1001A1F0: 78 36 F8 36 FF 36 E2 37 F4 37 FA 37 00 38 06 38  x6Ь6Ъ6Б7Т7З7.8.8
+  1001A200: 0C 38 12 38 18 38 1E 38 24 38 2A 38 35 38 3A 38  .8.8.8.8$8*858:8
+  1001A210: 56 38 AC 38 B2 38 B8 38 BE 38 C4 38 CA 38 D1 38  V8╛8╡8╦8╬8д8й8я8
+  1001A220: D8 38 DF 38 E6 38 ED 38 F4 38 FB 38 03 39 0B 39  ь8ъ8Ф8М8Т8Ш8.9.9
+  1001A230: 13 39 1F 39 28 39 2D 39 33 39 3D 39 47 39 59 39  .9.9(9-939=9G9Y9
+  1001A240: 6B 39 7D 39 86 39 0A 3A 10 3A 16 3A 1C 3A 22 3A  k9}9.9.:.:.:.:":
+  1001A250: 28 3A 2F 3A 36 3A 3D 3A 44 3A 4B 3A 52 3A 59 3A  (:/:6:=:D:K:R:Y:
+  1001A260: 61 3A 69 3A 71 3A 7C 3A 81 3A 87 3A 91 3A 9B 3A  a:i:q:|:.:.:.:.:
+  1001A270: B0 3A B5 3A 1A 3B 20 3B 26 3B 2C 3B 32 3B 38 3B  ╟:╣:.; ;&;,;2;8;
+  1001A280: 3F 3B 46 3B 4D 3B 54 3B 5B 3B 62 3B 69 3B 71 3B  ?;F;M;T;[;b;i;q;
+  1001A290: 79 3B 81 3B 8C 3B 91 3B 97 3B A1 3B D3 3B E4 3B  y;.;.;.;.;║;с;Д;
+  1001A2A0: 11 3C 18 3C 70 3C 76 3C 7C 3C 82 3C 88 3C 8E 3C  .<.<p<v<|<.<.<.<
+  1001A2B0: 94 3C 9A 3C A0 3C A6 3C AC 3C B2 3C B8 3C BE 3C  .<.<.<╕<╛<╡<╦<╬<
+  1001A2C0: C4 3C CA 3C D0 3C D6 3C DC 3C E2 3C E8 3C EE 3C  д<й<п<ж<э<Б<Х<Н<
+  1001A2D0: F4 3C FA 3C 00 50 01 00 24 00 00 00 0C 33 10 34  Т<З<.P..$....3.4
+  1001A2E0: 90 36 94 36 98 36 9C 36 A0 36 A4 36 7C 3D 80 3D  .6.6.6.6.6╓6|=.=
+  1001A2F0: 84 3D 88 3D 8C 3D 00 00 00 60 01 00 2C 00 00 00  .=.=.=...`..,...
+  1001A300: A8 31 AC 31 F4 31 D0 35 D4 35 E4 38 E8 38 10 3B  ╗1╛1Т1п5т5Д8Х8.;
+  1001A310: 18 3B 1C 3B 3C 3B 40 3B 5C 3B 60 3B 7C 3B 80 3B  .;.;<;@;\;`;|;.;
+  1001A320: A0 3B 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .;..............
+  1001A330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A350: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A360: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A370: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A390: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A3F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A410: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A420: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A430: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A440: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A450: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A460: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A470: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A480: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A490: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A4A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  1001A4B0: 00 00 00 00 00 00 00 00 00 00 00 00 00           .............
+
+BASE RELOCATIONS #7
+   11000 RVA,       A8 SizeOfBlock
+     4D4  HIGHLOW            100180EC  __imp_??2@YAPAXI@Z (__declspec(dllimport) void * __cdecl operator new(unsigned int))
+     4DA  HIGHLOW            100180E4  __imp_??3@YAXPAX@Z (__declspec(dllimport) void __cdecl operator delete(void *))
+     6D2  HIGHLOW            1001712C
+     6E5  HIGHLOW            1001712C
+     73A  HIGHLOW            1001565C  ??_C@_0CL@CCAGLLEM@f?3?2dd?2vctools?2crt?2crtw32?2dllstuf@ (`string')
+     747  HIGHLOW            100180D4  __imp___malloc_dbg
+     757  HIGHLOW            1001804C  __imp__EncodePointer@4
+     75C  HIGHLOW            1001753C  ___onexitbegin
+     762  HIGHLOW            1001753C  ___onexitbegin
+     768  HIGHLOW            1001752C  ___onexitend
+     788  HIGHLOW            1001101E  @ILT+25(__RTC_Terminate)
+     795  HIGHLOW            10011154  @ILT+335(___clean_type_info_names)
+     7EE  HIGHLOW            10017130
+     7F6  HIGHLOW            10017130
+     7FE  HIGHLOW            10017130
+     832  HIGHLOW            10017518  ___native_startup_lock
+     85A  HIGHLOW            10017528  ___native_startup_state
+     86F  HIGHLOW            10017528  ___native_startup_state
+     878  HIGHLOW            10015514  ___xi_z
+     87D  HIGHLOW            10015208  ___xi_a
+     895  HIGHLOW            10015104  ___xc_z
+     89A  HIGHLOW            10015000  ___xc_a
+     8A8  HIGHLOW            10017528  ___native_startup_state
+     8B9  HIGHLOW            10017518  ___native_startup_lock
+     8C1  HIGHLOW            10017540  ___dyn_tls_init_callback
+     8C9  HIGHLOW            10017540  ___dyn_tls_init_callback
+     8E5  HIGHLOW            10017540  ___dyn_tls_init_callback
+     8ED  HIGHLOW            100180CC  __imp___CrtSetCheckCount
+     8F6  HIGHLOW            10017130
+     8FF  HIGHLOW            10017130
+     92F  HIGHLOW            10017518  ___native_startup_lock
+     957  HIGHLOW            10017528  ___native_startup_state
+     96F  HIGHLOW            1001753C  ___onexitbegin
+     976  HIGHLOW            10018048  __imp__DecodePointer@4
+     989  HIGHLOW            1001752C  ___onexitend
+     990  HIGHLOW            10018048  __imp__DecodePointer@4
+     9E2  HIGHLOW            1001804C  __imp__EncodePointer@4
+     A01  HIGHLOW            10018048  __imp__DecodePointer@4
+     A0C  HIGHLOW            1001804C  __imp__EncodePointer@4
+     A19  HIGHLOW            1001753C  ___onexitbegin
+     A20  HIGHLOW            10018048  __imp__DecodePointer@4
+     A29  HIGHLOW            1001752C  ___onexitend
+     A30  HIGHLOW            10018048  __imp__DecodePointer@4
+     A72  HIGHLOW            100180D0  __imp___free_dbg
+     A7D  HIGHLOW            1001804C  __imp__EncodePointer@4
+     A82  HIGHLOW            1001752C  ___onexitend
+     A87  HIGHLOW            1001752C  ___onexitend
+     A8C  HIGHLOW            1001753C  ___onexitbegin
+     A92  HIGHLOW            10017528  ___native_startup_state
+     AA3  HIGHLOW            10017518  ___native_startup_lock
+     BA6  HIGHLOW            10016AF8
+     BAB  HIGHLOW            10011073  @ILT+110(__except_handler4)
+     BBD  HIGHLOW            1001701C  ___security_cookie
+     BE5  HIGHLOW            10017018  ___native_dllmain_reason
+     BF8  HIGHLOW            10017130
+     C19  HIGHLOW            10015658  __pDefaultRawDllMain
+     C2E  HIGHLOW            10015658  __pDefaultRawDllMain
+     C9A  HIGHLOW            10015658  __pDefaultRawDllMain
+     CAD  HIGHLOW            10015658  __pDefaultRawDllMain
+     CE1  HIGHLOW            10015658  __pDefaultRawDllMain
+     CF6  HIGHLOW            10015658  __pDefaultRawDllMain
+     D42  HIGHLOW            10017018  ___native_dllmain_reason
+     DD6  HIGHLOW            10016B28
+     DDB  HIGHLOW            10011073  @ILT+110(__except_handler4)
+     DED  HIGHLOW            1001701C  ___security_cookie
+     E30  HIGHLOW            10018040  __imp__RaiseException@16
+     E96  HIGHLOW            10016B48
+     E9B  HIGHLOW            10011073  @ILT+110(__except_handler4)
+     EAD  HIGHLOW            1001701C  ___security_cookie
+     F02  HIGHLOW            10018040  __imp__RaiseException@16
+     F7A  HIGHLOW            1001701C  ___security_cookie
+     F89  HIGHLOW            10017010
+     FA8  HIGHLOW            10018034  __imp__LoadLibraryExW@12
+     FB5  HIGHLOW            10015BD8  ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ (`string')
+     FC3  HIGHLOW            1001803C  __imp__GetLastError@0
+     FD3  HIGHLOW            10015BD8  ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ (`string')
+     FE4  HIGHLOW            10015BF4  ??_C@_09FOPFMPEJ@wsprintfA?$AA@ (`string')
+     FEB  HIGHLOW            10018038  __imp__GetProcAddress@8
+     FF3  HIGHLOW            10017134  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+       0  ABS                        
+   12000 RVA,       F4 SizeOfBlock
+      1C  HIGHLOW            10015C58  ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ (`string')
+      27  HIGHLOW            10015C64  ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ (`string')
+      2D  HIGHLOW            10015C98  ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ (`string')
+      33  HIGHLOW            10015CA4  ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ (`string')
+      38  HIGHLOW            10015CB8  ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ (`string')
+      43  HIGHLOW            10015D10  ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ (`string')
+      66  HIGHLOW            10015D28  ??_C@_01EEMJAFIK@?6?$AA@ (`string')
+      6C  HIGHLOW            10015D2C  ??_C@_02LLMPMKNF@?$DO?5?$AA@ (`string')
+      7B  HIGHLOW            10015D30  ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ (`string')
+      92  HIGHLOW            10017134  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+      C0  HIGHLOW            10015C00  ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ (`string')
+     15E  HIGHLOW            10017000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     165  HIGHLOW            10015690
+     180  HIGHLOW            100156A4
+     1CA  HIGHLOW            1001701C  ___security_cookie
+     1DD  HIGHLOW            10017008
+     222  HIGHLOW            100156C0
+     253  HIGHLOW            100156DC
+     296  HIGHLOW            10015BA0  ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ (`string')
+     333  HIGHLOW            10015BD0  ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ (`string')
+     33A  HIGHLOW            10017134  ?wsprintffp@@3P6AHPADPBDZZA (int (__cdecl* wsprintffp)(char *,char const *,...))
+     3BA  HIGHLOW            1001701C  ___security_cookie
+     40C  HIGHLOW            10018030  __imp__MultiByteToWideChar@24
+     444  HIGHLOW            10015A78  ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ (`string')
+     464  HIGHLOW            100156A8
+     496  HIGHLOW            10018044  __imp__IsDebuggerPresent@0
+     4DF  HIGHLOW            10015B00  ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ (`string')
+     4FD  HIGHLOW            1001802C  __imp__WideCharToMultiByte@32
+     51A  HIGHLOW            10015B4C  ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ (`string')
+     542  HIGHLOW            10015B60  ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ (`string')
+     570  HIGHLOW            10015B78  ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ (`string')
+     62A  HIGHLOW            1001701C  ___security_cookie
+     634  HIGHLOW            1001700C
+     672  HIGHLOW            100156F0
+     6A3  HIGHLOW            10015700
+     6E6  HIGHLOW            10015D3C  ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ (`string')
+     751  HIGHLOW            10017138
+     761  HIGHLOW            1001713C
+     77E  HIGHLOW            10015D7C
+     7A4  HIGHLOW            10017138
+     7AD  HIGHLOW            10017138
+     7B3  HIGHLOW            1001713C
+     7D4  HIGHLOW            1001713C
+     7DD  HIGHLOW            1001713C
+     7E3  HIGHLOW            10017138
+     80E  HIGHLOW            10017000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     818  HIGHLOW            10017000  ?_RTC_ErrorLevels@@3PAHA (int * _RTC_ErrorLevels)
+     82E  HIGHLOW            100180E0  __imp___CRT_RTC_INITW
+     834  HIGHLOW            100180DC  __imp____CppXcptFilter
+     83A  HIGHLOW            100180D8  __imp___amsg_exit
+     840  HIGHLOW            100180D4  __imp___malloc_dbg
+     846  HIGHLOW            100180D0  __imp___free_dbg
+     84C  HIGHLOW            100180CC  __imp___CrtSetCheckCount
+     8E6  HIGHLOW            10016B68
+     8EB  HIGHLOW            10011073  @ILT+110(__except_handler4)
+     8FD  HIGHLOW            1001701C  ___security_cookie
+     916  HIGHLOW            10000000
+     AE6  HIGHLOW            1001753C  ___onexitbegin
+     AEF  HIGHLOW            1001752C  ___onexitend
+     AF8  HIGHLOW            1001753C  ___onexitbegin
+     B01  HIGHLOW            1001752C  ___onexitend
+     B09  HIGHLOW            10015E60  ??_C@_1MC@KPMPFEII@?$AA?$CI?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt?$AAb?$AAe?$AAg?$AAi?$AAn?$AA?5?$AA?$CB?$AA?$DN?$AA?5?$AAN?$AAU?$AAL?$AAL?$AA?5?$AA?$CG?$AA?$CG?$AA?5?$AA_?$AA_?$AAo?$AAn?$AAe?$AAx@ (`string')
+     B0E  HIGHLOW            10015F48  ??_C@_15GANGMFKL@?$AA?$CF?$AAs?$AA?$AA@ (`string')
+     B17  HIGHLOW            10015F50  ??_C@_1FK@IGIDCAPD@?$AAf?$AA?3?$AA?2?$AAd?$AAd?$AA?2?$AAv?$AAc?$AAt?$AAo?$AAo?$AAl?$AAs?$AA?2?$AAc?$AAr?$AAt?$AA?2?$AAc?$AAr?$AAt?$AAw?$AA3?$AA2?$AA?2?$AAd?$AAl?$AAl?$AAs?$AAt?$AAu?$AAf@ (`string')
+     B1F  HIGHLOW            100180B8  __imp___CrtDbgReportW
+     B2E  HIGHLOW            1001753C  ___onexitbegin
+     B3C  HIGHLOW            10015FBC  ??_C@_0CN@LMJJPMEG@f?3?2dd?2vctools?2crt?2crtw32?2dllstuf@ (`string')
+     B48  HIGHLOW            100180B4  __imp___calloc_dbg
+     B58  HIGHLOW            1001804C  __imp__EncodePointer@4
+     B5D  HIGHLOW            1001753C  ___onexitbegin
+     B63  HIGHLOW            1001753C  ___onexitbegin
+     B69  HIGHLOW            1001752C  ___onexitend
+     BC6  HIGHLOW            10016B88
+     BCB  HIGHLOW            10011073  @ILT+110(__except_handler4)
+     BDD  HIGHLOW            1001701C  ___security_cookie
+     BF8  HIGHLOW            1001753C  ___onexitbegin
+     BFF  HIGHLOW            10018048  __imp__DecodePointer@4
+     C12  HIGHLOW            100180AC  __imp___onexit
+     C31  HIGHLOW            1001753C  ___onexitbegin
+     C38  HIGHLOW            10018048  __imp__DecodePointer@4
+     C40  HIGHLOW            1001752C  ___onexitend
+     C47  HIGHLOW            10018048  __imp__DecodePointer@4
+     C5C  HIGHLOW            1001804C  __imp__EncodePointer@4
+     C72  HIGHLOW            1001804C  __imp__EncodePointer@4
+     C77  HIGHLOW            1001753C  ___onexitbegin
+     C81  HIGHLOW            1001804C  __imp__EncodePointer@4
+     C86  HIGHLOW            1001752C  ___onexitend
+     D56  HIGHLOW            1001701C  ___security_cookie
+     D61  HIGHLOW            1001701C  ___security_cookie
+     D6E  HIGHLOW            1001701C  ___security_cookie
+     D76  HIGHLOW            10017020  ___security_cookie_complement
+     D85  HIGHLOW            1001801C  __imp__GetSystemTimeAsFileTime@4
+     D9A  HIGHLOW            10018020  __imp__GetCurrentThreadId@0
+     DA6  HIGHLOW            10018024  __imp__GetCurrentProcessId@0
+     DB6  HIGHLOW            10018028  __imp__QueryPerformanceCounter@4
+     E0A  HIGHLOW            1001701C  ___security_cookie
+     E15  HIGHLOW            10017020  ___security_cookie_complement
+     E62  HIGHLOW            100164D0
+     E69  HIGHLOW            100166DC  ___rtc_izz
+     E7D  HIGHLOW            100166DC  ___rtc_izz
+     E92  HIGHLOW            100167E4
+     E99  HIGHLOW            100169F0  ___rtc_tzz
+     EAD  HIGHLOW            100169F0  ___rtc_tzz
+     EC0  HIGHLOW            100180C8  __imp___initterm
+     EC6  HIGHLOW            100180C4  __imp___initterm_e
+     ED4  HIGHLOW            10017144  ?__type_info_root_node@@3U__type_info_node@@A (struct __type_info_node __type_info_root_node)
+     F04  HIGHLOW            10011014  @ILT+15(@__security_check_cookie@4)
+     F09  HIGHLOW            1001701C  ___security_cookie
+     F2A  HIGHLOW            1001701C  ___security_cookie
+     F35  HIGHLOW            10017154
+     F4E  HIGHLOW            10017154
+     F62  HIGHLOW            10016030
+     F68  HIGHLOW            10018000  __imp__GetModuleHandleW@4
+     F6E  HIGHLOW            10018034  __imp__LoadLibraryExW@12
+     F85  HIGHLOW            10018004  __imp__GetModuleFileNameW@12
+     FC6  HIGHLOW            1001803C  __imp__GetLastError@0
+     FE8  HIGHLOW            10016178  ??_C@_1BC@EOIMGOME@?$AAM?$AAS?$AAP?$AAD?$AAB?$AA1?$AA2?$AA0?$AA?$AA@ (`string')
+     FF4  HIGHLOW            1001803C  __imp__GetLastError@0
+   13000 RVA,      138 SizeOfBlock
+       D  HIGHLOW            10018004  __imp__GetModuleFileNameW@12
+      BA  HIGHLOW            1001701C  ___security_cookie
+      C6  HIGHLOW            10018034  __imp__LoadLibraryExW@12
+      D3  HIGHLOW            10016074  ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ (`string')
+      E1  HIGHLOW            1001803C  __imp__GetLastError@0
+      ED  HIGHLOW            10016074  ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ (`string')
+     10E  HIGHLOW            10018038  __imp__GetProcAddress@8
+     113  HIGHLOW            10016094  ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ (`string')
+     125  HIGHLOW            100160A4  ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ (`string')
+     137  HIGHLOW            100160B8  ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ (`string')
+     154  HIGHLOW            100160C8  ??_C@_1FM@EGIBBNPP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ (`string')
+     16A  HIGHLOW            10018008  __imp__FreeLibrary@4
+     1A3  HIGHLOW            10016138  ??_C@_1BG@EABPBLLF@?$AAP?$AAr?$AAo?$AAd?$AAu?$AAc?$AAt?$AAD?$AAi?$AAr?$AA?$AA@ (`string')
+     1C4  HIGHLOW            10018008  __imp__FreeLibrary@4
+     22C  HIGHLOW            1001600C
+     238  HIGHLOW            10016010
+     244  HIGHLOW            10016014
+     250  HIGHLOW            10016018
+     25C  HIGHLOW            1001601C
+     268  HIGHLOW            10016020
+     274  HIGHLOW            10016024
+     280  HIGHLOW            10016028
+     28D  HIGHLOW            1001602C
+     2B1  HIGHLOW            1001803C  __imp__GetLastError@0
+     37A  HIGHLOW            1001701C  ___security_cookie
+     3D3  HIGHLOW            10016160
+     3ED  HIGHLOW            10016154
+     4A5  HIGHLOW            1001800C  __imp__VirtualQuery@12
+     4BF  HIGHLOW            10018004  __imp__GetModuleFileNameW@12
+     526  HIGHLOW            10017155
+     52F  HIGHLOW            10017150
+     53C  HIGHLOW            10017150
+     546  HIGHLOW            10017155
+     54E  HIGHLOW            10017150
+     553  HIGHLOW            10016190  ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ (`string')
+     55A  HIGHLOW            10018038  __imp__GetProcAddress@8
+     5A8  HIGHLOW            100161A4  ??_C@_01KDCPPGHE@r?$AA@ (`string')
+     671  HIGHLOW            10018010  __imp__GetProcessHeap@0
+     678  HIGHLOW            10018018  __imp__HeapAlloc@12
+     6F8  HIGHLOW            10018010  __imp__GetProcessHeap@0
+     6FF  HIGHLOW            10018014  __imp__HeapFree@12
+     7E2  HIGHLOW            1001701C  ___security_cookie
+     7F4  HIGHLOW            100180C0  __imp___lock
+     7FA  HIGHLOW            100180BC  __imp___unlock
+     800  HIGHLOW            100180B8  __imp___CrtDbgReportW
+     806  HIGHLOW            100180B4  __imp___calloc_dbg
+     80C  HIGHLOW            100180B0  __imp____dllonexit
+     812  HIGHLOW            100180A8  __imp____clean_type_info_names_internal
+     818  HIGHLOW            100180A4  __imp___except_handler4_common
+     81E  HIGHLOW            100180A0  __imp__wcscpy_s
+     824  HIGHLOW            1001809C  __imp___wmakepath_s
+     82A  HIGHLOW            10018094  __imp___wsplitpath_s
+     835  HIGHLOW            10018044  __imp__IsDebuggerPresent@0
+     83A  HIGHLOW            10017474
+     856  HIGHLOW            10017474
+     8AC  HIGHLOW            10017258
+     8B2  HIGHLOW            10017254
+     8B8  HIGHLOW            10017250
+     8BE  HIGHLOW            1001724C
+     8C4  HIGHLOW            10017248
+     8CA  HIGHLOW            10017244
+     8D1  HIGHLOW            10017270
+     8D8  HIGHLOW            10017264
+     8DF  HIGHLOW            10017240
+     8E6  HIGHLOW            1001723C
+     8ED  HIGHLOW            10017238
+     8F4  HIGHLOW            10017234
+     8FB  HIGHLOW            10017268
+     903  HIGHLOW            1001725C
+     90B  HIGHLOW            10017260
+     913  HIGHLOW            1001726C
+     91F  HIGHLOW            100171A8
+     928  HIGHLOW            10017260
+     92D  HIGHLOW            10017164
+     933  HIGHLOW            10017158
+     93D  HIGHLOW            1001715C
+     947  HIGHLOW            10017168
+     959  HIGHLOW            1001716C
+     96B  HIGHLOW            1001701C  ___security_cookie
+     97D  HIGHLOW            10017020  ___security_cookie_complement
+     986  HIGHLOW            100161A8
+     A0A  HIGHLOW            10017258
+     A10  HIGHLOW            10017254
+     A16  HIGHLOW            10017250
+     A1C  HIGHLOW            1001724C
+     A22  HIGHLOW            10017248
+     A28  HIGHLOW            10017244
+     A2F  HIGHLOW            10017270
+     A36  HIGHLOW            10017264
+     A3D  HIGHLOW            10017240
+     A44  HIGHLOW            1001723C
+     A4B  HIGHLOW            10017238
+     A52  HIGHLOW            10017234
+     A59  HIGHLOW            10017268
+     A61  HIGHLOW            1001725C
+     A69  HIGHLOW            10017260
+     A71  HIGHLOW            1001726C
+     A7C  HIGHLOW            10017260
+     A81  HIGHLOW            10017164
+     A87  HIGHLOW            10017158
+     A91  HIGHLOW            1001715C
+     A9B  HIGHLOW            10017168
+     AB0  HIGHLOW            1001716C
+     AB5  HIGHLOW            100161A8
+     B1A  HIGHLOW            10017258
+     B20  HIGHLOW            10017254
+     B26  HIGHLOW            10017250
+     B2C  HIGHLOW            1001724C
+     B32  HIGHLOW            10017248
+     B38  HIGHLOW            10017244
+     B3F  HIGHLOW            10017270
+     B46  HIGHLOW            10017264
+     B4D  HIGHLOW            10017240
+     B54  HIGHLOW            1001723C
+     B5B  HIGHLOW            10017238
+     B62  HIGHLOW            10017234
+     B69  HIGHLOW            10017268
+     B71  HIGHLOW            1001725C
+     B79  HIGHLOW            10017260
+     B81  HIGHLOW            1001726C
+     B8C  HIGHLOW            10017260
+     B91  HIGHLOW            10017164
+     B97  HIGHLOW            10017158
+     BA1  HIGHLOW            1001715C
+     BD3  HIGHLOW            10017168
+     BE4  HIGHLOW            1001716C
+     C11  HIGHLOW            10017170
+     C18  HIGHLOW            100161A8
+     C70  HIGHLOW            10018090  __imp___crt_debugger_hook
+     C76  HIGHLOW            100180E8  __imp____crtUnhandledException
+     C7C  HIGHLOW            10018098  __imp____crtTerminateProcess
+     C82  HIGHLOW            1001804C  __imp__EncodePointer@4
+     C88  HIGHLOW            10018048  __imp__DecodePointer@4
+     C8E  HIGHLOW            10018044  __imp__IsDebuggerPresent@0
+     C94  HIGHLOW            10018040  __imp__RaiseException@16
+     C9A  HIGHLOW            1001803C  __imp__GetLastError@0
+     CA0  HIGHLOW            10018038  __imp__GetProcAddress@8
+     CA6  HIGHLOW            10018034  __imp__LoadLibraryExW@12
+     CAC  HIGHLOW            10018030  __imp__MultiByteToWideChar@24
+     CB2  HIGHLOW            1001802C  __imp__WideCharToMultiByte@32
+     CB8  HIGHLOW            10018028  __imp__QueryPerformanceCounter@4
+     CBE  HIGHLOW            10018024  __imp__GetCurrentProcessId@0
+     CC4  HIGHLOW            10018020  __imp__GetCurrentThreadId@0
+     CCA  HIGHLOW            1001801C  __imp__GetSystemTimeAsFileTime@4
+     CD0  HIGHLOW            10018018  __imp__HeapAlloc@12
+     CD6  HIGHLOW            10018014  __imp__HeapFree@12
+     CDC  HIGHLOW            10018010  __imp__GetProcessHeap@0
+     CE2  HIGHLOW            1001800C  __imp__VirtualQuery@12
+     CE8  HIGHLOW            10018008  __imp__FreeLibrary@4
+     CEE  HIGHLOW            10018004  __imp__GetModuleFileNameW@12
+     CF4  HIGHLOW            10018000  __imp__GetModuleHandleW@4
+     CFA  HIGHLOW            10018050  __imp__IsProcessorFeaturePresent@4
+   15000 RVA,       24 SizeOfBlock
+     30C  HIGHLOW            10011730
+     410  HIGHLOW            100110AA  @ILT+165(___atonexitinit)
+     690  HIGHLOW            10015750  ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ (`string')
+     694  HIGHLOW            10015860  ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ (`string')
+     698  HIGHLOW            100159B8  ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ (`string')
+     69C  HIGHLOW            100159DC  ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ (`string')
+     6A0  HIGHLOW            10015A1C  ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ (`string')
+     6A4  HIGHLOW            10015A50  ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ (`string')
+     D7C  HIGHLOW            10015D94  ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ (`string')
+     D80  HIGHLOW            10015DB4  ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ (`string')
+     D84  HIGHLOW            10015DE8  ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ (`string')
+     D88  HIGHLOW            10015E04  ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ (`string')
+     D8C  HIGHLOW            10015E38  ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ (`string')
+       0  ABS                        
+   16000 RVA,       2C SizeOfBlock
+     1A8  HIGHLOW            10017158
+     1AC  HIGHLOW            100171A8
+     1F4  HIGHLOW            1001701C  ___security_cookie
+     5D0  HIGHLOW            100110C3  @ILT+190(__RTC_InitBase)
+     5D4  HIGHLOW            100110C3  @ILT+190(__RTC_InitBase)
+     8E4  HIGHLOW            100110B9  @ILT+180(__RTC_Shutdown)
+     8E8  HIGHLOW            100110B9  @ILT+180(__RTC_Shutdown)
+     B10  HIGHLOW            10011D40
+     B18  HIGHLOW            10011D06
+     B1C  HIGHLOW            10011D21
+     B3C  HIGHLOW            10011E36
+     B40  HIGHLOW            10011E49
+     B5C  HIGHLOW            10011F08
+     B60  HIGHLOW            10011F1B
+     B7C  HIGHLOW            100129B5
+     B80  HIGHLOW            100129DC
+     BA0  HIGHLOW            10012C98
+       0  ABS                        
+
+  Summary
+
+        1000 .data
+        1000 .idata
+        2000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        4000 .text
+       10000 .textbss

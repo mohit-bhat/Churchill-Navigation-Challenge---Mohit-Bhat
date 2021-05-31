@@ -1,0 +1,18 @@
+﻿Build started 5/23/2021 9:27:00 PM.
+     1>Project "C:\Users\mayur\Downloads\challenge\Dll7\Dll7\Dll7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL7_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Dll7.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Dll7.cpp
+         Dll7.cpp
+     1>Dll7.cpp(5): warning C4005: 'DLL7_EXPORTS' : macro redefinition
+                 command-line arguments :  see previous definition of 'DLL7_EXPORTS'
+     1>Dll7.cpp(46): warning C4267: '=' : conversion from 'size_t' to 'int32_t', possible loss of data
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mayur\Downloads\challenge\Dll7\Dll7\x64\Debug\Dll7.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mayur\Downloads\challenge\Dll7\Dll7\x64\Debug\Dll7.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mayur\Downloads\challenge\Dll7\Dll7\x64\Debug\Dll7.lib" /MACHINE:X64 /DLL x64\Debug\Dll7.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\stdafx.obj
+         Dll7.vcxproj -> C:\Users\mayur\Downloads\challenge\Dll7\Dll7\x64\Debug\Dll7.dll
+     1>Done Building Project "C:\Users\mayur\Downloads\challenge\Dll7\Dll7\Dll7.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.53

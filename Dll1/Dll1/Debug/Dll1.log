@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  dllmain.cpp
+D:\downloads\challenge\Dll1\Dll1\dllmain.cpp(51,32): warning C4018: '>=': signed/unsigned mismatch
+     Creating library D:\downloads\challenge\Dll1\Dll1\Debug\Dll1.lib and object D:\downloads\challenge\Dll1\Dll1\Debug\Dll1.exp
+  Dll1.vcxproj -> D:\downloads\challenge\Dll1\Dll1\Debug\Dll1.dll

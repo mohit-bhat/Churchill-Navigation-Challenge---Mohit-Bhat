@@ -1,0 +1,705 @@
+Microsoft (R) COFF/PE Dumper Version 14.28.29915.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Dll5.dll
+
+PE signature found
+
+File Type: DLL
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               5 number of sections
+        60AAAC0A time date stamp Sun May 23 13:24:58 2021
+               0 file pointer to symbol table
+               0 number of symbols
+              F0 size of optional header
+            2022 characteristics
+                   Executable
+                   Application can handle large (>2GB) addresses
+                   DLL
+
+OPTIONAL HEADER VALUES
+             20B magic # (PE32+)
+           12.00 linker version
+             A00 size of code
+            1200 size of initialized data
+               0 size of uninitialized data
+            131C entry point (000000018000131C) _DllMainCRTStartup
+            1000 base of code
+       180000000 image base (0000000180000000 to 0000000180005FFF)
+            1000 section alignment
+             200 file alignment
+            6.02 operating system version
+            0.00 image version
+            6.02 subsystem version
+               0 Win32 version
+            6000 size of image
+             400 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+            1160 DLL characteristics
+                   High Entropy Virtual Addresses
+                   Dynamic base
+                   NX compatible
+                   App Container
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+            2310 [      65] RVA [size] of Export Directory
+            2378 [      3C] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+            4000 [      C0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+            5000 [      14] RVA [size] of Base Relocation Directory
+            2100 [      38] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+            2150 [      70] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+            2000 [      C8] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+     83B virtual size
+    1000 virtual address (0000000180001000 to 000000018000183A)
+     A00 size of raw data
+     400 file pointer to raw data (00000400 to 00000DFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60000020 flags
+         Code
+         Execute Read
+
+RAW DATA #1
+  0000000180001000: B9 04 00 00 00 48 FF 25 9C 10 00 00 CC CC CC CC  ¹....Hÿ%....ÌÌÌÌ
+  0000000180001010: 41 8B C0 C3 CC CC CC CC CC CC CC CC CC CC CC CC  A.ÀÃÌÌÌÌÌÌÌÌÌÌÌÌ
+  0000000180001020: 40 53 48 83 EC 20 48 8B D9 FF 15 89 10 00 00 B8  @SH.ì H.Ùÿ.....¸
+  0000000180001030: 23 81 00 00 48 85 DB 48 0F 45 D8 48 8B C3 48 83  #...H.ÛH.EØH.ÃH.
+  0000000180001040: C4 20 5B C3 CC CC CC CC CC CC CC CC CC CC CC CC  Ä [ÃÌÌÌÌÌÌÌÌÌÌÌÌ
+  0000000180001050: CC CC CC CC CC CC 66 66 0F 1F 84 00 00 00 00 00  ÌÌÌÌÌÌff........
+  0000000180001060: 48 3B 0D 99 1F 00 00 75 11 48 C1 C1 10 66 F7 C1  H;.....u.HÁÁ.f÷Á
+  0000000180001070: FF FF 75 02 F3 C3 48 C1 C9 10 E9 15 04 00 00 CC  ÿÿu.óÃHÁÉ.é....Ì
+  0000000180001080: 40 53 48 83 EC 20 B9 00 01 00 00 FF 15 F7 0F 00  @SH.ì ¹....ÿ.÷..
+  0000000180001090: 00 48 8B C8 48 8B D8 FF 15 93 0F 00 00 48 89 05  .H.ÈH.Øÿ.....H..
+  00000001800010A0: 24 25 00 00 48 89 05 15 25 00 00 48 85 DB 75 05  $%..H...%..H.Ûu.
+  00000001800010B0: 8D 43 01 EB 12 48 83 23 00 48 8D 0D D0 06 00 00  .C.ë.H.#.H..Ð...
+  00000001800010C0: E8 BB 05 00 00 33 C0 48 83 C4 20 5B C3 CC CC CC  è»...3ÀH.Ä [ÃÌÌÌ
+  00000001800010D0: 48 8B C4 48 89 58 08 48 89 68 10 48 89 78 18 4C  H.ÄH.X.H.h.H.x.L
+  00000001800010E0: 89 60 20 41 55 41 56 41 57 48 83 EC 20 33 FF 49  .` AUAVAWH.ì 3ÿI
+  00000001800010F0: 8B E8 4C 8B F1 85 D2 0F 85 35 01 00 00 8B 05 1D  .èL.ñ.Ò..5......
+  0000000180001100: 1F 00 00 85 C0 0F 8E 20 01 00 00 FF C8 44 8B FF  ....À.. ...ÿÈD.ÿ
+  0000000180001110: 89 05 0A 1F 00 00 65 48 8B 04 25 30 00 00 00 48  ......eH..%0...H
+  0000000180001120: 8B 48 08 EB 05 48 3B C1 74 0F 33 C0 F0 48 0F B1  .H.ë.H;Át.3ÀðH.±
+  0000000180001130: 0D 7B 24 00 00 75 EE EB 06 41 BF 01 00 00 00 8B  .{$..uîë.A¿.....
+  0000000180001140: 05 73 24 00 00 83 F8 02 74 0F B9 1F 00 00 00 E8  .s$...ø.t.¹....è
+  0000000180001150: 54 03 00 00 E9 9E 01 00 00 48 8B 0D 68 24 00 00  T...é....H..h$..
+  0000000180001160: FF 15 C2 0E 00 00 48 8B E8 48 85 C0 0F 84 9E 00  ÿ.Â...H.èH.À....
+  0000000180001170: 00 00 48 8B 0D 47 24 00 00 FF 15 A9 0E 00 00 4C  ..H..G$..ÿ.©...L
+  0000000180001180: 8B ED 4C 8B E0 4C 8B F0 49 83 EE 08 4C 3B F5 72  .íL.àL.ðI.î.L;õr
+  0000000180001190: 5A 49 39 3E 74 F2 33 C9 FF 15 92 0E 00 00 49 39  ZI9>tò3Éÿ.....I9
+  00000001800011A0: 06 74 E5 49 8B 0E FF 15 7C 0E 00 00 33 C9 48 8B  .tåI..ÿ.|...3ÉH.
+  00000001800011B0: D8 FF 15 79 0E 00 00 49 89 06 FF D3 48 8B 0D 05  Øÿ.y...I..ÿÓH...
+  00000001800011C0: 24 00 00 FF 15 5F 0E 00 00 48 8B 0D F0 23 00 00  $..ÿ._...H..ð#..
+  00000001800011D0: 48 8B D8 FF 15 4F 0E 00 00 4C 3B EB 75 05 4C 3B  H.Øÿ.O...L;ëu.L;
+  00000001800011E0: E0 74 A5 4C 8B EB 48 8B EB EB 97 48 83 FD FF 74  àt¥L.ëH.ëë.H.ýÿt
+  00000001800011F0: 09 48 8B CD FF 15 96 0E 00 00 33 C9 FF 15 2E 0E  .H.Íÿ.....3Éÿ...
+  0000000180001200: 00 00 48 89 05 B7 23 00 00 48 89 05 B8 23 00 00  ..H..·#..H..¸#..
+  0000000180001210: 89 3D A2 23 00 00 45 85 FF 0F 85 D8 00 00 00 48  .=¢#..E.ÿ..Ø...H
+  0000000180001220: 87 3D 8A 23 00 00 E9 CC 00 00 00 33 C0 E9 CA 00  .=.#..éÌ...3ÀéÊ.
+  0000000180001230: 00 00 83 FA 01 0F 85 BC 00 00 00 65 48 8B 04 25  ...ú...¼...eH..%
+  0000000180001240: 30 00 00 00 8B DF 48 8B 48 08 EB 05 48 3B C1 74  0....ßH.H.ë.H;Át
+  0000000180001250: 0F 33 C0 F0 48 0F B1 0D 54 23 00 00 75 EE EB 05  .3ÀðH.±.T#..uîë.
+  0000000180001260: BB 01 00 00 00 8B 05 4D 23 00 00 85 C0 74 0C B9  »......M#...Àt.¹
+  0000000180001270: 1F 00 00 00 E8 2F 02 00 00 EB 3E 48 8D 15 6E 0E  ....è/...ë>H..n.
+  0000000180001280: 00 00 48 8D 0D 4F 0E 00 00 C7 05 25 23 00 00 01  ..H..O...Ç.%#...
+  0000000180001290: 00 00 00 E8 F2 04 00 00 85 C0 75 8F 48 8D 15 2D  ...èò....Àu.H..-
+  00000001800012A0: 0E 00 00 48 8D 0D 1E 0E 00 00 E8 D5 04 00 00 C7  ...H......èÕ...Ç
+  00000001800012B0: 05 FF 22 00 00 02 00 00 00 85 DB 75 0A 48 8B C7  .ÿ".......Ûu.H.Ç
+  00000001800012C0: 48 87 05 E9 22 00 00 48 39 3D 02 23 00 00 74 21  H..é"..H9=.#..t!
+  00000001800012D0: 48 8D 0D F9 22 00 00 E8 24 02 00 00 85 C0 74 11  H..ù"..è$....Àt.
+  00000001800012E0: 4C 8B C5 BA 02 00 00 00 49 8B CE FF 15 DF 22 00  L.Åº....I.Îÿ.ß".
+  00000001800012F0: 00 FF 05 29 1D 00 00 B8 01 00 00 00 48 8B 5C 24  .ÿ.)...¸....H.\$
+  0000000180001300: 40 48 8B 6C 24 48 48 8B 7C 24 50 4C 8B 64 24 58  @H.l$HH.|$PL.d$X
+  0000000180001310: 48 83 C4 20 41 5F 41 5E 41 5D C3 CC 48 89 5C 24  H.Ä A_A^A]ÃÌH.\$
+  0000000180001320: 08 48 89 74 24 10 57 48 83 EC 20 49 8B F8 8B DA  .H.t$.WH.ì I.ø.Ú
+  0000000180001330: 48 8B F1 83 FA 01 75 05 E8 5B 03 00 00 4C 8B C7  H.ñ.ú.u.è[...L.Ç
+  0000000180001340: 8B D3 48 8B CE 48 8B 5C 24 30 48 8B 74 24 38 48  .ÓH.ÎH.\$0H.t$8H
+  0000000180001350: 83 C4 20 5F E9 03 00 00 00 CC CC CC 48 8B C4 48  .Ä _é....ÌÌÌH.ÄH
+  0000000180001360: 89 58 08 48 89 70 10 48 89 78 18 41 56 48 83 EC  .X.H.p.H.x.AVH.ì
+  0000000180001370: 30 49 8B F0 8B FA 4C 8B F1 BB 01 00 00 00 89 58  0I.ð.úL.ñ».....X
+  0000000180001380: E8 89 15 89 1C 00 00 85 D2 75 12 39 15 8F 1C 00  è.......Òu.9....
+  0000000180001390: 00 75 0A 33 DB 89 58 E8 E9 CB 00 00 00 8D 42 FF  .u.3Û.XèéË....Bÿ
+  00000001800013A0: 83 F8 01 77 37 48 8B 05 8C 0D 00 00 48 85 C0 74  .ø.w7H......H.Àt
+  00000001800013B0: 08 FF D0 8B D8 89 44 24 20 85 DB 0F 84 A7 00 00  .ÿÐ.Ø.D$ .Û..§..
+  00000001800013C0: 00 4C 8B C6 8B D7 49 8B CE E8 02 FD FF FF 8B D8  .L.Æ.×I.Îè.ýÿÿ.Ø
+  00000001800013D0: 89 44 24 20 85 C0 0F 84 8C 00 00 00 4C 8B C6 8B  .D$ .À......L.Æ.
+  00000001800013E0: D7 49 8B CE E8 77 03 00 00 8B D8 89 44 24 20 83  ×I.Îèw....Ø.D$ .
+  00000001800013F0: FF 01 75 34 85 C0 75 30 4C 8B C6 33 D2 49 8B CE  ÿ.u4.Àu0L.Æ3ÒI.Î
+  0000000180001400: E8 5B 03 00 00 4C 8B C6 33 D2 49 8B CE E8 BE FC  è[...L.Æ3ÒI.Îè¾ü
+  0000000180001410: FF FF 48 8B 05 1F 0D 00 00 48 85 C0 74 0A 4C 8B  ÿÿH......H.Àt.L.
+  0000000180001420: C6 33 D2 49 8B CE FF D0 85 FF 74 05 83 FF 03 75  Æ3ÒI.ÎÿÐ.ÿt..ÿ.u
+  0000000180001430: 37 4C 8B C6 8B D7 49 8B CE E8 92 FC FF FF F7 D8  7L.Æ.×I.Îè.üÿÿ÷Ø
+  0000000180001440: 1B C9 23 CB 8B D9 89 4C 24 20 74 1C 48 8B 05 E5  .É#Ë.Ù.L$ t.H..å
+  0000000180001450: 0C 00 00 48 85 C0 74 10 4C 8B C6 8B D7 49 8B CE  ...H.Àt.L.Æ.×I.Î
+  0000000180001460: FF D0 8B D8 89 44 24 20 EB 06 33 DB 89 5C 24 20  ÿÐ.Ø.D$ ë.3Û.\$ 
+  0000000180001470: C7 05 96 1B 00 00 FF FF FF FF 8B C3 48 8B 5C 24  Ç.....ÿÿÿÿ.ÃH.\$
+  0000000180001480: 40 48 8B 74 24 48 48 8B 7C 24 50 48 83 C4 30 41  @H.t$HH.|$PH.Ä0A
+  0000000180001490: 5E C3 CC CC 48 89 4C 24 08 B9 02 00 00 00 CD 29  ^ÃÌÌH.L$.¹....Í)
+  00000001800014A0: C3 CC FF 25 F8 0B 00 00 FF 25 EA 0B 00 00 CC CC  ÃÌÿ%ø...ÿ%ê...ÌÌ
+  00000001800014B0: 4C 63 41 3C 45 33 C9 4C 8B D2 4C 03 C1 41 0F B7  LcA<E3ÉL.ÒL.ÁA.·
+  00000001800014C0: 40 14 45 0F B7 58 06 48 83 C0 18 49 03 C0 45 85  @.E.·X.H.À.I.ÀE.
+  00000001800014D0: DB 74 1E 8B 50 0C 4C 3B D2 72 0A 8B 48 08 03 CA  Ût..P.L;Òr..H..Ê
+  00000001800014E0: 4C 3B D1 72 0E 41 FF C1 48 83 C0 28 45 3B CB 72  L;Ñr.AÿÁH.À(E;Ër
+  00000001800014F0: E2 33 C0 C3 CC CC CC CC CC CC CC CC CC CC CC CC  â3ÀÃÌÌÌÌÌÌÌÌÌÌÌÌ
+  0000000180001500: 48 89 5C 24 08 57 48 83 EC 20 48 8B D9 48 8D 3D  H.\$.WH.ì H.ÙH.=
+  0000000180001510: EC EA FF FF 48 8B CF E8 34 00 00 00 85 C0 74 22  ìêÿÿH.Ïè4....Àt"
+  0000000180001520: 48 2B DF 48 8B D3 48 8B CF E8 82 FF FF FF 48 85  H+ßH.ÓH.Ïè.ÿÿÿH.
+  0000000180001530: C0 74 0F 8B 40 24 C1 E8 1F F7 D0 83 E0 01 EB 02  Àt..@$Áè.÷Ð.à.ë.
+  0000000180001540: 33 C0 48 8B 5C 24 30 48 83 C4 20 5F C3 CC CC CC  3ÀH.\$0H.Ä _ÃÌÌÌ
+  0000000180001550: 48 8B C1 B9 4D 5A 00 00 66 39 08 74 03 33 C0 C3  H.Á¹MZ..f9.t.3ÀÃ
+  0000000180001560: 48 63 48 3C 48 03 C8 33 C0 81 39 50 45 00 00 75  HcH<H.È3À.9PE..u
+  0000000180001570: 0C BA 0B 02 00 00 66 39 51 18 0F 94 C0 C3 CC CC  .º....f9Q...ÀÃÌÌ
+  0000000180001580: 40 53 48 83 EC 20 48 83 3D 3A 20 00 00 00 75 36  @SH.ì H.=: ...u6
+  0000000180001590: BA 08 00 00 00 8D 4A 18 FF 15 12 0B 00 00 48 8B  º.....J.ÿ.....H.
+  00000001800015A0: C8 48 8B D8 FF 15 86 0A 00 00 48 89 05 17 20 00  ÈH.Øÿ.....H... .
+  00000001800015B0: 00 48 89 05 08 20 00 00 48 85 DB 75 05 8D 43 18  .H... ..H.Ûu..C.
+  00000001800015C0: EB 06 48 83 23 00 33 C0 48 83 C4 20 5B C3 CC CC  ë.H.#.3ÀH.Ä [ÃÌÌ
+  00000001800015D0: 40 53 48 83 EC 20 48 8B D9 48 8B 0D E8 1F 00 00  @SH.ì H.ÙH..è...
+  00000001800015E0: FF 15 42 0A 00 00 48 89 44 24 38 48 83 F8 FF 75  ÿ.B...H.D$8H.øÿu
+  00000001800015F0: 0B 48 8B CB FF 15 6E 0A 00 00 EB 7E B9 08 00 00  .H.Ëÿ.n...ë~¹...
+  0000000180001600: 00 E8 9C 01 00 00 90 48 8B 0D BA 1F 00 00 FF 15  .è.....H..º...ÿ.
+  0000000180001610: 14 0A 00 00 48 89 44 24 38 48 8B 0D A0 1F 00 00  ....H.D$8H......
+  0000000180001620: FF 15 02 0A 00 00 48 89 44 24 40 48 8B CB FF 15  ÿ.....H.D$@H.Ëÿ.
+  0000000180001630: FC 09 00 00 48 8B C8 4C 8D 44 24 40 48 8D 54 24  ü...H.ÈL.D$@H.T$
+  0000000180001640: 38 E8 68 01 00 00 48 8B D8 48 8B 4C 24 38 FF 15  8èh...H.ØH.L$8ÿ.
+  0000000180001650: DC 09 00 00 48 89 05 6D 1F 00 00 48 8B 4C 24 40  Ü...H..m...H.L$@
+  0000000180001660: FF 15 CA 09 00 00 48 89 05 53 1F 00 00 B9 08 00  ÿ.Ê...H..S...¹..
+  0000000180001670: 00 00 E8 31 01 00 00 48 8B C3 48 83 C4 20 5B C3  ..è1...H.ÃH.Ä [Ã
+  0000000180001680: 48 83 EC 28 E8 47 FF FF FF 48 F7 D8 1B C0 F7 D8  H.ì(èGÿÿÿH÷Ø.À÷Ø
+  0000000180001690: FF C8 48 83 C4 28 C3 CC 48 89 5C 24 20 55 48 8B  ÿÈH.Ä(ÃÌH.\$ UH.
+  00000001800016A0: EC 48 83 EC 20 48 8B 05 54 19 00 00 48 83 65 18  ìH.ì H..T...H.e.
+  00000001800016B0: 00 48 BB 32 A2 DF 2D 99 2B 00 00 48 3B C3 0F 85  .H»2¢ß-.+..H;Ã..
+  00000001800016C0: 87 00 00 00 48 8D 4D 18 FF 15 3A 09 00 00 48 8B  ....H.M.ÿ.:...H.
+  00000001800016D0: 45 18 48 89 45 10 FF 15 34 09 00 00 8B C0 48 31  E.H.E.ÿ.4....ÀH1
+  00000001800016E0: 45 10 FF 15 30 09 00 00 8B C0 48 31 45 10 FF 15  E.ÿ.0....ÀH1E.ÿ.
+  00000001800016F0: 0C 09 00 00 48 C1 E0 38 48 31 45 10 FF 15 FE 08  ....HÁà8H1E.ÿ.þ.
+  0000000180001700: 00 00 48 8D 4D 20 48 31 45 10 FF 15 10 09 00 00  ..H.M H1E.ÿ.....
+  0000000180001710: 8B 45 20 48 C1 E0 20 48 8D 4D 10 48 33 45 20 48  .E HÁà H.M.H3E H
+  0000000180001720: 33 45 10 48 33 C1 48 B9 FF FF FF FF FF FF 00 00  3E.H3ÁH¹ÿÿÿÿÿÿ..
+  0000000180001730: 48 23 C1 48 B9 33 A2 DF 2D 99 2B 00 00 48 3B C3  H#ÁH¹3¢ß-.+..H;Ã
+  0000000180001740: 48 0F 44 C1 48 89 05 B5 18 00 00 48 8B 5C 24 48  H.DÁH..µ...H.\$H
+  0000000180001750: 48 F7 D0 48 89 05 AE 18 00 00 48 83 C4 20 5D C3  H÷ÐH..®...H.Ä ]Ã
+  0000000180001760: 48 83 EC 28 83 FA 01 75 10 48 83 3D C7 09 00 00  H.ì(.ú.u.H.=Ç...
+  0000000180001770: 00 75 06 FF 15 BF 08 00 00 B8 01 00 00 00 48 83  .u.ÿ.¿...¸....H.
+  0000000180001780: C4 28 C3 CC FF 25 F6 08 00 00 FF 25 E8 08 00 00  Ä(ÃÌÿ%ö...ÿ%è...
+  0000000180001790: 48 8D 0D 09 1E 00 00 E9 18 00 00 00 FF 25 B6 08  H......é....ÿ%¶.
+  00000001800017A0: 00 00 FF 25 A0 08 00 00 FF 25 A2 08 00 00 FF 25  ..ÿ%....ÿ%¢...ÿ%
+  00000001800017B0: AC 08 00 00 FF 25 B6 08 00 00 CC CC CC CC CC CC  ¬...ÿ%¶...ÌÌÌÌÌÌ
+  00000001800017C0: 40 55 48 83 EC 20 48 8B EA 48 8B D1 48 89 4D 28  @UH.ì H.êH.ÑH.M(
+  00000001800017D0: 48 8B 01 8B 08 89 4D 24 E8 C5 FC FF FF 90 48 83  H.....M$èÅüÿÿ.H.
+  00000001800017E0: C4 20 5D C3 CC 40 55 48 83 EC 20 48 8B EA C7 05  Ä ]ÃÌ@UH.ì H.êÇ.
+  00000001800017F0: 18 18 00 00 FF FF FF FF 48 83 C4 20 5D C3 CC CC  ....ÿÿÿÿH.Ä ]ÃÌÌ
+  0000000180001800: 40 55 48 83 EC 20 48 8B EA 48 8B 01 33 C9 81 38  @UH.ì H.êH..3É.8
+  0000000180001810: 05 00 00 C0 0F 94 C1 8B C1 48 83 C4 20 5D C3 CC  ...À..Á.ÁH.Ä ]ÃÌ
+  0000000180001820: 40 55 48 83 EC 20 48 8B EA B9 08 00 00 00 E8 75  @UH.ì H.ê¹....èu
+  0000000180001830: FF FF FF 90 48 83 C4 20 5D C3 CC                 ÿÿÿ.H.Ä ]ÃÌ
+
+SECTION HEADER #2
+  .rdata name
+     634 virtual size
+    2000 virtual address (0000000180002000 to 0000000180002633)
+     800 size of raw data
+     E00 file pointer to raw data (00000E00 to 000015FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #2
+  0000000180002000: F8 25 00 00 00 00 00 00 DE 25 00 00 00 00 00 00  ø%......Þ%......
+  0000000180002010: C8 25 00 00 00 00 00 00 B2 25 00 00 00 00 00 00  È%......²%......
+  0000000180002020: 98 25 00 00 00 00 00 00 88 25 00 00 00 00 00 00  .%.......%......
+  0000000180002030: 78 25 00 00 00 00 00 00 0A 26 00 00 00 00 00 00  x%.......&......
+  0000000180002040: 00 00 00 00 00 00 00 00 1C 25 00 00 00 00 00 00  .........%......
+  0000000180002050: 24 25 00 00 00 00 00 00 04 25 00 00 00 00 00 00  $%.......%......
+  0000000180002060: 3C 25 00 00 00 00 00 00 4A 25 00 00 00 00 00 00  <%......J%......
+  0000000180002070: 54 25 00 00 00 00 00 00 F6 24 00 00 00 00 00 00  T%......ö$......
+  0000000180002080: EA 24 00 00 00 00 00 00 DC 24 00 00 00 00 00 00  ê$......Ü$......
+  0000000180002090: D4 24 00 00 00 00 00 00 C6 24 00 00 00 00 00 00  Ô$......Æ$......
+  00000001800020A0: B4 24 00 00 00 00 00 00 90 24 00 00 00 00 00 00  ´$.......$......
+  00000001800020B0: 2E 25 00 00 00 00 00 00 80 24 00 00 00 00 00 00  .%.......$......
+  00000001800020C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800020D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800020E0: 80 10 00 80 01 00 00 00 80 15 00 80 01 00 00 00  ................
+  00000001800020F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180002100: 00 00 00 00 0A AC AA 60 00 00 00 00 02 00 00 00  .....¬ª`........
+  0000000180002110: 5F 00 00 00 C0 21 00 00 C0 0F 00 00 00 00 00 00  _...À!..À.......
+  0000000180002120: 0A AC AA 60 00 00 00 00 0C 00 00 00 14 00 00 00  .¬ª`............
+  0000000180002130: 20 22 00 00 20 10 00 00 00 00 00 00 00 00 00 00   ".. ...........
+  0000000180002140: 30 30 00 80 01 00 00 00 D0 30 00 80 01 00 00 00  00......Ð0......
+  0000000180002150: 70 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  p...............
+  0000000180002160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180002170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180002180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180002190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800021A0: 00 00 00 00 00 00 00 00 00 30 00 80 01 00 00 00  .........0......
+  00000001800021B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800021C0: 52 53 44 53 1B C9 2F 6B BC F3 EA 42 95 5D 34 29  RSDS.É/k¼óêB.]4)
+  00000001800021D0: A7 6C 93 1F 05 00 00 00 43 3A 5C 55 73 65 72 73  §l......C:\Users
+  00000001800021E0: 5C 6D 61 79 75 72 5C 44 6F 77 6E 6C 6F 61 64 73  \mayur\Downloads
+  00000001800021F0: 5C 63 68 61 6C 6C 65 6E 67 65 5C 44 6C 6C 35 5C  \challenge\Dll5\
+  0000000180002200: 44 6C 6C 35 5C 78 36 34 5C 52 65 6C 65 61 73 65  Dll5\x64\Release
+  0000000180002210: 5C 44 6C 6C 35 5C 44 6C 6C 35 2E 70 64 62 00 00  \Dll5\Dll5.pdb..
+  0000000180002220: 00 00 00 00 0C 00 00 00 0C 00 00 00 01 00 00 00  ................
+  0000000180002230: 00 00 00 00 00 00 00 00 01 06 02 00 06 32 02 30  .............2.0
+  0000000180002240: 01 00 00 00 01 1D 0C 00 1D C4 0B 00 1D 74 0A 00  .........Ä...t..
+  0000000180002250: 1D 54 09 00 1D 34 08 00 1D 32 19 F0 17 E0 15 D0  .T...4...2.ð.à.Ð
+  0000000180002260: 19 15 08 00 15 74 0A 00 15 64 09 00 15 34 08 00  .....t...d...4..
+  0000000180002270: 15 52 11 E0 9C 17 00 00 02 00 00 00 87 13 00 00  .R.à............
+  0000000180002280: 6A 14 00 00 C0 17 00 00 6A 14 00 00 81 13 00 00  j...À...j.......
+  0000000180002290: 70 14 00 00 E5 17 00 00 00 00 00 00 01 06 02 00  p...å...........
+  00000001800022A0: 06 32 02 50 01 0F 06 00 0F 64 07 00 0F 34 06 00  .2.P.....d...4..
+  00000001800022B0: 0F 32 0B 70 09 0A 04 00 0A 34 06 00 0A 32 06 70  .2.p.....4...2.p
+  00000001800022C0: 9C 17 00 00 01 00 00 00 0D 15 00 00 40 15 00 00  ............@...
+  00000001800022D0: 00 18 00 00 40 15 00 00 11 06 02 00 06 32 02 30  ....@........2.0
+  00000001800022E0: 9C 17 00 00 01 00 00 00 07 16 00 00 6D 16 00 00  ............m...
+  00000001800022F0: 20 18 00 00 00 00 00 00 01 0D 04 00 0D 34 09 00   ............4..
+  0000000180002300: 0D 32 06 50 01 04 01 00 04 42 00 00 00 00 00 00  .2.P.....B......
+  0000000180002310: 00 00 00 00 0A AC AA 60 00 00 00 00 56 23 00 00  .....¬ª`....V#..
+  0000000180002320: 01 00 00 00 03 00 00 00 03 00 00 00 38 23 00 00  ............8#..
+  0000000180002330: 44 23 00 00 50 23 00 00 00 10 00 00 20 10 00 00  D#..P#...... ...
+  0000000180002340: 10 10 00 00 5F 23 00 00 66 23 00 00 6E 23 00 00  ...._#..f#..n#..
+  0000000180002350: 00 00 01 00 02 00 44 6C 6C 35 2E 64 6C 6C 00 63  ......Dll5.dll.c
+  0000000180002360: 72 65 61 74 65 00 64 65 73 74 72 6F 79 00 73 65  reate.destroy.se
+  0000000180002370: 61 72 63 68 00 00 00 00 00 24 00 00 00 00 00 00  arch.....$......
+  0000000180002380: 00 00 00 00 A2 24 00 00 48 20 00 00 B8 23 00 00  ....¢$..H ..¸#..
+  0000000180002390: 00 00 00 00 00 00 00 00 26 26 00 00 00 20 00 00  ........&&... ..
+  00000001800023A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800023B0: 00 00 00 00 00 00 00 00 F8 25 00 00 00 00 00 00  ........ø%......
+  00000001800023C0: DE 25 00 00 00 00 00 00 C8 25 00 00 00 00 00 00  Þ%......È%......
+  00000001800023D0: B2 25 00 00 00 00 00 00 98 25 00 00 00 00 00 00  ²%.......%......
+  00000001800023E0: 88 25 00 00 00 00 00 00 78 25 00 00 00 00 00 00  .%......x%......
+  00000001800023F0: 0A 26 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .&..............
+  0000000180002400: 1C 25 00 00 00 00 00 00 24 25 00 00 00 00 00 00  .%......$%......
+  0000000180002410: 04 25 00 00 00 00 00 00 3C 25 00 00 00 00 00 00  .%......<%......
+  0000000180002420: 4A 25 00 00 00 00 00 00 54 25 00 00 00 00 00 00  J%......T%......
+  0000000180002430: F6 24 00 00 00 00 00 00 EA 24 00 00 00 00 00 00  ö$......ê$......
+  0000000180002440: DC 24 00 00 00 00 00 00 D4 24 00 00 00 00 00 00  Ü$......Ô$......
+  0000000180002450: C6 24 00 00 00 00 00 00 B4 24 00 00 00 00 00 00  Æ$......´$......
+  0000000180002460: 90 24 00 00 00 00 00 00 2E 25 00 00 00 00 00 00  .$.......%......
+  0000000180002470: 80 24 00 00 00 00 00 00 00 00 00 00 00 00 00 00  .$..............
+  0000000180002480: 72 00 3F 3F 33 40 59 41 58 50 45 41 58 40 5A 00  r.??3@YAXPEAX@Z.
+  0000000180002490: 70 00 3F 3F 32 40 59 41 50 45 41 58 5F 4B 40 5A  p.??2@YAPEAX_K@Z
+  00000001800024A0: 00 00 6D 73 76 63 72 31 32 30 5F 61 70 70 2E 64  ..msvcr120_app.d
+  00000001800024B0: 6C 6C 00 00 5B 01 5F 5F 43 70 70 58 63 70 74 46  ll..[.__CppXcptF
+  00000001800024C0: 69 6C 74 65 72 00 D7 01 5F 61 6D 73 67 5F 65 78  ilter.×._amsg_ex
+  00000001800024D0: 69 74 00 00 0B 05 66 72 65 65 00 00 E9 02 5F 6D  it....free..é._m
+  00000001800024E0: 61 6C 6C 6F 63 5F 63 72 74 00 86 02 5F 69 6E 69  alloc_crt..._ini
+  00000001800024F0: 74 74 65 72 6D 00 87 02 5F 69 6E 69 74 74 65 72  tterm..._initter
+  0000000180002500: 6D 5F 65 00 5A 01 5F 5F 43 5F 73 70 65 63 69 66  m_e.Z.__C_specif
+  0000000180002510: 69 63 5F 68 61 6E 64 6C 65 72 00 00 D8 02 5F 6C  ic_handler..Ø._l
+  0000000180002520: 6F 63 6B 00 AA 03 5F 75 6E 6C 6F 63 6B 00 EB 01  ock.ª._unlock.ë.
+  0000000180002530: 5F 63 61 6C 6C 6F 63 5F 63 72 74 00 89 01 5F 5F  _calloc_crt...__
+  0000000180002540: 64 6C 6C 6F 6E 65 78 69 74 00 01 03 5F 6F 6E 65  dllonexit..._one
+  0000000180002550: 78 69 74 00 79 01 5F 5F 63 6C 65 61 6E 5F 74 79  xit.y.__clean_ty
+  0000000180002560: 70 65 5F 69 6E 66 6F 5F 6E 61 6D 65 73 5F 69 6E  pe_info_names_in
+  0000000180002570: 74 65 72 6E 61 6C 00 00 25 01 45 6E 63 6F 64 65  ternal..%.Encode
+  0000000180002580: 50 6F 69 6E 74 65 72 00 FF 00 44 65 63 6F 64 65  Pointer.ÿ.Decode
+  0000000180002590: 50 6F 69 6E 74 65 72 00 30 04 51 75 65 72 79 50  Pointer.0.QueryP
+  00000001800025A0: 65 72 66 6F 72 6D 61 6E 63 65 43 6F 75 6E 74 65  erformanceCounte
+  00000001800025B0: 72 00 10 02 47 65 74 43 75 72 72 65 6E 74 50 72  r...GetCurrentPr
+  00000001800025C0: 6F 63 65 73 73 49 64 00 14 02 47 65 74 43 75 72  ocessId...GetCur
+  00000001800025D0: 72 65 6E 74 54 68 72 65 61 64 49 64 00 00 DD 02  rentThreadId..Ý.
+  00000001800025E0: 47 65 74 53 79 73 74 65 6D 54 69 6D 65 41 73 46  GetSystemTimeAsF
+  00000001800025F0: 69 6C 65 54 69 6D 65 00 FA 02 47 65 74 54 69 63  ileTime.ú.GetTic
+  0000000180002600: 6B 43 6F 75 6E 74 36 34 00 00 17 01 44 69 73 61  kCount64....Disa
+  0000000180002610: 62 6C 65 54 68 72 65 61 64 4C 69 62 72 61 72 79  bleThreadLibrary
+  0000000180002620: 43 61 6C 6C 73 00 4B 45 52 4E 45 4C 33 32 2E 64  Calls.KERNEL32.d
+  0000000180002630: 6C 6C 00 00                                      ll..
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    60AAAC0A cv            5F 000021C0      FC0    Format: RSDS, {6B2FC91B-F3BC-42EA-955D-3429A76C931F}, 5, C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.pdb
+    60AAAC0A feat          14 00002220     1020    Counts: Pre-VC++ 11.00=0, C/C++=12, /GS=12, /sdl=1, guardN=0
+
+  Section contains the following exports for Dll5.dll
+
+    00000000 characteristics
+    60AAAC0A time date stamp Sun May 23 13:24:58 2021
+        0.00 version
+           1 ordinal base
+           3 number of functions
+           3 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001000 create = create
+          2    1 00001020 destroy = destroy
+          3    2 00001010 search = search
+
+  Section contains the following imports:
+
+    msvcr120_app.dll
+             180002048 Import Address Table
+             180002400 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2D8 _lock
+                         3AA _unlock
+                         15A __C_specific_handler
+                         189 __dllonexit
+                         301 _onexit
+                         179 __clean_type_info_names_internal
+                         287 _initterm_e
+                         286 _initterm
+                         2E9 _malloc_crt
+                         50B free
+                         1D7 _amsg_exit
+                         15B __CppXcptFilter
+                          70 ??2@YAPEAX_K@Z
+                         1EB _calloc_crt
+                          72 ??3@YAXPEAX@Z
+
+    KERNEL32.dll
+             180002000 Import Address Table
+             1800023B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2FA GetTickCount64
+                         2DD GetSystemTimeAsFileTime
+                         214 GetCurrentThreadId
+                         210 GetCurrentProcessId
+                         430 QueryPerformanceCounter
+                          FF DecodePointer
+                         125 EncodePointer
+                         117 DisableThreadLibraryCalls
+
+  Section contains the following load config:
+
+            00000070 size
+                   0 time date stamp
+                0.00 Version
+                   0 GlobalFlags Clear
+                   0 GlobalFlags Set
+                   0 Critical Section Default Timeout
+                   0 Decommit Free Block Threshold
+                   0 Decommit Total Free Threshold
+    0000000000000000 Lock Prefix Table
+                   0 Maximum Allocation Size
+                   0 Virtual Memory Threshold
+                   0 Process Affinity Mask
+                   0 Process Heap Flags
+                   0 CSD Version
+                0000 Dependent Load Flag
+    0000000000000000 Edit List
+    0000000180003000 Security Cookie
+
+SECTION HEADER #3
+   .data name
+     5D8 virtual size
+    3000 virtual address (0000000180003000 to 00000001800035D7)
+     200 size of raw data
+    1600 file pointer to raw data (00001600 to 000017FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0000040 flags
+         Initialized Data
+         Read Write
+
+RAW DATA #3
+  0000000180003000: 32 A2 DF 2D 99 2B 00 00 CD 5D 20 D2 66 D4 FF FF  2¢ß-.+..Í] ÒfÔÿÿ
+  0000000180003010: FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00  ÿÿÿÿ............
+  0000000180003020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800030F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003110: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003120: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003130: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003140: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  0000000180003190: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031D0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000001800031F0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+
+SECTION HEADER #4
+  .pdata name
+      C0 virtual size
+    4000 virtual address (0000000180004000 to 00000001800040BF)
+     200 size of raw data
+    1800 file pointer to raw data (00001800 to 000019FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+RAW DATA #4
+  0000000180004000: 20 10 00 00 44 10 00 00 38 22 00 00 60 10 00 00   ...D...8"..`...
+  0000000180004010: 7F 10 00 00 40 22 00 00 80 10 00 00 CD 10 00 00  ....@"......Í...
+  0000000180004020: 38 22 00 00 D0 10 00 00 1B 13 00 00 44 22 00 00  8"..Ð.......D"..
+  0000000180004030: 1C 13 00 00 59 13 00 00 A4 22 00 00 5C 13 00 00  ....Y...¤"..\...
+  0000000180004040: 92 14 00 00 60 22 00 00 00 15 00 00 4D 15 00 00  ....`"......M...
+  0000000180004050: B4 22 00 00 80 15 00 00 CE 15 00 00 38 22 00 00  ´"......Î...8"..
+  0000000180004060: D0 15 00 00 80 16 00 00 D8 22 00 00 80 16 00 00  Ð.......Ø"......
+  0000000180004070: 97 16 00 00 04 23 00 00 98 16 00 00 60 17 00 00  .....#......`...
+  0000000180004080: F8 22 00 00 60 17 00 00 83 17 00 00 04 23 00 00  ø"..`........#..
+  0000000180004090: C0 17 00 00 E5 17 00 00 9C 22 00 00 E5 17 00 00  À...å...."..å...
+  00000001800040A0: FF 17 00 00 9C 22 00 00 00 18 00 00 20 18 00 00  ÿ...."...... ...
+  00000001800040B0: 9C 22 00 00 20 18 00 00 3B 18 00 00 9C 22 00 00  .".. ...;...."..
+
+Function Table (16)
+
+           Begin    End      Info      Function Name
+
+  00000000 00001020 00001044 00002238  destroy
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbx
+
+  0000000C 00001060 0000107F 00002240  __security_check_cookie
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x00
+    Count of codes: 0
+
+  00000018 00001080 000010CD 00002238
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbx
+
+  00000024 000010D0 0000131B 00002244  _CRT_INIT
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x1D
+    Count of codes: 12
+    Unwind codes:
+      1D: SAVE_NONVOL, register=r12 offset=0x58
+      1D: SAVE_NONVOL, register=rdi offset=0x50
+      1D: SAVE_NONVOL, register=rbp offset=0x48
+      1D: SAVE_NONVOL, register=rbx offset=0x40
+      1D: ALLOC_SMALL, size=0x20
+      19: PUSH_NONVOL, register=r15
+      17: PUSH_NONVOL, register=r14
+      15: PUSH_NONVOL, register=r13
+
+  00000030 0000131C 00001359 000022A4  _DllMainCRTStartup
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x0F
+    Count of codes: 6
+    Unwind codes:
+      0F: SAVE_NONVOL, register=rsi offset=0x38
+      0F: SAVE_NONVOL, register=rbx offset=0x30
+      0F: ALLOC_SMALL, size=0x20
+      0B: PUSH_NONVOL, register=rdi
+
+  0000003C 0000135C 00001492 00002260
+    Unwind version: 1
+    Unwind flags: EHANDLER UHANDLER
+    Size of prologue: 0x15
+    Count of codes: 8
+    Unwind codes:
+      15: SAVE_NONVOL, register=rdi offset=0x50
+      15: SAVE_NONVOL, register=rsi offset=0x48
+      15: SAVE_NONVOL, register=rbx offset=0x40
+      15: ALLOC_SMALL, size=0x30
+      11: PUSH_NONVOL, register=r14
+    Handler: 0000179C __C_specific_handler
+
+    Count of scope table entries: 2
+
+      Begin    End      Handler  Target
+
+      00001387 0000146A 000017C0 0000146A
+      00001381 00001470 000017E5 00000000
+
+  00000048 00001500 0000154D 000022B4  _IsNonwritableInCurrentImage
+    Unwind version: 1
+    Unwind flags: EHANDLER
+    Size of prologue: 0x0A
+    Count of codes: 4
+    Unwind codes:
+      0A: SAVE_NONVOL, register=rbx offset=0x30
+      0A: ALLOC_SMALL, size=0x20
+      06: PUSH_NONVOL, register=rdi
+    Handler: 0000179C __C_specific_handler
+
+    Count of scope table entries: 1
+
+      Begin    End      Handler  Target
+
+      0000150D 00001540 00001800 00001540
+
+  00000054 00001580 000015CE 00002238  __atonexitinit
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbx
+
+  00000060 000015D0 00001680 000022D8  _onexit
+    Unwind version: 1
+    Unwind flags: UHANDLER
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbx
+    Handler: 0000179C __C_specific_handler
+
+    Count of scope table entries: 1
+
+      Begin    End      Handler  Target
+
+      00001607 0000166D 00001820 00000000
+
+  0000006C 00001680 00001697 00002304  atexit
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x04
+    Count of codes: 1
+    Unwind codes:
+      04: ALLOC_SMALL, size=0x28
+
+  00000078 00001698 00001760 000022F8  __security_init_cookie
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x0D
+    Count of codes: 4
+    Unwind codes:
+      0D: SAVE_NONVOL, register=rbx offset=0x48
+      0D: ALLOC_SMALL, size=0x20
+      06: PUSH_NONVOL, register=rbp
+
+  00000084 00001760 00001783 00002304  DllMain
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x04
+    Count of codes: 1
+    Unwind codes:
+      04: ALLOC_SMALL, size=0x28
+
+  00000090 000017C0 000017E5 0000229C
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbp
+
+  0000009C 000017E5 000017FF 0000229C
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbp
+
+  000000A8 00001800 00001820 0000229C
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbp
+
+  000000B4 00001820 0000183B 0000229C
+    Unwind version: 1
+    Unwind flags: None
+    Size of prologue: 0x06
+    Count of codes: 2
+    Unwind codes:
+      06: ALLOC_SMALL, size=0x20
+      02: PUSH_NONVOL, register=rbp
+
+
+SECTION HEADER #5
+  .reloc name
+      14 virtual size
+    5000 virtual address (0000000180005000 to 0000000180005013)
+     200 size of raw data
+    1A00 file pointer to raw data (00001A00 to 00001BFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+RAW DATA #5
+  0000000180005000: 00 20 00 00 14 00 00 00 E0 A0 E8 A0 40 A1 48 A1  . ......à.è.@¡H¡
+  0000000180005010: A8 A1 00 00                                      ¨¡..
+
+BASE RELOCATIONS #5
+    2000 RVA,       14 SizeOfBlock
+      E0  DIR64      0000000180001080
+      E8  DIR64      0000000180001580  __atonexitinit
+     140  DIR64      0000000180003030
+     148  DIR64      00000001800030D0
+     1A8  DIR64      0000000180003000  __security_cookie
+       0  ABS                        
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        1000 .rdata
+        1000 .reloc
+        1000 .text

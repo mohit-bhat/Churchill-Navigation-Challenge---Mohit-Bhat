@@ -1,0 +1,14 @@
+﻿Build started 5/23/2021 12:51:46 PM.
+     1>Project "C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Dll5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /IC:\Users\mayur\Downloads\challenge\Dll5\Dll5\ /I"Generated Files\\" /IDebug\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Dll5.cpp
+         Dll5.cpp
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.dll" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.winmd" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.lib" /MACHINE:X86 /DLL Debug\Dll5.obj
+            Creating library C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.lib and object C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.exp
+         Dll5.vcxproj -> C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Debug\Dll5\Dll5.dll
+     1>Done Building Project "C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Dll5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

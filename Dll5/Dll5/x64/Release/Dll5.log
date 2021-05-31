@@ -1,0 +1,16 @@
+﻿Build started 5/23/2021 1:24:58 PM.
+     1>Project "C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Dll5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mayur\Downloads\challenge\Dll5\Dll5\ /I"Generated Files\\" /Ix64\Release\ /Zi /nologo /W3 /WX- /sdl /MP /O2 /Oi /GL /D _WINDLL /D _UNICODE /D UNICODE /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Dll5.cpp
+         Dll5.cpp
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.dll" /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.winmd" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.lib" /MACHINE:X64 /DLL x64\Release\Dll5.obj
+            Creating library C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.lib and object C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.exp
+         Generating code
+         Finished generating code
+         Dll5.vcxproj -> C:\Users\mayur\Downloads\challenge\Dll5\Dll5\x64\Release\Dll5\Dll5.dll
+     1>Done Building Project "C:\Users\mayur\Downloads\challenge\Dll5\Dll5\Dll5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.49

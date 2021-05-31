@@ -1,0 +1,30 @@
+--- Churchill Navigation Point Search Challenge ---
+Point count  : 10000000
+Query count  : 1000
+Result count : 20
+Random seed  : FDF2E68C-F77A88DC-FDF2E68C-E7A9CE0A-D63A095C
+
+Loading algorithms:
+Loading reference.dll... Success.
+Loading C:\Users\mayur\Downloads\challenge\Rhino\x64\Release\Rhino.dll... Success.
+Loading C:\Users\mayur\Downloads\challenge\Dll11\x64\Release\Dll11.dll... Success.
+3 algorithms loaded.
+
+Preparing 10000000 random points...done (413.3090ms).
+Preparing 1000 random queries...done (0.0260ms).
+
+Testing algorithm #0 (reference.dll):
+Robustness check...done.
+Loading points...done (945.1770ms).
+Making queries...done (1012.2260ms, avg 1.0122ms/query).
+Release points...done (memory used: 124MB).
+
+Testing algorithm #1 (Rhino.dll):
+Robustness check...done.
+Loading points...done (3133.8970ms).
+Making queries...done (1156.0280ms, avg 1.1560ms/query).
+Release points...done (memory used: 124MB).
+
+Testing algorithm #2 (Dll11.dll):
+Robustness check...done.
+Loading points...

@@ -1,0 +1,8 @@
+﻿  Dll2.cpp
+D:\downloads\challenge\Dll2\Dll2\Dll2.cpp(4,1): warning C4005: 'DLL2_EXPORTS': macro redefinition
+D:\downloads\challenge\Dll2\Dll2\Dll2.cpp : message : see previous definition of 'DLL2_EXPORTS'
+D:\downloads\challenge\Dll2\Dll2\Dll2.cpp(4): warning C4603: 'DLL2_EXPORTS': macro is not defined or definition is different after precompiled header use
+D:\downloads\challenge\Dll2\Dll2\Dll2.cpp(4): message : Add macro to precompiled header instead of defining here
+D:\downloads\challenge\Dll2\Dll2\Dll2.cpp(6): message : use of precompiled header
+     Creating library D:\downloads\challenge\Dll2\Dll2\Debug\Dll2.lib and object D:\downloads\challenge\Dll2\Dll2\Debug\Dll2.exp
+  Dll2.vcxproj -> D:\downloads\challenge\Dll2\Dll2\Debug\Dll2.dll
