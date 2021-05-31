@@ -4,6 +4,9 @@ This is my work done on the churchill navigation challenge.
 The "Rhino" folder contains my best working approach. Access the dll through rhino/x64/release/
 
 
+While my solution is slwoere than the reference, I have decided to submit at this stage due to the amount of time I have taken.
+
+
 Dll1:
 Initial attempt to get a DLL file to work in c++, DLL not valid
 
